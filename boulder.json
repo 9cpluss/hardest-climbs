@@ -45,5 +45,68 @@
             "Rabotou": "https://youtu.be/lOfpAd0St7Q",
             "Webb": "https://youtu.be/76v9jvW56vw"
         }
+    },
+    {
+        "name": "Floatin",
+        "grade": "8C+",
+        "fa": "Ryuichi Murai",
+        "repeat": [],
+        "videos": {
+            "Murai": "https://youtu.be/zIOCIRd8Mxk"
+        }
+    },
+    {
+        "name": "Big Z",
+        "grade": "8C+",
+        "fa": "Shawn Raboutou",
+        "repeat": [],
+        "videos": {
+            "Raboutou": "https://youtu.be/xcBuV2jlavc"
+        }
+    },
+    {
+        "name": "Grand Illusion",
+        "grade": "8C+",
+        "fa": "Nathaniel Coleman",
+        "repeat": ["Sean Bailey", "Daniel Woods"],
+        "videos": {
+            "Coleman": "https://youtu.be/z1d0s162f30",
+            "Bailey": "https://youtu.be/4zh851161Dg",
+            "Woods": "https://youtu.be/C748SL0rH6A"
+        }
+    },
+    {
+        "name": "Ephyra",
+        "grade": "8C+",
+        "fa": "Jimmy Webb",
+        "repeat": ["Niky Ceria", "Giuliano Cameroni"],
+        "videos": {
+            "Webb": "https://youtu.be/W5HjTGwqero",
+            "Ceria": "https://youtu.be/iASCEwslRLI",
+            "Cameroni": "https://youtu.be/4IvYtPiHwUM"
+        }
+    },
+    {
+        "name": "Sleepwalker",
+        "grade": "8C+",
+        "fa": "Jimmy Webb",
+        "repeat": ["Daniel Woods", "Nalle Hukkataival", "Drew Ruana", "Nathan Williams"],
+        "videos": {
+            "Webb": "https://youtu.be/TMIIffUMV8g",
+            "Woods": "https://youtu.be/Fb1Cb9ubp8E",
+            "Ruana": "https://youtu.be/ql4XnjGclLw",
+            "Williams": "https://youtu.be/nsG3oGb4S3s"
+        }
+    },
+    {
+        "name": "Box Therapy",
+        "grade": "8C+",
+        "fa": "Daniel Woods",
+        "repeat": ["Drew Ruana"],
+        "videos": {
+            "Woods": "https://youtu.be/rR1QDk76LRk",
+            "Ruana": "https://youtu.be/B8VwgjiZKIo"
+        }
     }
+
 ]
