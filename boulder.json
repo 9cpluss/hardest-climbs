@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Burden of Dreams",
+        "grade": "9A",
+        "fa": "Nalle Hukkataival",
+        "repeat": [],
+        "videos": {
+            "Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
+        }
+    },
+    {
+        "name": "Return of the Sleepwalker",
+        "grade": "9A",
+        "fa": "Daniel Woods",
+        "repeat": [],
+        "videos": {
+            "Woods": "https://youtu.be/IoEeHwd5GTs"
+        }
+    },
+    {
+        "name": "Soudain Seul",
+        "grade": "8C+/9A",
+        "fa": "Simon Lorenzi",
+        "repeat": ["Nicolas Pelorson"],
+        "videos": {
+            "Pelorson": "https://youtu.be/TROzPjONA6M"
+        }
+    },
+    {
+        "name": "Hypnotized Minds",
+        "grade": "8C+",
+        "fa": "Daniel Woods",
+        "repeat": ["Rustam Gelmanov", "Dave Graham", "Matt Fultz"],
+        "videos": {
+            "Woods": "https://youtu.be/Jq6CaFjJJlY",
+            "Fultz": "https://youtu.be/0fgfgVd3K28"
+        }
+    },
+    {
+        "name": "Off the Wagon Sit",
+        "grade": "8C+",
+        "fa": "Shawn Rabotou",
+        "repeat": ["Daniel Woods", "Jimmy Webb"],
+        "videos": {
+            "Rabotou": "https://youtu.be/lOfpAd0St7Q",
+            "Webb": "https://youtu.be/76v9jvW56vw"
+        }
+    }
+]

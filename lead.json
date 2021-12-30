@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Silence",
+        "grade": "9c",
+        "fa": "Adam Ondra",
+        "repeat": [],
+        "videos": {
+            "Ondra": "https://youtu.be/ZRTNHDd0gL8"
+        }
+    },
+    {
+        "name": "La Dura Dura",
+        "grade": "9b+",
+        "fa": "Adam Ondra",
+        "repeat": ["Chris Sharma"],
+        "videos": {
+            "Ondra": ""
+        }
+    },
+    {
+        "name": "Change",
+        "grade": "9b+",
+        "fa": "Adam Ondra",
+        "repeat": ["Stefano Ghisolfi"],
+        "videos": {
+            "Ghisolfi": "https://youtu.be/l8AETvINyAk"
+        }
+    },
+    {
+        "name": "Vasil Vasil",
+        "grade": "9b+",
+        "fa": "Adam Ondra",
+        "repeat": [],
+        "videos": {}
+    },
+    {
+        "name": "Perfecto Mundo",
+        "grade": "9b+",
+        "fa": "Alexander Megos",
+        "repeat": ["Stefano Ghisolfi", "Jakob Schubert"],
+        "videos": {
+            "Ghisolfi": "https://youtu.be/mb0w45jxJpA",
+            "Schubert": "https://youtu.be/nmYXe2u0juM"
+        }
+    },
+    {
+        "name": "Bibliographie",
+        "grade": "9b+",
+        "fa": "Alexander Megos",
+        "repeat": ["Stefano Ghisolfi", "Sean Bailey"],
+        "videos": {
+            "Megos": "https://youtu.be/COuxNFuAS1Q",
+            "Ghisolfi": "https://youtu.be/UJnTmYiMBeI"
+        }
+    },
+    {
+        "name": "La Rage d'Adam",
+        "grade": "9b/+",
+        "fa": "Sebastien Bouin",
+        "repeat": [],
+        "videos": {
+            "Bouin": "https://youtu.be/yITq60BZOz8"
+        }
+    },
+    {
+        "name": "Beyond Integral",
+        "grade": "9b/+",
+        "fa": "Sebastien Bouin",
+        "repeat": [],
+        "videos": {
+            "Bouin": "https://youtu.be/nUCezb-9gXE"
+        }
+    }
+]

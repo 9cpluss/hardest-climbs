@@ -1,25 +1,20 @@
-sport_grade_map = {
+grade_map = {
     "9c": "5.15d",
     "9b/c": "5.15c/d",
     "9b+": "5.15c",
     "9b/+": "5.15b/c",
     "9b": "5.15b",
     "9a+": "5.15a",
-}
-
-boulder_grade_map = {
+    # Bouldering ---
     "9A": "V17",
+    "8C+/9A": "V16/V17",
     "8C+": "V16",
     "8C": "V15",
 }
 
 
-def map_grades(grade, style="sport"):
-    if style == "sport":
-        return sport_grade_map.get(grade)
-    else:
-        return boulder_grade_map.get(grade)
-
+def map_grades(grade):
+    return grade_map.get(grade)
 
 def create_video_list(x):
     links = []
@@ -37,7 +32,7 @@ def create_title(title):
     return f'<h4>{title}</h4>'
 
 
-def create_html_from_json_element(x: dict):
+def create_html_from_json_element(x: dict, bg="secondary"):
     title = x.get("name")
     grade = x.get("grade")
     fa = x.get("fa")
@@ -46,7 +41,7 @@ def create_html_from_json_element(x: dict):
 
     return f'\
         <div class="col-6">\
-            <div class="p-3 bg-secondary text-white rounded">\
+            <div class="p-3 bg-{bg} text-white rounded">\
                 {create_title(title)}\
                 Grade: {grade} / {map_grades(grade)}<br>\
                 First Ascent: {fa}<br>\
@@ -59,8 +54,12 @@ def create_html_from_json_element(x: dict):
 def create_html_columns(x: list):
     columns = []
 
-    for climb in x:
-        html = create_html_from_json_element(climb)
+    for i, climb in enumerate(x):
+        if i % 2 == 0:
+            html = create_html_from_json_element(climb)
+        else:
+            html = create_html_from_json_element(climb, bg="dark")
+
         columns.append(html)
 
     return "".join(columns)
