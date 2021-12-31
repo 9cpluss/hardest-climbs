@@ -40,9 +40,10 @@
         "name": "Off the Wagon Sit",
         "grade": "8C+",
         "fa": "Shawn Rabotou",
-        "repeat": ["Daniel Woods", "Jimmy Webb"],
+        "repeat": ["Daniel Woods", "Jimmy Webb", "Giuliano Cameroni"],
         "videos": {
             "Rabotou": "https://youtu.be/lOfpAd0St7Q",
+            "Woods": "https://youtu.be/MJF8VqncuAE",
             "Webb": "https://youtu.be/76v9jvW56vw"
         }
     },
@@ -90,12 +91,19 @@
         "name": "Sleepwalker",
         "grade": "8C+",
         "fa": "Jimmy Webb",
-        "repeat": ["Daniel Woods", "Nalle Hukkataival", "Drew Ruana", "Nathan Williams"],
+        "repeat": [
+            "Daniel Woods",
+            "Nalle Hukkataival",
+            "Drew Ruana",
+            "Nathan Williams",
+            "Matt Fultz"
+        ],
         "videos": {
             "Webb": "https://youtu.be/TMIIffUMV8g",
             "Woods": "https://youtu.be/Fb1Cb9ubp8E",
             "Ruana": "https://youtu.be/ql4XnjGclLw",
-            "Williams": "https://youtu.be/nsG3oGb4S3s"
+            "Williams": "https://youtu.be/nsG3oGb4S3s",
+            "Fultz": "https://youtu.be/X-Tw2HpbAaQ"
         }
     },
     {
@@ -107,6 +115,148 @@
             "Woods": "https://youtu.be/rR1QDk76LRk",
             "Ruana": "https://youtu.be/B8VwgjiZKIo"
         }
-    }
-
+    },
+    {
+    	"name": "Terranova",
+    	"grade": "8C+",
+    	"fa": "Adam Ondra",
+    	"repeat": [],
+    	"videos": {
+    		"Ondra": "https://youtu.be/QeR47AQ05Jo"
+    	}
+    },
+    {
+    	"name": "Gioia",
+    	"grade": "8C/+",
+    	"fa": "Christian Core",
+    	"repeat": ["Adam Ondra", "Nalle Hukkataival", "Niccolò Ceria", "Elias Iagnemma"],
+    	"videos": {
+    		"Ondra": "https://youtu.be/QeR47AQ05Jo",
+    		"Hukkataival": "https://youtu.be/Fezk14WH3jI",
+    		"Iagnemma": "https://youtu.be/dvttLU5I9hc"
+    	}
+    },
+    {
+    	"name": "Brutal Rider",
+    	"grade": "8C+",
+    	"fa": "Adam Ondra",
+    	"repeat": [],
+    	"videos": {
+    		"Ondra": "https://youtu.be/MiutwLqQZFs"
+    	}
+    },
+	{
+    	"name": "The Process",
+    	"grade": "8C+",
+    	"fa": "Daniel Woods",
+    	"repeat": [],
+    	"videos": {
+    		"Woods": "https://youtu.be/fzn43YOyaLk"
+    	}
+	},
+	{
+    	"name": "Creature From the Black Lagoon",
+    	"grade": "8C+",
+    	"fa": "Daniel Woods",
+    	"repeat": [
+    	    "James Webb",
+    	    "Daisuke Ichimiya",
+    	    "Carlo Traversi",
+    	    "Shawn Raboutou",
+    	    "Drew Ruana",
+    	    "Matt Fultz",
+    	    "Dylan Barks"
+    	],
+    	"videos": {
+    		"Traversi": "https://youtu.be/SwhZP0IaVbU",
+    		"Raboutou": "https://youtu.be/oqWHhcGXjmI",
+    		"Ruana": "https://youtu.be/xorFvE4Zt8Y",
+    		"Ichimiya": "https://www.instagram.com/p/BZDo0BGl1cV/",
+    		"Fultz": "https://www.instagram.com/p/CQ6Q7RQDSLF/"
+    	}
+	},
+	{
+        "name": "La Révolutionnaire",
+        "grade": "8C+",
+        "fa": "Charles Albert",
+        "repeat": ["Ryohei Kameyama"],
+        "videos": {
+        	"Kameyama": "https://youtu.be/y-nsiwzltVI"
+        }
+	},
+	{
+    	"name": "Poison the Well",
+    	"grade": "8C+",
+    	"fa": "Giuliano Cameroni",
+    	"repeat": ["Jimmy Webb"],
+    	"videos": {
+    		"Cameroni": "https://youtu.be/VKpn_X5yiZA",
+    		"Webb": "https://youtu.be/MJF8VqncuAE"
+    	}
+    },
+    {
+		"name": "Ephyra",
+		"grade": "8C+",
+		"fa": "Jimmy Webb",
+		"repeat": ["Niky Ceria", "Giuliano Cameroni"],
+		"videos": {
+			"Webb": "https://youtu.be/W5HjTGwqero",
+			"Ceria": "https://youtu.be/iASCEwslRLI",
+			"Cameroni": "https://youtu.be/4IvYtPiHwUM"
+		}
+	},
+	{
+		"name": "United",
+		"grade": "8C+",
+		"fa": "Ryuichi Murai",
+		"repeat": [],
+		"videos": {
+			"Murai": "https://youtu.be/3sGxQIg7TOw"
+		}
+	},
+	{
+		"name": "Insomniac",
+		"grade": "8C+",
+		"fa": "Drew Ruana",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Moonlight Sonata",
+		"grade": "8C+",
+		"fa": "Taylor McNeill",
+		"repeat": [],
+		"videos": {
+			"McNeill": "https://youtu.be/rr5OgcE9Ny0"
+		}
+	},
+	{
+		"name": "Nexus",
+		"grade": "8C+",
+		"fa": "Ryuichi Murai",
+		"repeat": [],
+		"videos": {
+			"Murai (fall)": "https://www.instagram.com/p/CVQVAXgJg3X/"
+		}
+	},
+	{
+		"name": "The Story of Two Worlds Low Start",
+		"grade": "8C+",
+		"fa": "Dai Koyamada",
+		"repeat": [],
+		"videos": {
+			"Koyamada": "https://vimeo.com/43727285"
+		}
+	},
+	{
+		"name": "Ledoborec",
+		"grade": "8C+",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"Ondra": "https://youtu.be/rEqUiPhyxFM"
+		}
+	}
 ]

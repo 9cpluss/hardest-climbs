@@ -70,5 +70,139 @@
         "videos": {
             "Bouin": "https://youtu.be/nUCezb-9gXE"
         }
-    }
+    },
+	{
+		"name": "Erebor",
+		"grade": "9b",
+		"fa": "Stefano Ghisolfi",
+		"repeat": ["Laura Rogora", "Adam Ondra"],
+		"videos": {
+		  "Ghisolfi": "https://youtu.be/gPuePc_iiPE",
+			"Rogora": "https://youtu.be/O6KKSjutlyg"
+		}
+	},
+	{
+		"name": "Ali Hulk Sit Start Extension",
+		"grade": "9b",
+		"fa": "Dani Andrada",
+		"repeat": ["Magnus Midtbø", "Domen Škofic", "Laura Rogora", "Dave Graham"],
+		"videos": {
+		    "Midtbø": "https://youtu.be/ul6CkmmDsjw",
+			"Rogora": "https://youtu.be/p6-aYduOACU",
+			"Graham": "https://youtu.be/n6JrnE77MEQ"
+		}
+	},
+	{
+		"name": "The Lonely Mountain",
+		"grade": "9b",
+		"fa": "Stefano Ghisolfi",
+		"repeat": ["Adam Ondra"],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Taurus",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Move",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": ["Sebastien Bouin"],
+		"videos": {
+			"Bouin": "https://youtu.be/GeZUZUBKVjs"
+		}
+	},
+	{
+		"name": "King Capella",
+		"grade": "9b",
+		"fa": "William Bosi",
+		"repeat": ["Alexander Megos", "Jakob Schubert"],
+		"videos": {
+			"Bosi": "https://youtu.be/QXcedGd3R78",
+			"Megos": "https://youtu.be/5CUvvxcr1EU",
+			"Schubert": "https://youtu.be/C_-2CEfzFPk"
+		}
+	},
+	{
+		"name": "One Slap",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": ["Stefano Ghisolfi"],
+		"videos": {
+			"Ondra": "https://youtu.be/KJXsVf11mbA"
+		}
+	},
+	{
+		"name": "Chaxi Raxi",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"Ondra": "https://vimeo.com/23695460"
+		}
+	},
+	{
+		"name": "Eagle-4",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": ["Hugo Parmentier", "Julia Chanourdie"],
+		"videos": {
+			"Parmentier": "https://youtu.be/GNGIkEvXZlk",
+			"Chanourdie": "https://youtu.be/ViLCMO87exU",
+			"Chanourdie": "https://youtu.be/muDT1CW6PEc"
+		}
+	},
+	{
+		"name": "Neanderthal",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Disbelief",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "La Planta de Shiva",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": ["Jonathan Siegrist ", "Angela Eiter", "Jakob Schubert"],
+		"videos": {
+			"Schubert": "https://youtu.be/NmfkrjlsFzU"
+
+		}
+	},
+	{
+		"name": "Madame Ching",
+		"grade": "9b",
+		"fa": "Angela Eiter",
+		"repeat": [],
+		"videos": {
+			"Eiter": "https://www.redbull.com/int-en/videos/angy-eiter-madame-ching"
+		}
+	},
+	{
+		"name": "Rainman",
+		"grade": "9b",
+		"fa": "Steve McClure",
+		"repeat": [],
+		"videos": {
+			"McClure": "https://youtu.be/L01OUNJvd1E"
+		}
+	}
 ]
