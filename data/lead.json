@@ -204,5 +204,117 @@
 		"videos": {
 			"McClure": "https://youtu.be/L01OUNJvd1E"
 		}
+	},
+	{
+		"name": "Stoking the Fire",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": ["Stefano Ghisolfi", "Sachi Amma"],
+		"videos": {
+			"Ondra": "https://youtu.be/Uo64D1-Vumw",
+			"Amma": "https://youtu.be/FRZVA090NZ4"
+		}
+	},
+	{
+		"name": "Mamichula",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": ["Sebastien Bouin"],
+		"videos": {
+			"Ondra": "https://youtu.be/KVlGxVE_0uc"
+		}
+	},
+	{
+		"name": "Les yeux plus gros que l'antre",
+		"grade": "9b",
+		"fa": "Sebastien Bouin",
+		"repeat": [],
+		"videos": {
+			"Bouin": "https://youtu.be/MUX3ORVKjfk"
+		}
+	},
+	{
+		"name": "The Dream",
+		"grade": "9b",
+		"fa": "Sebastien Bouin",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Move Hard",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Queen Line",
+		"grade": "9b",
+		"fa": "Adam Ondra ",
+		"repeat": ["Stefano Ghisolfi"],
+		"videos": {
+			"Ghisolfi": "https://youtu.be/VzYaqQOt6js"
+		}
+	},
+	{
+		"name": "Robin Úd",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "C.R.S.",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "First Round First Minute",
+		"grade": "9b",
+		"fa": "Chris Sharma",
+		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Jorge Díaz-Rullo"],
+		"videos": {
+		    "Sharma": "https://youtu.be/JCqe96jtExU",
+		    "Ghisolfi": "https://youtu.be/iX1_BHfeMt0",
+			"Díaz-Rullo": "https://youtu.be/mUW3Fx7tryg"
+		}
+	},
+	{
+		"name": "Fight or Flight ",
+		"grade": "9b",
+		"fa": "Chris Sharma",
+		"repeat": ["Adam Ondra", "Sachi Amma", "Piotr Schab", "Jakob Schubert"],
+		"videos": {
+			"Ondra": "https://youtu.be/45xlTby_S2A",
+			"Schubert": "https://youtu.be/Yczxqv30Cf4"
+		}
+	},
+	{
+		"name": "Iron Curtain",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Golpe de Estado",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
 	}
 ]
