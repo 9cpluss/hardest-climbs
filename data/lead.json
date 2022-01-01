@@ -181,7 +181,12 @@
 		"name": "La Planta de Shiva",
 		"grade": "9b",
 		"fa": "Adam Ondra",
-		"repeat": ["Jonathan Siegrist ", "Angela Eiter", "Jakob Schubert"],
+		"repeat": [
+		    "Jonathan Siegrist ",
+		    "Angela Eiter",
+		    "Jakob Schubert",
+		    "Jonatan Flor"
+		],
 		"videos": {
 			"Schubert": "https://youtu.be/NmfkrjlsFzU"
 
@@ -389,6 +394,60 @@
 		"repeat": ["Jonathan Siegrist", "Daniel Woods"],
 		"videos": {
 			"Siegrist": "https://youtu.be/L3xHu8c0kPc"
+		}
+	},
+	{
+		"name": "Fight Club",
+		"grade": "9b",
+		"fa": "Alexander Megos",
+		"repeat": [],
+		"videos": {
+			"Megos": "https://youtu.be/N9H8gcpZhss"
+		}
+	},
+	{
+		"name": "El Picacho",
+		"grade": "9b",
+		"fa": "Jonatan Flor",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Cryptography",
+		"grade": "9b",
+		"fa": "Alessandro Zeni",
+		"repeat": [],
+		"videos": {
+			"Zeni": "https://youtu.be/KPS_6lCUERE"
+		}
+	},
+	{
+		"name": "La Barrière",
+		"grade": "9b",
+		"fa": "Pirmin Bertle",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Soul Rock Dance",
+		"grade": "9b",
+		"fa": "Hyunbin Min",
+		"repeat": [],
+		"videos": {
+			"Min": "https://youtu.be/6V-Gg2VsIIc"
+		}
+	},
+	{
+		"name": "Soul Mate",
+		"grade": "9b",
+		"fa": "Sachi Amma",
+		"repeat": [],
+		"videos": {
+			"": ""
 		}
 	}
 ]
