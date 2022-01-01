@@ -40,7 +40,12 @@
         "name": "Off the Wagon Sit",
         "grade": "8C+",
         "fa": "Shawn Rabotou",
-        "repeat": ["Daniel Woods", "Jimmy Webb", "Giuliano Cameroni"],
+        "repeat": [
+            "Daniel Woods",
+            "Jimmy Webb",
+            "Giuliano Cameroni",
+            "Sergii Topishko"
+        ],
         "videos": {
             "Rabotou": "https://youtu.be/lOfpAd0St7Q",
             "Woods": "https://youtu.be/MJF8VqncuAE",
