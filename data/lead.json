@@ -346,12 +346,13 @@
 		}
 	},
 	{
-		"name": "La Furia de Jabalí",
+		"name": "Furia de Jabalí",
 		"grade": "9b",
 		"fa": "William Bosi",
-		"repeat": [],
+		"repeat": ["Alexander Megos", "Jakob Schubert"],
 		"videos": {
-			"Bosi": "https://youtu.be/ChKphgnQXGI"
+			"Bosi": "https://youtu.be/ChKphgnQXGI",
+			"Megos": "https://youtu.be/P7WG0lUopY4"
 		}
 	},
 	{
