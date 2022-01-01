@@ -20,7 +20,9 @@ def map_grades(grade):
 def create_video_list(x):
     links = []
     for name, link in x.items():
-        links.append(f'<a href="{link}" class="link-warning">{name}</a>')
+        links.append(
+            f'<a href="{link}" class="link-warning" target="_blank">{name}</a>'
+        )
 
     return ", ".join(links)
 
