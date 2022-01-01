@@ -316,5 +316,78 @@
 		"videos": {
 			"": ""
 		}
+	},
+	{
+		"name": "Obsession",
+		"grade": "9b",
+		"fa": "Loic Zehani",
+		"repeat": [],
+		"videos": {
+			"Zehani": "https://youtu.be/NBolIaUxzao"
+		}
+	},
+	{
+		"name": "El Bon Combat",
+		"grade": "9b",
+		"fa": "Chris Sharma",
+		"repeat": ["Felipe Camargo", "Jakob Schubert", "Jorge Díaz-Rullo"],
+		"videos": {
+			"Sharma": "https://youtu.be/vk4YrOtVTLg",
+			"Camargo": "https://youtu.be/K6lkg-NzoVU"
+		}
+	},
+	{
+		"name": "Golpe de Estado",
+		"grade": "9b",
+		"fa": "Chris Sharma",
+		"repeat": ["Adam Ondra"],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "La Furia de Jabalí",
+		"grade": "9b",
+		"fa": "William Bosi",
+		"repeat": [],
+		"videos": {
+			"Bosi": "https://youtu.be/ChKphgnQXGI"
+		}
+	},
+	{
+		"name": "Café Solo",
+		"grade": "9b",
+		"fa": "Jorge Díaz-Rullo",
+		"repeat": [],
+		"videos": {
+			"Díaz-Rullo": "https://youtu.be/rp4sefYitCM"
+		}
+	},
+	{
+		"name": "Jumbo Love",
+		"grade": "9b",
+		"fa": "Chris Sharma",
+		"repeat": ["Jonathan Siegrist", "Ethan Pringle"],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Flex Luthor",
+		"grade": "9b",
+		"fa": "Tommy Caldwell",
+		"repeat": ["Matty Hong"],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Peruvian Necktie",
+		"grade": "9b",
+		"fa": " James Litz",
+		"repeat": ["Jonathan Siegrist", "Daniel Woods"],
+		"videos": {
+			"Siegrist": "https://youtu.be/L3xHu8c0kPc"
+		}
 	}
 ]
