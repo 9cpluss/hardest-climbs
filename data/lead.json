@@ -72,6 +72,15 @@
         }
     },
 	{
+		"name": "Move",
+		"grade": "9b/+",
+		"fa": "Adam Ondra",
+		"repeat": ["Sebastien Bouin"],
+		"videos": {
+			"Bouin": "https://youtu.be/GeZUZUBKVjs"
+		}
+	},
+	{
 		"name": "Erebor",
 		"grade": "9b",
 		"fa": "Stefano Ghisolfi",
@@ -108,15 +117,6 @@
 		"repeat": [],
 		"videos": {
 			"": ""
-		}
-	},
-	{
-		"name": "Move",
-		"grade": "9b",
-		"fa": "Adam Ondra",
-		"repeat": ["Sebastien Bouin"],
-		"videos": {
-			"Bouin": "https://youtu.be/GeZUZUBKVjs"
 		}
 	},
 	{
