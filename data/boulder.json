@@ -263,5 +263,14 @@
 		"videos": {
 			"Ondra": "https://youtu.be/rEqUiPhyxFM"
 		}
+	},
+	{
+		"name": "Hallucination",
+		"grade": "8C+",
+		"fa": "Kazuma Ise",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
 	}
 ]
