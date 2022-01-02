@@ -44,7 +44,8 @@
             "Daniel Woods",
             "Jimmy Webb",
             "Giuliano Cameroni",
-            "Sergii Topishko"
+            "Sergii Topishko",
+            "Yannick Flohé"
         ],
         "videos": {
             "Rabotou": "https://youtu.be/lOfpAd0St7Q",
@@ -74,7 +75,7 @@
         "name": "Grand Illusion",
         "grade": "8C+",
         "fa": "Nathaniel Coleman",
-        "repeat": ["Sean Bailey", "Daniel Woods"],
+        "repeat": ["Sean Bailey", "Daniel Woods", "Matt Fultz"],
         "videos": {
             "Coleman": "https://youtu.be/z1d0s162f30",
             "Bailey": "https://youtu.be/4zh851161Dg",
@@ -101,21 +102,24 @@
             "Nalle Hukkataival",
             "Drew Ruana",
             "Nathan Williams",
-            "Matt Fultz"
+            "Matt Fultz",
+            "Pablo Hammack",
+            "Griffin Whiteside"
         ],
         "videos": {
             "Webb": "https://youtu.be/TMIIffUMV8g",
             "Woods": "https://youtu.be/Fb1Cb9ubp8E",
             "Ruana": "https://youtu.be/ql4XnjGclLw",
             "Williams": "https://youtu.be/nsG3oGb4S3s",
-            "Fultz": "https://youtu.be/X-Tw2HpbAaQ"
+            "Fultz": "https://youtu.be/X-Tw2HpbAaQ",
+            "Hammack": "https://intagram.com/p/CLBPueOD4Nj/"
         }
     },
     {
         "name": "Box Therapy",
         "grade": "8C+",
         "fa": "Daniel Woods",
-        "repeat": ["Drew Ruana"],
+        "repeat": ["Drew Ruana", "Sean Bailey"],
         "videos": {
             "Woods": "https://youtu.be/rR1QDk76LRk",
             "Ruana": "https://youtu.be/B8VwgjiZKIo"
@@ -164,13 +168,15 @@
     	"grade": "8C+",
     	"fa": "Daniel Woods",
     	"repeat": [
+    	    "Dave Graham",
     	    "James Webb",
     	    "Daisuke Ichimiya",
     	    "Carlo Traversi",
     	    "Shawn Raboutou",
     	    "Drew Ruana",
     	    "Matt Fultz",
-    	    "Dylan Barks"
+    	    "Dylan Barks",
+    	    "Griffin Whiteside"
     	],
     	"videos": {
     		"Traversi": "https://youtu.be/SwhZP0IaVbU",
