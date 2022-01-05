@@ -37,21 +37,22 @@
         }
     },
     {
-        "name": "Off the Wagon Sit",
+        "name": "Off the Wagon Sit/Low",
         "grade": "8C+",
         "fa": "Shawn Rabotou",
         "repeat": [
             "Daniel Woods",
             "Jimmy Webb",
             "Giuliano Cameroni",
-            "Sergii Topishko",
+            "Sergei Topishko",
             "Yannick Flohé"
         ],
         "videos": {
             "Rabotou": "https://youtu.be/lOfpAd0St7Q",
             "Woods": "https://youtu.be/MJF8VqncuAE",
             "Webb": "https://youtu.be/76v9jvW56vw",
-            "Cameroni": "https://youtu.be/edxHp45ECuE"
+            "Cameroni": "https://youtu.be/edxHp45ECuE",
+            "Topishko": "https://youtu.be/IdB5ot_EGF4"
         }
     },
     {
