@@ -8,7 +8,7 @@ from functions import create_html_columns, create_html_from_json_element
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 
-app = Flask("Hardest Climbs", template_folder='/home/9cpluss/mysite')
+app = Flask("Hardest Climbs", template_folder=THIS_FOLDER)
 
 with open(os.path.join(THIS_FOLDER, 'data/lead.json'), "r") as f:
     lead_data = json.load(f)
