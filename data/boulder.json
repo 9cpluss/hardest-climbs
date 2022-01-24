@@ -269,5 +269,14 @@
 		"videos": {
 			"": ""
 		}
-	}
+	},
+	{
+		"name": "Big Conviction",
+		"grade": "8C+",
+		"fa": "Simon Lorenzi",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
 ]
