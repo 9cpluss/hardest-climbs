@@ -440,5 +440,15 @@
 		"videos": {
 			"": ""
 		}
+	},
+	{
+		"name": "L'Arenauta",
+		"grade": "9b",
+		"fa": "Stefano Ghosolfi",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
 	}
+
 ]
