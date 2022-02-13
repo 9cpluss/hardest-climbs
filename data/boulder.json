@@ -21,7 +21,7 @@
         "name": "Soudain Seul",
         "grade": "8C+/9A",
         "fa": "Simon Lorenzi",
-        "repeat": ["Nicolas Pelorson"],
+        "repeat": ["Nicolas Pelorson", "Camille Coudert"],
         "videos": {
             "Pelorson": "https://youtu.be/TROzPjONA6M"
         }
@@ -192,7 +192,7 @@
         "name": "La Révolutionnaire",
         "grade": "8C+",
         "fa": "Charles Albert",
-        "repeat": ["Ryohei Kameyama"],
+        "repeat": ["Ryohei Kameyama", "Simon Lorenzi"],
         "videos": {
         	"Kameyama": "https://youtu.be/y-nsiwzltVI"
         }
