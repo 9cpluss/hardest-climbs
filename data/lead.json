@@ -149,17 +149,6 @@
 		}
 	},
 	{
-		"name": "Eagle-4",
-		"grade": "9b",
-		"fa": "Adam Ondra",
-		"repeat": ["Hugo Parmentier", "Julia Chanourdie"],
-		"videos": {
-			"Parmentier": "https://youtu.be/GNGIkEvXZlk",
-			"Chanourdie": "https://youtu.be/ViLCMO87exU",
-			"Chanourdie": "https://youtu.be/muDT1CW6PEc"
-		}
-	},
-	{
 		"name": "Neanderthal",
 		"grade": "9b",
 		"fa": "Adam Ondra",
