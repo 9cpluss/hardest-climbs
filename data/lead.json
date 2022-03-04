@@ -438,6 +438,15 @@
 		"videos": {
 			"": ""
 		}
+	},
+	{
+		"name": "Bomba",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"date": "2022-02-28",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
 	}
-
 ]
