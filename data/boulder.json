@@ -280,5 +280,15 @@
 		"videos": {
 			"Lorenzi": "https://youtu.be/260NRRSq4d8"
 		}
+	},
+	{
+		"name": "Gakido",
+		"grade": "8C+",
+		"fa": "Shinichiro Nomura",
+		"date": "2022-03-20",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
 	}
 ]
