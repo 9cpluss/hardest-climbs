@@ -117,7 +117,7 @@
 		"fa": "Stefano Ghisolfi",
 		"repeat": ["Adam Ondra"],
 		"videos": {
-			"": ""
+			"Ghisolfi": "https://youtu.be/CLtpCMdYu50"
 		}
 	},
 	{
@@ -443,10 +443,10 @@
 	{
 		"name": "L'Arenauta",
 		"grade": "9b",
-		"fa": "Stefano Ghosolfi",
+		"fa": "Stefano Ghisolfi",
 		"repeat": [],
 		"videos": {
-			"": ""
+			"Ghisolfi": "https://youtu.be/ecYiK6qYpTE"
 		}
 	},
 	{
@@ -456,7 +456,7 @@
 		"date": "2022-02-28",
 		"repeat": [],
 		"videos": {
-			"": ""
+			"Ondra": "https://youtu.be/ioAg56vEJsc"
 		}
 	}
 ]
