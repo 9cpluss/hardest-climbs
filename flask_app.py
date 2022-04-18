@@ -31,6 +31,7 @@ def index():
 
     return render_template('index.html', climbs="".join(climbs))
 
+
 @app.route('/sport')
 def sport():
     climbs = create_html_columns(lead_data)
@@ -38,9 +39,32 @@ def sport():
     # TODO Fix template
     return render_template('generic.html', title="Sport Climbing", climbs=climbs)
 
+
 @app.route("/bouldering")
 def bouldering():
     climbs = create_html_columns(boulder_data)
 
     # TODO Fix template
     return render_template('generic.html', title="Bouldering", climbs=climbs)
+
+
+@app.route("/sport/<climber>")
+def sport_climber(climber):
+    # TODO More elegant solution would require better data system than JSON/dict
+    fa_data = [x for x in lead_data if climber in x["fa"].lower()]
+    repeat_data = [x for x in lead_data if any(climber in y.lower() for y in x["repeat"])]
+    climbs = create_html_columns(fa_data + repeat_data)
+
+    # TODO Fix template
+    return render_template('generic.html', title=f"Sport Climbing: {climber.capitalize()}", climbs=climbs)
+
+
+@app.route("/bouldering/<climber>")
+def bouldering_climber(climber):
+    # TODO More elegant solution would require better data system than JSON/dict
+    fa_data = [x for x in boulder_data if climber in x["fa"].lower()]
+    repeat_data = [x for x in boulder_data if any(climber in y.lower() for y in x["repeat"])]
+    climbs = create_html_columns(fa_data + repeat_data)
+
+    # TODO Fix template
+    return render_template('generic.html', title=f"Bouldering: {climber.capitalize()}", climbs=climbs)
