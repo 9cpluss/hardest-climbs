@@ -80,11 +80,21 @@
 			"Bouin": "https://youtu.be/GeZUZUBKVjs"
 		}
 	},
+    {
+		"name": "Wonderland",
+		"grade": "9b/+",
+		"fa": "Adam Ondra",
+		"date": "2022-03-23",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
 	{
 		"name": "Erebor",
 		"grade": "9b",
 		"fa": "Stefano Ghisolfi",
-		"repeat": ["Laura Rogora", "Adam Ondra"],
+		"repeat": ["Laura Rogora", "Adam Ondra", "Jakob Schubert"],
 		"videos": {
 		  "Ghisolfi": "https://youtu.be/gPuePc_iiPE",
 			"Rogora": "https://youtu.be/O6KKSjutlyg"
@@ -107,7 +117,7 @@
 		"fa": "Stefano Ghisolfi",
 		"repeat": ["Adam Ondra"],
 		"videos": {
-			"": ""
+			"Ghisolfi": "https://youtu.be/CLtpCMdYu50"
 		}
 	},
 	{
@@ -146,17 +156,6 @@
 		"repeat": [],
 		"videos": {
 			"Ondra": "https://vimeo.com/23695460"
-		}
-	},
-	{
-		"name": "Eagle-4",
-		"grade": "9b",
-		"fa": "Adam Ondra",
-		"repeat": ["Hugo Parmentier", "Julia Chanourdie"],
-		"videos": {
-			"Parmentier": "https://youtu.be/GNGIkEvXZlk",
-			"Chanourdie": "https://youtu.be/ViLCMO87exU",
-			"Chanourdie": "https://youtu.be/muDT1CW6PEc"
 		}
 	},
 	{
@@ -439,6 +438,25 @@
 		"repeat": [],
 		"videos": {
 			"": ""
+		}
+	},
+	{
+		"name": "L'Arenauta",
+		"grade": "9b",
+		"fa": "Stefano Ghisolfi",
+		"repeat": [],
+		"videos": {
+			"Ghisolfi": "https://youtu.be/ecYiK6qYpTE"
+		}
+	},
+	{
+		"name": "Bomba",
+		"grade": "9b",
+		"fa": "Adam Ondra",
+		"date": "2022-02-28",
+		"repeat": [],
+		"videos": {
+			"Ondra": "https://youtu.be/ioAg56vEJsc"
 		}
 	}
 ]

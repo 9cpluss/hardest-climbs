@@ -21,9 +21,10 @@
         "name": "Soudain Seul",
         "grade": "8C+/9A",
         "fa": "Simon Lorenzi",
-        "repeat": ["Nicolas Pelorson"],
+        "repeat": ["Nicolas Pelorson", "Camille Coudert"],
         "videos": {
-            "Pelorson": "https://youtu.be/TROzPjONA6M"
+            "Pelorson": "https://youtu.be/TROzPjONA6M",
+            "Coudert": "https://www.instagram.com/tv/CaCJgPBIUR0"
         }
     },
     {
@@ -45,7 +46,8 @@
             "Jimmy Webb",
             "Giuliano Cameroni",
             "Sergei Topishko",
-            "Yannick Flohé"
+            "Yannick Flohé",
+            "Simon Lorenzi"
         ],
         "videos": {
             "Rabotou": "https://youtu.be/lOfpAd0St7Q",
@@ -192,7 +194,7 @@
         "name": "La Révolutionnaire",
         "grade": "8C+",
         "fa": "Charles Albert",
-        "repeat": ["Ryohei Kameyama"],
+        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niky Ceria"],
         "videos": {
         	"Kameyama": "https://youtu.be/y-nsiwzltVI"
         }
@@ -220,9 +222,10 @@
 		"name": "Insomniac",
 		"grade": "8C+",
 		"fa": "Drew Ruana",
+		"date": "2021-07-09",
 		"repeat": [],
 		"videos": {
-			"": ""
+			"Ruana": "https://youtu.be/fZD3wY2-ULY"
 		}
 	},
 	{
@@ -266,6 +269,35 @@
 		"grade": "8C+",
 		"fa": "Charles Albert",
 		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Big Conviction",
+		"grade": "8C+",
+		"fa": "Simon Lorenzi",
+		"repeat": [],
+		"videos": {
+			"Lorenzi": "https://youtu.be/260NRRSq4d8"
+		}
+	},
+	{
+		"name": "Gakido",
+		"grade": "8C+",
+		"fa": "Shinichiro Nomura",
+		"date": "2022-03-20",
+		"repeat": [],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Epitaph",
+		"grade": "8C+",
+		"fa": "Dai Koyamada",
+		"date": "2022-04-02",
+		"repeat": ["Toru Nakajima"],
 		"videos": {
 			"": ""
 		}
