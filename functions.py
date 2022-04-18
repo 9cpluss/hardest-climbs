@@ -27,15 +27,15 @@ def create_video_list(x):
     return ", ".join(links)
 
 
-def create_repeat_list(x):
-    return ", ".join(x)
+def create_repeat_list(x, category):
+    return ", ".join([create_name_link(n, category) for n in x])
 
 
 def create_title(title):
     return f'<h4>{title}</h4>'
 
 
-def create_fa(name, category):
+def create_name_link(name, category):
     first_name = " ".join(name.split(" ")[0:-1])
     last_name = name.split(" ")[-1]
 
@@ -54,8 +54,8 @@ def create_html_from_json_element(x: dict, category: str, bg="secondary"):
             <div class="p-3 bg-{bg} text-white rounded">\
                 {create_title(title)}\
                 Grade: {grade} / {map_grades(grade)}<br>\
-                First Ascent: {create_fa(fa, category)}<br>\
-                Repeated by: {create_repeat_list(repeats)}<br>\
+                First Ascent: {create_name_link(fa, category)}<br>\
+                Repeated by: {create_repeat_list(repeats, category)}<br>\
                 Videos: {create_video_list(videos)}\
             </div>\
         </div>'
