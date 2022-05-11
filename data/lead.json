@@ -9,11 +9,20 @@
         }
     },
     {
+        "name": "DNA",
+        "grade": "9c",
+        "fa": "Sebastien Bouin",
+        "repeat": [],
+        "videos": {}
+    },
+    {
         "name": "La Dura Dura",
         "grade": "9b+",
         "fa": "Adam Ondra",
         "repeat": ["Chris Sharma"],
-        "videos": {}
+        "videos": {
+			"Ondra": "https://youtu.be/V1P97VVt6_k"
+		}
     },
     {
         "name": "Change",

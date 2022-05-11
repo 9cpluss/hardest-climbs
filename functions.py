@@ -17,6 +17,7 @@ grade_map = {
 def map_grades(grade):
     return grade_map.get(grade)
 
+
 def create_video_list(x):
     links = []
     for name, link in x.items():
@@ -39,7 +40,7 @@ def create_name_link(name, category):
     first_name = " ".join(name.split(" ")[0:-1])
     last_name = name.split(" ")[-1]
 
-    return f'{first_name} <a href="/{category}/{last_name.lower()}" class="link-light">{last_name}<a>'
+    return f'{first_name} <a href="/{category}/{last_name.lower()}" class="link-light">{last_name}</a>'
 
 
 def create_html_from_json_element(x: dict, category: str, bg="secondary"):
