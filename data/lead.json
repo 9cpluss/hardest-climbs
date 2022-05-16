@@ -211,9 +211,12 @@
 		"name": "Rainman",
 		"grade": "9b",
 		"fa": "Steve McClure",
-		"repeat": [],
+		"repeat": [
+			"Eder Lomba"
+		],
 		"videos": {
-			"McClure": "https://youtu.be/L01OUNJvd1E"
+			"McClure": "https://youtu.be/L01OUNJvd1E",
+			"Lomba": "https://youtu.be/tAeVbsv0mgc"
 		}
 	},
 	{
