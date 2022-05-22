@@ -57,7 +57,8 @@
         "repeat": ["Stefano Ghisolfi", "Sean Bailey"],
         "videos": {
             "Megos": "https://youtu.be/COuxNFuAS1Q",
-            "Ghisolfi": "https://youtu.be/UJnTmYiMBeI"
+            "Ghisolfi": "https://youtu.be/UJnTmYiMBeI",
+            "Bailey": "https://youtu.be/OneTmfEsANI?t=1737"
         }
     },
     {
@@ -222,8 +223,8 @@
 	{
 		"name": "Stoking the Fire",
 		"grade": "9b",
-		"fa": "Adam Ondra",
-		"repeat": ["Stefano Ghisolfi", "Sachi Amma"],
+		"fa": "Chris Sharma",
+		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Sachi Amma"],
 		"videos": {
 			"Ondra": "https://youtu.be/Uo64D1-Vumw",
 			"Amma": "https://youtu.be/FRZVA090NZ4"
@@ -253,7 +254,7 @@
 		"fa": "Sebastien Bouin",
 		"repeat": [],
 		"videos": {
-			"": ""
+			"Bouin": "https://youtu.be/D-pWmpZp7VQ?t=430"
 		}
 	},
 	{
