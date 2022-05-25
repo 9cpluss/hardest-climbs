@@ -40,7 +40,7 @@
     {
         "name": "Off the Wagon Sit/Low",
         "grade": "8C+",
-        "fa": "Shawn Rabotou",
+        "fa": "Shawn Raboutou",
         "repeat": [
             "Daniel Woods",
             "Jimmy Webb",
@@ -298,6 +298,16 @@
 		"fa": "Dai Koyamada",
 		"date": "2022-04-02",
 		"repeat": ["Toru Nakajima"],
+		"videos": {
+			"": ""
+		}
+	},
+	{
+		"name": "Fuck the System",
+		"grade": "8C+",
+		"fa": "Shawn Raboutou",
+		"date": "",
+		"repeat": [],
 		"videos": {
 			"": ""
 		}
