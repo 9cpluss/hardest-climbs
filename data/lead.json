@@ -470,5 +470,14 @@
 		"videos": {
 			"Ondra": "https://youtu.be/ioAg56vEJsc"
 		}
+	},
+	{
+		"name": "Event Horizon",
+		"grade": "9b",
+		"fa": "Jonathan Siegrist",
+		"date": "2022-05-31",
+		"repeat": [],
+		"videos": {"": ""}
 	}
+	
 ]
