@@ -212,9 +212,7 @@
 		"name": "Rainman",
 		"grade": "9b",
 		"fa": "Steve McClure",
-		"repeat": [
-			"Eder Lomba"
-		],
+		"repeat": ["Eder Lomba", "Josh Ibbertson"],
 		"videos": {
 			"McClure": "https://youtu.be/L01OUNJvd1E",
 			"Lomba": "https://youtu.be/tAeVbsv0mgc"
