@@ -9,7 +9,7 @@ token = os.environ["PYTHON_ANYWHERE_TOKEN"]
 
 
 response = requests.post(
-    url=f"{host}/api/v0/user/{username}/webapps/{domain_name}/reload/",
+    url=f"https://{host}/api/v0/user/{username}/webapps/{domain_name}/reload/",
     headers={"Authorization": f"Token {token}"}
 )
 
