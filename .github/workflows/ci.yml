@@ -20,4 +20,7 @@ jobs:
       - name: Validate JSON
         run: python validate_json.py
       - name: Refresh website
-        run: python refresh.py 
+        run: python refresh.py
+        env: 
+          PYTHON_ANYWHERE_USER: ${{ secrets.PYTHON_ANYWHERE_USER }}
+          PYTHON_ANYWHERE_TOKEN: ${{ secrets.PYTHON_ANYWHERE_TOKEN }}
