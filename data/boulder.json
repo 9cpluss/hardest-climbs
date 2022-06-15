@@ -316,10 +316,20 @@
 		"name": "Daños con-laterales",
 		"grade": "8C+",
 		"fa": "Nacho Sánchez",
-		"date": "",
+		"date": "2022-06-13",
 		"repeat": [],
 		"videos": {
 			"Sánchez": "https://www.instagram.com/p/Cet0g7LDnoK/"
+		}
+	},
+	{
+		"name": "Euclase",
+		"grade": "8C+",
+		"fa": "David Graham",
+		"date": "2022-04-20",
+		"repeat": [],
+		"videos": {
+			"z": ""
 		}
 	}
 ]
