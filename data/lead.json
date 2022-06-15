@@ -189,7 +189,7 @@
 		"grade": "9b",
 		"fa": "Adam Ondra",
 		"repeat": [
-		    "Jonathan Siegrist ",
+		    "Jonathan Siegrist",
 		    "Angela Eiter",
 		    "Jakob Schubert",
 		    "Jonatan Flor"
@@ -267,7 +267,7 @@
 	{
 		"name": "Queen Line",
 		"grade": "9b",
-		"fa": "Adam Ondra ",
+		"fa": "Adam Ondra",
 		"repeat": ["Stefano Ghisolfi"],
 		"videos": {
 			"Ghisolfi": "https://youtu.be/VzYaqQOt6js"
@@ -390,7 +390,7 @@
 	{
 		"name": "Peruvian Necktie",
 		"grade": "9b",
-		"fa": " James Litz",
+		"fa": "James Litz",
 		"repeat": ["Jonathan Siegrist", "Daniel Woods"],
 		"videos": {
 			"Siegrist": "https://youtu.be/L3xHu8c0kPc"
@@ -477,5 +477,4 @@
 		"repeat": [],
 		"videos": {"": ""}
 	}
-	
 ]
