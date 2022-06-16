@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% from 'toolkit.html' import climb_entry %}
+
 {% block title %}{{title}}{% endblock %}
 
 {% block content %}
@@ -10,7 +12,9 @@
                 </div>
 
                 <!-- Climbs -->
-                {{ climbs | safe }}
+                {% for c in climbs %}
+                  {{ climb_entry(c, category, loop.index0 | bg_alternate) }}
+                {% endfor %}
             </div>
 
             <div class="row">
