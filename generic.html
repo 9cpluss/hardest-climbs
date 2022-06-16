@@ -1,24 +1,8 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+{% extends 'base.html' %}
 
-        <title>{{title}}</title>
-    </head>
-    <body>
+{% block title %}{{title}}{% endblock %}
 
-        <div class="container px-4">
-            <!-- HEADER -->
-
-            <div class="row">
-                <div class="col text-center">
-                    <a href="/" class="link-dark text-decoration-none"><h1>Hardest climbs in the world</h1></a>
-                </div>
-            </div>
-
-            <!-- BODY -->
-
+{% block content %}
             <div class="row g-3">
                 <!-- Headline -->
                 <div class="col-12 text-center">
@@ -34,6 +18,4 @@
                     Spotted a mistake or want to add some information? <a href="https://github.com/9cpluss/hardest-climbs" class="text-decoration-none" target="_blank">This way!</a>
                 </div>
             </div>
-        </div>
-    </body>
-</html>
+{% endblock %}
