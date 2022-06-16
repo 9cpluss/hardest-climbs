@@ -23,10 +23,10 @@ THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask("Hardest Climbs", template_folder=THIS_FOLDER)
 
-with open(os.path.join(THIS_FOLDER, 'data/lead.json'), "r") as f:
+with open(os.path.join(THIS_FOLDER, 'data/lead.json'), "r", encoding='utf-8') as f:
     lead_data = json.load(f)
 
-with open(os.path.join(THIS_FOLDER, 'data/boulder.json'), "r") as f:
+with open(os.path.join(THIS_FOLDER, 'data/boulder.json'), "r", encoding='utf-8') as f:
     boulder_data = json.load(f)
 
 def climber_ascents(climber, data):
