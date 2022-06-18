@@ -1,0 +1,13 @@
+{% macro name_link(name, category) %}{{ name | climber_first_name }} <a href="/{{ category }}/{{ name | climber_last_name | lower }}" class="link-light">{{ name | climber_last_name }}</a>{% endmacro %}
+
+{% macro climb_entry(climb, category, bg) %}
+                <div class="col-6">
+                    <div class="p-3 bg-{{ bg }} text-white rounded">
+                        <h4>{{ climb["name"] }}</h4>
+                        Grade: {{ climb["grade"] }} / {{ climb["grade"] | map_grade }}<br>
+                        First Ascent: {{ name_link(climb["fa"], category) }}<br>
+                        Repeated by: {% for r in climb["repeat"] %}{{ name_link(r, category) }}{% if not loop.last %}, {% endif %}{% endfor %}<br>
+                        Videos: {% for name, link in climb["videos"].items() %}<a href="{{ link }}" class="link-warning" target="_blank">{{ name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+                    </div>
+                </div>
+{% endmacro %}
