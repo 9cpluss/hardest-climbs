@@ -232,6 +232,7 @@
 		"name": "Moonlight Sonata",
 		"grade": "8C+",
 		"fa": "Taylor McNeill",
+		"date": "2021-03-10",
 		"repeat": [],
 		"videos": {
 			"McNeill": "https://youtu.be/rr5OgcE9Ny0"
@@ -331,5 +332,13 @@
 		"videos": {
 			"": ""
 		}
+	},
+	{
+		"name": "Brace for the Cure",
+		"grade": "8C+",
+		"fa": "Matt Fultz",
+		"date": "2022-06-28",
+		"repeat": [],
+		"videos": {"Fultz": "https://youtu.be/34CF-_J_tCo"}
 	}
 ]
