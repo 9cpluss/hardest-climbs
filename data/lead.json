@@ -169,8 +169,9 @@
 	{
 		"name": "Neanderthal",
 		"grade": "9b",
-		"fa": "Adam Ondra",
-		"repeat": [],
+		"fa": "Chris Sharma",
+		"date": "2009-12-18",
+		"repeat": ["Jakob Schubert", "Adam Ondra"],
 		"videos": {
 			"": ""
 		}
