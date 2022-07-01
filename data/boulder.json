@@ -340,5 +340,13 @@
 		"date": "2022-06-28",
 		"repeat": [],
 		"videos": {"Fultz": "https://youtu.be/34CF-_J_tCo"}
+	},
+	{
+		"name": "The Ice Knife Sit",
+		"grade": "8C+",
+		"fa": "Daniel Woods",
+		"date": "2013-11-01",
+		"repeat": [],
+		"videos": {"Woods": "https://youtu.be/OxAZZNkVJ1U"}
 	}
 ]
