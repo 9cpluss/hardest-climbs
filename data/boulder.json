@@ -6,7 +6,8 @@
         "repeat": [],
         "videos": {
             "Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Return of the Sleepwalker",
@@ -15,7 +16,8 @@
         "repeat": [],
         "videos": {
             "Woods": "https://youtu.be/IoEeHwd5GTs"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Soudain Seul",
@@ -25,7 +27,8 @@
         "videos": {
             "Pelorson": "https://youtu.be/TROzPjONA6M",
             "Coudert": "https://www.instagram.com/tv/CaCJgPBIUR0"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Hypnotized Minds",
@@ -35,7 +38,8 @@
         "videos": {
             "Woods": "https://youtu.be/Jq6CaFjJJlY",
             "Fultz": "https://youtu.be/0fgfgVd3K28"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Off the Wagon Sit/Low",
@@ -55,7 +59,8 @@
             "Webb": "https://youtu.be/76v9jvW56vw",
             "Cameroni": "https://youtu.be/edxHp45ECuE",
             "Topishko": "https://youtu.be/IdB5ot_EGF4"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Floatin",
@@ -64,7 +69,8 @@
         "repeat": [],
         "videos": {
             "Murai": "https://youtu.be/zIOCIRd8Mxk"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Big Z",
@@ -73,7 +79,8 @@
         "repeat": [],
         "videos": {
             "Raboutou": "https://youtu.be/xcBuV2jlavc"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Grand Illusion",
@@ -84,7 +91,8 @@
             "Coleman": "https://youtu.be/z1d0s162f30",
             "Bailey": "https://youtu.be/4zh851161Dg",
             "Woods": "https://youtu.be/C748SL0rH6A"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Ephyra",
@@ -95,7 +103,8 @@
             "Webb": "https://youtu.be/W5HjTGwqero",
             "Ceria": "https://youtu.be/iASCEwslRLI",
             "Cameroni": "https://youtu.be/4IvYtPiHwUM"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Sleepwalker",
@@ -117,7 +126,8 @@
             "Williams": "https://youtu.be/nsG3oGb4S3s",
             "Fultz": "https://youtu.be/X-Tw2HpbAaQ",
             "Hammack": "https://intagram.com/p/CLBPueOD4Nj/"
-        }
+        },
+		"location": {}
     },
     {
         "name": "Box Therapy",
@@ -127,7 +137,8 @@
         "videos": {
             "Woods": "https://youtu.be/rR1QDk76LRk",
             "Ruana": "https://youtu.be/B8VwgjiZKIo"
-        }
+        },
+		"location": {}
     },
     {
     	"name": "Terranova",
@@ -136,7 +147,8 @@
     	"repeat": [],
     	"videos": {
     		"Ondra": "https://youtu.be/QeR47AQ05Jo"
-    	}
+    	},
+		"location": {}
     },
     {
     	"name": "Gioia",
@@ -147,7 +159,8 @@
     		"Ondra": "https://youtu.be/QeR47AQ05Jo",
     		"Hukkataival": "https://youtu.be/Fezk14WH3jI",
     		"Iagnemma": "https://youtu.be/dvttLU5I9hc"
-    	}
+    	},
+		"location": {}
     },
     {
     	"name": "Brutal Rider",
@@ -156,7 +169,8 @@
     	"repeat": [],
     	"videos": {
     		"Ondra": "https://youtu.be/MiutwLqQZFs"
-    	}
+    	},
+		"location": {}
     },
 	{
     	"name": "The Process",
@@ -165,7 +179,8 @@
     	"repeat": [],
     	"videos": {
     		"Woods": "https://youtu.be/fzn43YOyaLk"
-    	}
+    	},
+		"location": {}
 	},
 	{
     	"name": "Creature From the Black Lagoon",
@@ -188,7 +203,8 @@
     		"Ruana": "https://youtu.be/xorFvE4Zt8Y",
     		"Ichimiya": "https://www.instagram.com/p/BZDo0BGl1cV/",
     		"Fultz": "https://www.instagram.com/p/CQ6Q7RQDSLF/"
-    	}
+    	},
+		"location": {}
 	},
 	{
         "name": "La Révolutionnaire",
@@ -197,7 +213,8 @@
         "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niky Ceria"],
         "videos": {
         	"Kameyama": "https://youtu.be/y-nsiwzltVI"
-        }
+        },
+		"location": {}
 	},
 	{
     	"name": "Poison the Well",
@@ -207,7 +224,8 @@
     	"videos": {
     		"Cameroni": "https://youtu.be/VKpn_X5yiZA",
     		"Webb": "https://youtu.be/MJF8VqncuAE"
-    	}
+    	},
+		"location": {}
     },
 	{
 		"name": "United",
@@ -216,7 +234,8 @@
 		"repeat": [],
 		"videos": {
 			"Murai": "https://youtu.be/3sGxQIg7TOw"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Insomniac",
@@ -226,7 +245,8 @@
 		"repeat": [],
 		"videos": {
 			"Ruana": "https://youtu.be/fZD3wY2-ULY"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Moonlight Sonata",
@@ -236,7 +256,8 @@
 		"repeat": [],
 		"videos": {
 			"McNeill": "https://youtu.be/rr5OgcE9Ny0"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Nexus",
@@ -245,7 +266,8 @@
 		"repeat": [],
 		"videos": {
 			"Murai (fall)": "https://www.instagram.com/p/CVQVAXgJg3X/"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Ledoborec",
@@ -254,7 +276,8 @@
 		"repeat": [],
 		"videos": {
 			"Ondra": "https://youtu.be/rEqUiPhyxFM"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Hallucination",
@@ -263,7 +286,8 @@
 		"repeat": [],
 		"videos": {
 			"": ""
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Hypothèse (assis)",
@@ -272,7 +296,8 @@
 		"repeat": [],
 		"videos": {
 			"": ""
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Big Conviction",
@@ -281,7 +306,8 @@
 		"repeat": [],
 		"videos": {
 			"Lorenzi": "https://youtu.be/260NRRSq4d8"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Gakido",
@@ -291,7 +317,8 @@
 		"repeat": [],
 		"videos": {
 			"Nomura": "https://youtu.be/rN5Z3V4QYtA"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Epitaph",
@@ -301,7 +328,8 @@
 		"repeat": ["Toru Nakajima"],
 		"videos": {
 			"": ""
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Fuck the System",
@@ -311,7 +339,8 @@
 		"repeat": [],
 		"videos": {
 			"": ""
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Daños con-laterales",
@@ -321,7 +350,8 @@
 		"repeat": [],
 		"videos": {
 			"Sánchez": "https://www.instagram.com/p/Cet0g7LDnoK/"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Euclase",
@@ -331,7 +361,8 @@
 		"repeat": [],
 		"videos": {
 			"": ""
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Brace for the Cure",
@@ -339,7 +370,8 @@
 		"fa": "Matt Fultz",
 		"date": "2022-06-28",
 		"repeat": [],
-		"videos": {"Fultz": "https://youtu.be/34CF-_J_tCo"}
+		"videos": {"Fultz": "https://youtu.be/34CF-_J_tCo"},
+		"location": {}
 	},
 	{
 		"name": "The Ice Knife Sit",
@@ -347,7 +379,8 @@
 		"fa": "Daniel Woods",
 		"date": "2013-11-01",
 		"repeat": [],
-		"videos": {"Woods": "https://youtu.be/OxAZZNkVJ1U"}
+		"videos": {"Woods": "https://youtu.be/OxAZZNkVJ1U"},
+		"location": {}
 	},
 	{
 		"name": "Livin' Large",
@@ -358,7 +391,8 @@
 		"videos": {
 			"Hukkataival": "https://youtu.be/2pSbj6mIFy0",
 			"Raboutou": "https://youtu.be/MiQQDIrUYnw"
-		}
+		},
+		"location": {}
 	},
 	{
 		"name": "Superpower",
@@ -368,6 +402,7 @@
 		"repeat": [],
 		"videos": {
 			"Roberts": "https://youtu.be/ATE-tZo12mg"
-		}
+		},
+		"location": {}
 	}
 ]
