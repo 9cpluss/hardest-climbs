@@ -4,7 +4,7 @@ import git
 from flask import render_template
 from flask import Flask, request
 
-from update import update
+from src.update import update
 
 
 grade_map = {
@@ -25,13 +25,14 @@ grade_map = {
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 
-app = Flask("Hardest Climbs", template_folder=THIS_FOLDER)
+app = Flask("Hardest Climbs", template_folder=THIS_FOLDER + "/templates")
 
 with open(os.path.join(THIS_FOLDER, 'data/lead.json'), "r", encoding='utf-8') as f:
     lead_data = json.load(f)
 
 with open(os.path.join(THIS_FOLDER, 'data/boulder.json'), "r", encoding='utf-8') as f:
     boulder_data = json.load(f)
+
 
 def climber_ascents(climber, data):
     # TODO More elegant solution would require better data system than JSON/dict
