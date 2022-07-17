@@ -3,6 +3,7 @@
         "name": "Silence",
         "grade": "9c",
         "fa": "Adam Ondra",
+		"date": "2017-09-03",
         "repeat": [],
         "videos": {
             "Ondra": "https://youtu.be/ZRTNHDd0gL8"
@@ -18,6 +19,7 @@
         "name": "DNA",
         "grade": "9c",
         "fa": "Sebastien Bouin",
+		"date": "2022-04-29",
         "repeat": [],
         "videos": {},
         "location": {
@@ -31,6 +33,7 @@
         "name": "La Dura Dura",
         "grade": "9b+",
         "fa": "Adam Ondra",
+		"date": "",
         "repeat": ["Chris Sharma"],
         "videos": {
 			"Ondra": "https://youtu.be/V1P97VVt6_k"
@@ -46,6 +49,7 @@
         "name": "Change",
         "grade": "9b+",
         "fa": "Adam Ondra",
+		"date": "",
         "repeat": ["Stefano Ghisolfi"],
         "videos": {
             "Ghisolfi": "https://youtu.be/l8AETvINyAk"
@@ -61,6 +65,7 @@
         "name": "Vasil Vasil",
         "grade": "9b+",
         "fa": "Adam Ondra",
+		"date": "",
         "repeat": [],
         "videos": {},
         "location": {
@@ -74,6 +79,7 @@
         "name": "Perfecto Mundo",
         "grade": "9b+",
         "fa": "Alexander Megos",
+		"date": "",
         "repeat": ["Stefano Ghisolfi", "Jakob Schubert"],
         "videos": {
             "Ghisolfi": "https://youtu.be/mb0w45jxJpA",
@@ -90,6 +96,7 @@
         "name": "Bibliographie",
         "grade": "9b+",
         "fa": "Alexander Megos",
+		"date": "",
         "repeat": ["Stefano Ghisolfi", "Sean Bailey"],
         "videos": {
             "Megos": "https://youtu.be/COuxNFuAS1Q",
@@ -107,6 +114,7 @@
         "name": "La Rage d'Adam",
         "grade": "9b/+",
         "fa": "Sebastien Bouin",
+		"date": "",
         "repeat": [],
         "videos": {
             "Bouin": "https://youtu.be/yITq60BZOz8"
@@ -122,6 +130,7 @@
         "name": "Beyond Integral",
         "grade": "9b/+",
         "fa": "Sebastien Bouin",
+		"date": "",
         "repeat": [],
         "videos": {
             "Bouin": "https://youtu.be/nUCezb-9gXE"
@@ -137,6 +146,7 @@
 		"name": "Move",
 		"grade": "9b/+",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": ["Sebastien Bouin"],
 		"videos": {
 			"Bouin": "https://youtu.be/GeZUZUBKVjs"
@@ -168,6 +178,7 @@
 		"name": "Erebor",
 		"grade": "9b",
 		"fa": "Stefano Ghisolfi",
+		"date": "",
 		"repeat": ["Laura Rogora", "Adam Ondra", "Jakob Schubert"],
 		"videos": {
 		  "Ghisolfi": "https://youtu.be/gPuePc_iiPE",
@@ -184,6 +195,7 @@
 		"name": "Ali Hulk Sit Start Extension",
 		"grade": "9b",
 		"fa": "Dani Andrada",
+		"date": "",
 		"repeat": ["Magnus Midtbø", "Domen Škofic", "Laura Rogora", "Dave Graham"],
 		"videos": {
 		    "Midtbø": "https://youtu.be/ul6CkmmDsjw",
@@ -201,6 +213,7 @@
 		"name": "The Lonely Mountain",
 		"grade": "9b",
 		"fa": "Stefano Ghisolfi",
+		"date": "",
 		"repeat": ["Adam Ondra"],
 		"videos": {
 			"Ghisolfi": "https://youtu.be/CLtpCMdYu50"
@@ -216,6 +229,7 @@
 		"name": "Taurus",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -231,6 +245,7 @@
 		"name": "King Capella",
 		"grade": "9b",
 		"fa": "William Bosi",
+		"date": "",
 		"repeat": ["Alexander Megos", "Jakob Schubert"],
 		"videos": {
 			"Bosi": "https://youtu.be/QXcedGd3R78",
@@ -248,6 +263,7 @@
 		"name": "One Slap",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": ["Stefano Ghisolfi"],
 		"videos": {
 			"Ondra": "https://youtu.be/KJXsVf11mbA"
@@ -263,6 +279,7 @@
 		"name": "Chaxi Raxi",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Ondra": "https://vimeo.com/23695460"
@@ -294,6 +311,7 @@
 		"name": "Disbelief",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -309,6 +327,7 @@
 		"name": "La Planta de Shiva",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [
 		    "Jonathan Siegrist",
 		    "Angela Eiter",
@@ -330,6 +349,7 @@
 		"name": "Madame Ching",
 		"grade": "9b",
 		"fa": "Angela Eiter",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Eiter": "https://www.redbull.com/int-en/videos/angy-eiter-madame-ching"
@@ -345,6 +365,7 @@
 		"name": "Rainman",
 		"grade": "9b",
 		"fa": "Steve McClure",
+		"date": "",
 		"repeat": ["Eder Lomba", "Josh Ibbertson"],
 		"videos": {
 			"McClure": "https://youtu.be/L01OUNJvd1E",
@@ -361,6 +382,7 @@
 		"name": "Stoking the Fire",
 		"grade": "9b",
 		"fa": "Chris Sharma",
+		"date": "",
 		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Sachi Amma"],
 		"videos": {
 			"Ondra": "https://youtu.be/Uo64D1-Vumw",
@@ -377,6 +399,7 @@
 		"name": "Mamichula",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": ["Sebastien Bouin"],
 		"videos": {
 			"Ondra": "https://youtu.be/KVlGxVE_0uc"
@@ -392,6 +415,7 @@
 		"name": "Les yeux plus gros que l'antre",
 		"grade": "9b",
 		"fa": "Sebastien Bouin",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Bouin": "https://youtu.be/MUX3ORVKjfk"
@@ -407,6 +431,7 @@
 		"name": "The Dream",
 		"grade": "9b",
 		"fa": "Sebastien Bouin",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Bouin": "https://youtu.be/D-pWmpZp7VQ?t=430"
@@ -422,6 +447,7 @@
 		"name": "Move Hard",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -437,6 +463,7 @@
 		"name": "Queen Line",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": ["Stefano Ghisolfi"],
 		"videos": {
 			"Ghisolfi": "https://youtu.be/VzYaqQOt6js"
@@ -452,6 +479,7 @@
 		"name": "Robin Úd",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -467,6 +495,7 @@
 		"name": "C.R.S.",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -482,6 +511,7 @@
 		"name": "First Round First Minute",
 		"grade": "9b",
 		"fa": "Chris Sharma",
+		"date": "",
 		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Jorge Díaz-Rullo"],
 		"videos": {
 		    "Sharma": "https://youtu.be/JCqe96jtExU",
@@ -499,6 +529,7 @@
 		"name": "Fight or Flight ",
 		"grade": "9b",
 		"fa": "Chris Sharma",
+		"date": "",
 		"repeat": ["Adam Ondra", "Sachi Amma", "Piotr Schab", "Jakob Schubert"],
 		"videos": {
 			"Ondra": "https://youtu.be/45xlTby_S2A",
@@ -515,6 +546,7 @@
 		"name": "Iron Curtain",
 		"grade": "9b",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -530,6 +562,7 @@
 		"name": "Obsession",
 		"grade": "9b",
 		"fa": "Loic Zehani",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Zehani": "https://youtu.be/NBolIaUxzao"
@@ -545,6 +578,7 @@
 		"name": "El Bon Combat",
 		"grade": "9b",
 		"fa": "Chris Sharma",
+		"date": "",
 		"repeat": ["Felipe Camargo", "Jakob Schubert", "Jorge Díaz-Rullo"],
 		"videos": {
 			"Sharma": "https://youtu.be/vk4YrOtVTLg",
@@ -562,6 +596,7 @@
 		"name": "Golpe de Estado",
 		"grade": "9b",
 		"fa": "Chris Sharma",
+		"date": "",
 		"repeat": ["Adam Ondra"],
 		"videos": {
 			"": ""
@@ -577,6 +612,7 @@
 		"name": "Furia de Jabalí",
 		"grade": "9b",
 		"fa": "William Bosi",
+		"date": "",
 		"repeat": ["Alexander Megos", "Jakob Schubert"],
 		"videos": {
 			"Bosi": "https://youtu.be/ChKphgnQXGI",
@@ -593,6 +629,7 @@
 		"name": "Café Solo",
 		"grade": "9b",
 		"fa": "Jorge Díaz-Rullo",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Díaz-Rullo": "https://youtu.be/rp4sefYitCM"
@@ -608,6 +645,7 @@
 		"name": "Jumbo Love",
 		"grade": "9b",
 		"fa": "Chris Sharma",
+		"date": "",
 		"repeat": ["Jonathan Siegrist", "Ethan Pringle"],
 		"videos": {
 			"": ""
@@ -623,6 +661,7 @@
 		"name": "Flex Luthor",
 		"grade": "9b",
 		"fa": "Tommy Caldwell",
+		"date": "",
 		"repeat": ["Matty Hong", "Carlo Traversi"],
 		"videos": {
 			"": ""
@@ -638,6 +677,7 @@
 		"name": "Peruvian Necktie",
 		"grade": "9b",
 		"fa": "James Litz",
+		"date": "",
 		"repeat": ["Jonathan Siegrist", "Daniel Woods"],
 		"videos": {
 			"Siegrist": "https://youtu.be/L3xHu8c0kPc"
@@ -653,6 +693,7 @@
 		"name": "Fight Club",
 		"grade": "9b",
 		"fa": "Alexander Megos",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Megos": "https://youtu.be/N9H8gcpZhss"
@@ -668,6 +709,7 @@
 		"name": "El Picacho",
 		"grade": "9b",
 		"fa": "Jonatan Flor",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -683,6 +725,7 @@
 		"name": "Cryptography",
 		"grade": "9b",
 		"fa": "Alessandro Zeni",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Zeni": "https://youtu.be/KPS_6lCUERE"
@@ -698,6 +741,7 @@
 		"name": "La Barrière",
 		"grade": "9b",
 		"fa": "Pirmin Bertle",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -713,6 +757,7 @@
 		"name": "Soul Rock Dance",
 		"grade": "9b",
 		"fa": "Hyunbin Min",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Min": "https://youtu.be/6V-Gg2VsIIc"
@@ -728,6 +773,7 @@
 		"name": "Soul Mate",
 		"grade": "9b",
 		"fa": "Sachi Amma",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -743,6 +789,7 @@
 		"name": "L'Arenauta",
 		"grade": "9b",
 		"fa": "Stefano Ghisolfi",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Ghisolfi": "https://youtu.be/ecYiK6qYpTE"

@@ -11,10 +11,12 @@ schema = {
             "grade": {"type": "string"},
             "fa": {"type": "string"},
             "date": {"type": "string"},
+            "date": {"type": "string"},
             "repeat": {"type": "array", "items": {"type": "string"}},
-            "videos": {"type": "object"}
+            "videos": {"type": "object"},
+            "location": {"type": "object"},
         },
-        "required": ["name", "grade", "fa", "repeat", "videos"]
+        "required": ["name", "grade", "fa", "date", "repeat", "videos", "location"]
     }
 }
 

@@ -3,6 +3,7 @@
         "name": "Burden of Dreams",
         "grade": "9A",
         "fa": "Nalle Hukkataival",
+		"date": "",
         "repeat": [],
         "videos": {
             "Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
@@ -13,6 +14,7 @@
         "name": "Return of the Sleepwalker",
         "grade": "9A",
         "fa": "Daniel Woods",
+		"date": "",
         "repeat": [],
         "videos": {
             "Woods": "https://youtu.be/IoEeHwd5GTs"
@@ -23,6 +25,7 @@
         "name": "Soudain Seul",
         "grade": "8C+/9A",
         "fa": "Simon Lorenzi",
+		"date": "",
         "repeat": ["Nicolas Pelorson", "Camille Coudert"],
         "videos": {
             "Pelorson": "https://youtu.be/TROzPjONA6M",
@@ -34,6 +37,7 @@
         "name": "Hypnotized Minds",
         "grade": "8C+",
         "fa": "Daniel Woods",
+		"date": "",
         "repeat": ["Rustam Gelmanov", "Dave Graham", "Matt Fultz"],
         "videos": {
             "Woods": "https://youtu.be/Jq6CaFjJJlY",
@@ -45,6 +49,7 @@
         "name": "Off the Wagon Sit/Low",
         "grade": "8C+",
         "fa": "Shawn Raboutou",
+		"date": "",
         "repeat": [
             "Daniel Woods",
             "Jimmy Webb",
@@ -66,6 +71,7 @@
         "name": "Floatin",
         "grade": "8C+",
         "fa": "Ryuichi Murai",
+		"date": "",
         "repeat": [],
         "videos": {
             "Murai": "https://youtu.be/zIOCIRd8Mxk"
@@ -76,6 +82,7 @@
         "name": "Big Z",
         "grade": "8C+",
         "fa": "Shawn Raboutou",
+		"date": "",
         "repeat": [],
         "videos": {
             "Raboutou": "https://youtu.be/xcBuV2jlavc"
@@ -86,6 +93,7 @@
         "name": "Grand Illusion",
         "grade": "8C+",
         "fa": "Nathaniel Coleman",
+		"date": "",
         "repeat": ["Sean Bailey", "Daniel Woods", "Matt Fultz", "Zach Galla"],
         "videos": {
             "Coleman": "https://youtu.be/z1d0s162f30",
@@ -98,6 +106,7 @@
         "name": "Ephyra",
         "grade": "8C+",
         "fa": "Jimmy Webb",
+		"date": "",
         "repeat": ["Niky Ceria", "Giuliano Cameroni"],
         "videos": {
             "Webb": "https://youtu.be/W5HjTGwqero",
@@ -110,6 +119,7 @@
         "name": "Sleepwalker",
         "grade": "8C+",
         "fa": "Jimmy Webb",
+		"date": "",
         "repeat": [
             "Daniel Woods",
             "Nalle Hukkataival",
@@ -133,6 +143,7 @@
         "name": "Box Therapy",
         "grade": "8C+",
         "fa": "Daniel Woods",
+		"date": "",
         "repeat": ["Drew Ruana", "Sean Bailey"],
         "videos": {
             "Woods": "https://youtu.be/rR1QDk76LRk",
@@ -144,6 +155,7 @@
     	"name": "Terranova",
     	"grade": "8C+",
     	"fa": "Adam Ondra",
+		"date": "",
     	"repeat": [],
     	"videos": {
     		"Ondra": "https://youtu.be/QeR47AQ05Jo"
@@ -154,6 +166,7 @@
     	"name": "Gioia",
     	"grade": "8C/+",
     	"fa": "Christian Core",
+		"date": "",
     	"repeat": ["Adam Ondra", "Nalle Hukkataival", "Niccolò Ceria", "Elias Iagnemma"],
     	"videos": {
     		"Ondra": "https://youtu.be/QeR47AQ05Jo",
@@ -166,6 +179,7 @@
     	"name": "Brutal Rider",
     	"grade": "8C+",
     	"fa": "Adam Ondra",
+		"date": "",
     	"repeat": [],
     	"videos": {
     		"Ondra": "https://youtu.be/MiutwLqQZFs"
@@ -176,6 +190,7 @@
     	"name": "The Process",
     	"grade": "8C+",
     	"fa": "Daniel Woods",
+		"date": "",
     	"repeat": [],
     	"videos": {
     		"Woods": "https://youtu.be/fzn43YOyaLk"
@@ -186,6 +201,7 @@
     	"name": "Creature From the Black Lagoon",
     	"grade": "8C+",
     	"fa": "Daniel Woods",
+		"date": "",
     	"repeat": [
     	    "Dave Graham",
     	    "Jimmy Webb",
@@ -210,6 +226,7 @@
         "name": "La Révolutionnaire",
         "grade": "8C+",
         "fa": "Charles Albert",
+		"date": "",
         "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niky Ceria"],
         "videos": {
         	"Kameyama": "https://youtu.be/y-nsiwzltVI"
@@ -220,6 +237,7 @@
     	"name": "Poison the Well",
     	"grade": "8C+",
     	"fa": "Giuliano Cameroni",
+		"date": "",
     	"repeat": ["Jimmy Webb"],
     	"videos": {
     		"Cameroni": "https://youtu.be/VKpn_X5yiZA",
@@ -231,6 +249,7 @@
 		"name": "United",
 		"grade": "8C+",
 		"fa": "Ryuichi Murai",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Murai": "https://youtu.be/3sGxQIg7TOw"
@@ -263,6 +282,7 @@
 		"name": "Nexus",
 		"grade": "8C+",
 		"fa": "Ryuichi Murai",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Murai (fall)": "https://www.instagram.com/p/CVQVAXgJg3X/"
@@ -273,6 +293,7 @@
 		"name": "Ledoborec",
 		"grade": "8C+",
 		"fa": "Adam Ondra",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Ondra": "https://youtu.be/rEqUiPhyxFM"
@@ -283,6 +304,7 @@
 		"name": "Hallucination",
 		"grade": "8C+",
 		"fa": "Kazuma Ise",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -293,6 +315,7 @@
 		"name": "Hypothèse (assis)",
 		"grade": "8C+",
 		"fa": "Charles Albert",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"": ""
@@ -303,6 +326,7 @@
 		"name": "Big Conviction",
 		"grade": "8C+",
 		"fa": "Simon Lorenzi",
+		"date": "",
 		"repeat": [],
 		"videos": {
 			"Lorenzi": "https://youtu.be/260NRRSq4d8"
