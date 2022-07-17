@@ -1,7 +1,11 @@
 import os
 import json
+import git
 from flask import render_template
-from flask import Flask
+from flask import Flask, request
+
+from update import update
+
 
 grade_map = {
     "9c": "5.15d",
@@ -59,6 +63,20 @@ def sport_climber(climber):
 @app.route("/bouldering/<climber>")
 def bouldering_climber(climber):
     return render_template('generic.html', title=f"Bouldering: {climber.capitalize()}", category="bouldering", climbs=climber_ascents(climber, boulder_data))
+
+
+@app.route("/update", methods=["POST"])
+def webhook():
+    if request.method == "POST":
+        repo = git.Repo(".")
+        origin = repo.remotes.origin
+        origin.pull()
+        
+        update()
+        
+        return 'Updated PythonAnywhere successfully', 200
+    else:
+        return 'Wrong event type', 400
 
 
 # helper template filters
