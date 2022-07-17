@@ -68,7 +68,7 @@ def bouldering_climber(climber):
 @app.route("/update", methods=["POST"])
 def webhook():
     if request.method == "POST":
-        repo = git.Repo(".")
+        repo = git.Repo("~/mysite")
         origin = repo.remotes.origin
         origin.pull()
         
