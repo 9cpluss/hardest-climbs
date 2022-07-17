@@ -2,10 +2,10 @@ import requests
 import os
 
 
-username = os.environ["PYTHON_ANYWHERE_USER"]
+username = os.getenv("PYTHON_ANYWHERE_USER")
 domain_name = "www.hardestclimbs.com"
 host = "www.pythonanywhere.com"
-token = os.environ["PYTHON_ANYWHERE_TOKEN"]
+token = os.getenv("PYTHON_ANYWHERE_TOKEN")
 
 
 def update():
