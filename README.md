@@ -1,3 +1,3 @@
-Feel free to use the data in this repository but please credit the website [hardestclimbs.com](www.hardestclimbs.com)
+Feel free to use the data in this repository but please credit the website [hardestclimbs.com](https://www.hardestclimbs.com)
 
 If you spot a mistake or would like to add some data, please create a new issue or create a pull request.
