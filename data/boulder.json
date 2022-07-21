@@ -428,5 +428,16 @@
 			"Roberts": "https://youtu.be/ATE-tZo12mg"
 		},
 		"location": {}
+	},
+	{
+		"name": "Story of 3 Worlds",
+		"grade": "8C+",
+		"fa": "Shawn Raboutou",
+		"date": "2022-07-21",
+		"repeat": [],
+		"videos": {
+			"Raboutou": "https://youtu.be/oa0bXWl2RBs"
+		},
+		"location": {}
 	}
 ]
