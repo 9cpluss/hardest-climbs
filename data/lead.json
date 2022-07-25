@@ -110,6 +110,20 @@
             "longitude": 5.94860
         }
     },
+	{
+		"name": "Nordic Marathon",
+		"grade": "9b/+",
+		"fa": "Sebastien Bouin",
+		"date": "2022-7-25",
+		"repeat": [],
+		"videos": {},
+		"location": {
+            "country": "Norway",
+            "area": "Flatanger",
+            "latitude": 64.48877, 
+            "longitude": 10.81937
+        }
+	},
     {
         "name": "La Rage d'Adam",
         "grade": "9b/+",
