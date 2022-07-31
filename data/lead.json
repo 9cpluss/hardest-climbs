@@ -844,5 +844,19 @@
             "latitude": 36.1716,
             "longitude": 115.1391
         }
-	}
+	},
+    {
+        "name": "Ratstaman Vibrations",
+        "grade": "9b",
+        "fa": "Alexander Megos",
+		"date": "2022-07-31",
+        "repeat": [],
+        "videos": {},
+        "location": {
+            "country": "France",
+            "area": "Céüse",
+            "latitude": 44.49797, 
+            "longitude": 5.94860
+        }
+    }
 ]
