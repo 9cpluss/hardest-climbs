@@ -448,5 +448,21 @@
 		"repeat": [],
 		"videos": {},
 		"location": {}
+	},
+	{
+		"name": "Honey Badger",
+		"grade": "8C+",
+		"fa": "William Bosi",
+		"date": "2022-08-12",
+		"repeat": [],
+		"videos": {
+			"Bosi": "https://youtu.be/wtSeQ8Xm3mw"
+		},
+		"location": {
+            "country": "United Kingdom",
+            "area": "Badger Cove",
+            "latitude": 53.2441,
+            "longitude": -1.8437
+        }
 	}
 ]
