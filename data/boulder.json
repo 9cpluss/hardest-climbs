@@ -22,6 +22,22 @@
 		"location": {}
     },
     {
+        "name": "Alphane",
+        "grade": "9A",
+        "fa": "Shawn Raboutou",
+        "date": "2022-04-06",
+        "repeat": [],
+        "videos": {
+            "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115"
+        },
+        "location": {
+            "country": "Switzerland",
+            "area": "Chironico",
+            "latitude": 46.430725,
+            "longitude": 8.848445
+        }
+    },
+    {
         "name": "Soudain Seul",
         "grade": "8C+/9A",
         "fa": "Simon Lorenzi",
