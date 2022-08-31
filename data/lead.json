@@ -726,7 +726,7 @@
 		"date": "",
 		"repeat": [],
 		"videos": {
-			"": ""
+			"Flor": "https://youtu.be/ONsW7gxeUF0"
 		},
         "location": {
             "country": "Spain",
@@ -857,6 +857,22 @@
             "area": "Céüse",
             "latitude": 44.49797, 
             "longitude": 5.94860
+        }
+    },
+	{
+        "name": "La Vie",
+        "grade": "9b",
+        "fa": "Jonatan Flor",
+		"date": "2022-08-24",
+        "repeat": [],
+        "videos": {
+			"Flor": "https://youtu.be/dXsWG00s76c"
+		},
+        "location": {
+            "country": "Spain",
+            "area": "Rodellar",
+            "latitude": 42.28398,
+            "longitude": -0.08135
         }
     }
 ]
