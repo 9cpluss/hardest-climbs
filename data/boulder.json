@@ -8,7 +8,12 @@
         "videos": {
             "Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
         },
-		"location": {}
+		"location": {
+			"country": "Finland",
+			"area": "Lappnor",
+			"latitude": "60.423895",
+			"longitude": "26.135606"
+		}
     },
     {
         "name": "Return of the Sleepwalker",
@@ -19,7 +24,12 @@
         "videos": {
             "Woods": "https://youtu.be/IoEeHwd5GTs"
         },
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Red Rock",
+			"latitude": "36.03712",
+			"longitude": "-115.46810"
+		}
     },
     {
         "name": "Alphane",
