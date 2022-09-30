@@ -874,5 +874,19 @@
             "latitude": 42.28398,
             "longitude": -0.08135
         }
-    }
+    },
+	{
+        "name": "Harlem",
+        "grade": "9b",
+        "fa": "Loic Zehani",
+		"date": "2022-09-23",
+        "repeat": [],
+        "videos": {},
+        "location": {
+            "country": "France",
+            "area": "Orgon",
+            "latitude": 43.783989,
+            "longitude": 5.028990
+        }
+	}
 ]
