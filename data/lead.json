@@ -888,5 +888,19 @@
             "latitude": 43.783989,
             "longitude": 5.028990
         }
+	},
+	{
+        "name": "The Full Journey",
+        "grade": "9b",
+        "fa": "Alexander Megos",
+		"date": "2022-10-11",
+        "repeat": [],
+        "videos": {},
+        "location": {
+            "country": "Spain",
+            "area": "Margalef",
+            "latitude": 41.27560, 
+            "longitude": 0.76803
+        }
 	}
 ]
