@@ -1,8 +1,8 @@
 {% macro name_link(name, category) %}{{ name | climber_first_name }} <a href="/{{ category }}/{{ name | climber_last_name | lower }}" class="link-light">{{ name | climber_last_name }}</a>{% endmacro %}
 
 {% macro climb_entry(climb, category, bg) %}
-                <div class="col-6">
-                    <div class="p-3 bg-{{ bg }} text-white rounded">
+                <div class="col-5 bg-{{ bg }} text-white rounded">
+                    <div class="p-3">
                         <h4>{{ climb["name"] }}</h4>
                         <b>Grade:</b> {{ climb["grade"] }} / {{ climb["grade"] | map_grade }}<br>
                         <b>First Ascent:</b> {{ name_link(climb["fa"], category) }}<br>
