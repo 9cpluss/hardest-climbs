@@ -111,6 +111,22 @@
         }
     },
 	{
+		"name": "Suprême Jumbo Love",
+		"grade": "9b+",
+		"fa": "Sebastien Bouin",
+		"date": "2022-11-03",
+		"repeat": [],
+		"videos": {
+			"": ""
+		},
+        "location": {
+            "country": "USA",
+            "area": "Clark Mountain",
+            "latitude": 35.5253,
+            "longitude": 115.5892
+        }
+	},
+	{
 		"name": "Nordic Marathon",
 		"grade": "9b/+",
 		"fa": "Sebastien Bouin",
