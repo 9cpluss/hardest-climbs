@@ -688,22 +688,6 @@
         }
 	},
 	{
-		"name": "Flex Luthor",
-		"grade": "9b",
-		"fa": "Tommy Caldwell",
-		"date": "",
-		"repeat": ["Matty Hong", "Carlo Traversi"],
-		"videos": {
-			"": ""
-		},
-        "location": {
-            "country": "USA",
-            "area": "Fortress of Solitude",
-            "latitude": 39.559286,
-            "longitude": -107.9193071
-        }
-	},
-	{
 		"name": "Peruvian Necktie",
 		"grade": "9b",
 		"fa": "James Litz",
