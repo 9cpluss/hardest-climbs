@@ -446,14 +446,19 @@
 	},
 	{
 		"name": "Superpower",
-		"grade": "8C+",
+		"grade": "8C/+",
 		"fa": "Aidan Roberts",
 		"date": "",
 		"repeat": [],
 		"videos": {
 			"Roberts": "https://youtu.be/ATE-tZo12mg"
 		},
-		"location": {}
+		"location": {
+			"country": "England",
+			"area": "Cumbria",
+			"latitude": 54.3911597,
+			"longitude": -3.0889803
+		}
 	},
 	{
 		"name": "Story of 3 Worlds",
@@ -473,7 +478,12 @@
 		"date": "2022-07-28",
 		"repeat": [],
 		"videos": {},
-		"location": {}
+		"location": {
+			"country": "Wales",
+			"area": "Gwynedd",
+			"latitude": 53.13643,
+			"longitude": -3.96528
+		}
 	},
 	{
 		"name": "Honey Badger",
