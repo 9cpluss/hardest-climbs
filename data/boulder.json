@@ -499,5 +499,19 @@
 		"repeat": [],
 		"videos": {},
 		"location": {}
-	}
+	},
+    {
+        "name": "Vecchio Leone SS",
+        "grade": "8C+",
+        "fa": "Aidan Roberts",
+        "date": "2022-11-12",
+        "repeat": [],
+        "videos": {},
+        "location": {
+            "country": "Switzerland",
+            "area": "Brione",
+            "latitude": 46.29064,
+            "longitude": 8.78914
+        }
+    }
 ]
