@@ -298,9 +298,10 @@
 		"grade": "8C+",
 		"fa": "Taylor McNeill",
 		"date": "2021-03-10",
-		"repeat": [],
+		"repeat": ["Matt Fultz"],
 		"videos": {
-			"McNeill": "https://youtu.be/rr5OgcE9Ny0"
+			"McNeill": "https://youtu.be/rr5OgcE9Ny0",
+			"Fultz": "https://kaya-app.kayaclimb.com/post/Moonlight%20Sonata-v16-Joes-Valley-0/306704/317492"
 		},
 		"location": {}
 	},
@@ -446,19 +447,14 @@
 	},
 	{
 		"name": "Superpower",
-		"grade": "8C/+",
+		"grade": "8C+",
 		"fa": "Aidan Roberts",
 		"date": "",
 		"repeat": [],
 		"videos": {
 			"Roberts": "https://youtu.be/ATE-tZo12mg"
 		},
-		"location": {
-			"country": "England",
-			"area": "Cumbria",
-			"latitude": 54.3911597,
-			"longitude": -3.0889803
-		}
+		"location": {}
 	},
 	{
 		"name": "Story of 3 Worlds",
@@ -478,12 +474,7 @@
 		"date": "2022-07-28",
 		"repeat": [],
 		"videos": {},
-		"location": {
-			"country": "Wales",
-			"area": "Gwynedd",
-			"latitude": 53.13643,
-			"longitude": -3.96528
-		}
+		"location": {}
 	},
 	{
 		"name": "Honey Badger",
@@ -509,19 +500,5 @@
 		"repeat": [],
 		"videos": {},
 		"location": {}
-	},
-    {
-        "name": "Vecchio Leone SS",
-        "grade": "8C+",
-        "fa": "Aidan Roberts",
-        "date": "2022-11-12",
-        "repeat": [],
-        "videos": {},
-        "location": {
-            "country": "Switzerland",
-            "area": "Brione",
-            "latitude": 46.29064,
-            "longitude": 8.78914
-        }
-    }
+	}
 ]
