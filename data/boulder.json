@@ -48,6 +48,22 @@
         }
     },
     {
+        "name": "Megatron",
+        "grade": "9A",
+        "fa": "Shawn Raboutou",
+        "date": "",
+        "repeat": [],
+        "videos": {
+            "Raboutou": ""
+        },
+        "location": {
+            "country": "USA",
+            "area": "Eldorado Canyon",
+            "latitude": 39.93046,
+            "longitude": -105.29975
+        }
+    },
+    {
         "name": "Soudain Seul",
         "grade": "8C+/9A",
         "fa": "Simon Lorenzi",
