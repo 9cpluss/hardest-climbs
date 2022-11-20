@@ -133,7 +133,12 @@
 		"date": "2022-11-20",
 		"repeat": [],
 		"videos": {},
-        "location": {}
+        "location": {
+			"country": "Czech Republic",
+			"area": "Holštejn",
+			"latitude": 49.40148,
+			"longitude": 16.77622
+		}
 	},
 	{
 		"name": "Nordic Marathon",
