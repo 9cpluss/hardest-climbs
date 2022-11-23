@@ -48,6 +48,22 @@
         }
     },
     {
+        "name": "Megatron",
+        "grade": "9A",
+        "fa": "Shawn Raboutou",
+        "date": "",
+        "repeat": [],
+        "videos": {
+            "Raboutou": "https://youtu.be/f_MniTA8MYU"
+        },
+        "location": {
+            "country": "USA",
+            "area": "Eldorado Canyon",
+            "latitude": 39.93046,
+            "longitude": -105.29975
+        }
+    },
+    {
         "name": "Soudain Seul",
         "grade": "8C+/9A",
         "fa": "Simon Lorenzi",
@@ -500,5 +516,36 @@
 		"repeat": [],
 		"videos": {},
 		"location": {}
+	},
+	{
+		"name": "Nayuta",
+		"grade": "8C+",
+		"fa": "Dai Koyamada",
+		"date": "2017-04-04",
+		"repeat": ["Yuta Imaizumi"],
+		"videos": {
+			"Koyamada": "https://www.mntnfilm.com/en/film/nayuta-v16-2018",
+			"Imaizumi": "https://youtu.be/gODHt1aX91Y"
+		},
+		"location": {
+			"country": "Japan",
+			"area": "Gero",
+			"latitude": 35.79203,
+			"longitude": 137.23558
+		}
+	},
+	{
+		"name": "Ganesh",
+		"grade": "8C+",
+		"fa": "Elias Iagnemma",
+		"date": "2022-02-02",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "Italy",
+			"area": "Abruzzo e Molise",
+			"latitude": 42.54997,
+			"longitude": 13.49957
+		}
 	}
 ]
