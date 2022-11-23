@@ -547,5 +547,16 @@
 			"latitude": 42.54997,
 			"longitude": 13.49957
 		}
+	},
+	{
+		"name": "Cup of Immortality (extension)",
+		"grade": "8C/+",
+		"fa": "Adam Ondra",
+		"date": "2022-11-22",
+		"repeat": [],
+		"videos": {
+			"Ondra": "https://www.instagram.com/reel/ClUOrTTu-Zh/?igshid=YmMyMTA2M2Y="
+		},
+		"location": {}
 	}
 ]
