@@ -911,7 +911,9 @@
         "fa": "Alexander Megos",
 		"date": "2022-10-11",
         "repeat": [],
-        "videos": {},
+        "videos": {
+				"Megos": "https://youtu.be/QwjykRehg7M"
+			},
         "location": {
             "country": "Spain",
             "area": "Margalef",
