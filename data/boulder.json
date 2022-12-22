@@ -549,6 +549,22 @@
 		}
 	},
 	{
+		"name": "Bookkeeping",
+		"grade": "8C+",
+		"fa": "Drew Ruana",
+		"date": "2022-12-21",
+		"repeat": [],
+		"videos": {
+			"Ruana": "https://youtu.be/xJEMuGHaohQ"
+		},
+		"location": {
+			"country": "USA",
+			"area": "Clear Creek Canyon",
+			"latitude": 39.739,
+			"longitude": -105.416
+		}
+	},
+	{
 		"name": "Cup of Immortality (extension)",
 		"grade": "8C/+",
 		"fa": "Adam Ondra",
