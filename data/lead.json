@@ -146,7 +146,9 @@
 		"fa": "Sebastien Bouin",
 		"date": "2022-7-25",
 		"repeat": [],
-		"videos": {},
+		"videos": {
+			"Bouin": "https://youtu.be/nW36nE-EIwQ"
+		},
 		"location": {
             "country": "Norway",
             "area": "Flatanger",
