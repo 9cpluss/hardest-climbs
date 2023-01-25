@@ -149,7 +149,7 @@
         "grade": "8C+",
         "fa": "Jimmy Webb",
 		"date": "",
-        "repeat": ["Niky Ceria", "Giuliano Cameroni", "William Bosi"],
+        "repeat": ["Niky Ceria", "Giuliano Cameroni", "William Bosi", "Yannick Flohé"],
         "videos": {
             "Webb": "https://youtu.be/W5HjTGwqero",
             "Ceria": "https://youtu.be/iASCEwslRLI",
@@ -574,5 +574,18 @@
 			"Ondra": "https://www.instagram.com/reel/ClUOrTTu-Zh/?igshid=YmMyMTA2M2Y="
 		},
 		"location": {}
+	},
+	{
+		"name": "The Megg",
+		"grade": "8C+",
+		"fa": "Gabe Lawson",
+		"date": "2023-01-24",
+		"videos": {},
+		"location": {
+			"country": "Canada",
+			"area": "Squamish",
+			"latitude": 49.69406,
+			"longitude": -123.13367
+		}
 	}
 ]
