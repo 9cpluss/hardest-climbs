@@ -106,9 +106,14 @@
             "Webb": "https://youtu.be/76v9jvW56vw",
             "Cameroni": "https://youtu.be/edxHp45ECuE",
             "Topishko": "https://youtu.be/IdB5ot_EGF4",
-"Flohé": "https://youtu.be/9mfClKjyzxw"
+			"Flohé": "https://youtu.be/9mfClKjyzxw"
         },
-		"location": {}
+		"location": {
+			"country": "Switzerland",
+			"area": "Val Bavona",
+			"latitude": 46.39447,
+			"longitude": 8.53964
+		}
     },
     {
         "name": "Floatin",
@@ -156,7 +161,12 @@
             "Ceria": "https://youtu.be/iASCEwslRLI",
             "Cameroni": "https://youtu.be/4IvYtPiHwUM"
         },
-		"location": {}
+		"location": {
+			"country": "Switzerland",
+			"area": "Chironico",
+			"latitude": 46.41890,
+			"longitude": 8.85411
+		}
     },
     {
         "name": "Sleepwalker",
@@ -597,6 +607,11 @@
 		"date": "2023-01-31",
 		"repeat": [],
 		"videos": {},
-		"location": {}
+		"location": {
+			"country": "Switzerland",
+			"area": "Cresciano",
+			"latitude": 46.28796, 
+			"longitude": 9.00612
+		}
 	}
 ]
