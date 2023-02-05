@@ -141,6 +141,20 @@
 		}
 	},
 	{
+		"name": "Excalibur",
+		"grade": "9b+",
+		"fa": "Stefano Ghisolfi",
+		"date": "2023-02-03",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "Italy",
+			"area": "Drena",
+			"latitude": 45.96961,
+			"longitude": 10.93799
+		}
+	},
+	{
 		"name": "Nordic Marathon",
 		"grade": "9b/+",
 		"fa": "Sebastien Bouin",
