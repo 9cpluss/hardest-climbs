@@ -581,9 +581,10 @@
 		"grade": "9b",
 		"fa": "Chris Sharma",
 		"date": "",
-		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Jorge Díaz-Rullo"],
+		"repeat": ["Adam Ondra", "Alexander Megos", "Stefano Ghisolfi", "Jorge Díaz-Rullo"],
 		"videos": {
 		    "Sharma": "https://youtu.be/JCqe96jtExU",
+		"Megos": "https://www.redbull.com/ke-en/alex-megos-im-video-first-round-first-minute",
 		    "Ghisolfi": "https://youtu.be/iX1_BHfeMt0",
 			"Díaz-Rullo": "https://youtu.be/mUW3Fx7tryg"
 		},
