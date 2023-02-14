@@ -607,7 +607,9 @@
 		"fa": "Yannick Flohé",
 		"date": "2023-01-31",
 		"repeat": [],
-		"videos": {},
+		"videos": {
+		"Flohé": "https://youtu.be/RSbuqb-oF3I"
+		},
 		"location": {
 			"country": "Switzerland",
 			"area": "Cresciano",
