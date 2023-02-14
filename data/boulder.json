@@ -608,7 +608,7 @@
 		"date": "2023-01-31",
 		"repeat": [],
 		"videos": {
-		"Flohé": "https://youtu.be/RSbuqb-oF3I"
+			"Flohé": "https://youtu.be/RSbuqb-oF3I"
 		},
 		"location": {
 			"country": "Switzerland",
@@ -616,5 +616,14 @@
 			"latitude": 46.28796, 
 			"longitude": 9.00612
 		}
+	},
+	{
+		"name": "Maxwell's Demon sit",
+		"grade": "8C+",
+		"fa": "Drew Ruana",
+		"date": "2023-02-13",
+		"repeat": [],
+		"videos": {},
+		"location": {}
 	}
 ]
