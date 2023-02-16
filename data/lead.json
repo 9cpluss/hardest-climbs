@@ -132,7 +132,9 @@
 		"fa": "Adam Ondra",
 		"date": "2022-11-20",
 		"repeat": [],
-		"videos": {},
+		"videos": {
+			"Ondra": "https://youtu.be/cUIE_ht27s8"
+		},
         "location": {
 			"country": "Czech Republic",
 			"area": "Holštejn",
