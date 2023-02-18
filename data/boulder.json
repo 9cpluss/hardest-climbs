@@ -274,7 +274,12 @@
     		"Ichimiya": "https://www.instagram.com/p/BZDo0BGl1cV/",
     		"Fultz": "https://www.instagram.com/p/CQ6Q7RQDSLF/"
     	},
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Rocky Mountain National Park",
+			"latitude": 40.304062,
+			"longitude": -105.667751
+		}
 	},
 	{
         "name": "La Révolutionnaire",
@@ -319,7 +324,12 @@
 		"videos": {
 			"Ruana": "https://youtu.be/fZD3wY2-ULY"
 		},
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Mount Evans",
+			"latitude": 39.6184722,
+			"longitude": -105.6027500
+		}
 	},
 	{
 		"name": "Moonlight Sonata",
@@ -450,7 +460,12 @@
 		"date": "2022-06-28",
 		"repeat": [],
 		"videos": {"Fultz": "https://youtu.be/34CF-_J_tCo"},
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Rocky Mountain National Park",
+			"latitude": 40.303968,
+			"longitude": -105.667730
+		}
 	},
 	{
 		"name": "The Ice Knife Sit",
@@ -527,7 +542,12 @@
 		"date": "2022-08-11",
 		"repeat": [],
 		"videos": {},
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Mount Evans",
+			"latitude": 39.6184722,
+			"longitude": -105.6027500
+		}
 	},
 	{
 		"name": "Nayuta",
@@ -572,8 +592,8 @@
 		"location": {
 			"country": "USA",
 			"area": "Clear Creek Canyon",
-			"latitude": 39.739,
-			"longitude": -105.416
+			"latitude": 39.738913,
+			"longitude": -105.415436
 		}
 	},
 	{
@@ -624,6 +644,11 @@
 		"date": "2023-02-13",
 		"repeat": [],
 		"videos": {},
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Secret Garden",
+			"latitude": 39.9667959,
+			"longitude": -105.3797932
+		}
 	}
 ]
