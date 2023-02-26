@@ -288,9 +288,10 @@
         "grade": "8C+",
         "fa": "Charles Albert",
 		"date": "",
-        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niky Ceria"],
+        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niky Ceria", "Tim Reuser"],
         "videos": {
-        	"Kameyama": "https://youtu.be/y-nsiwzltVI"
+        	"Kameyama": "https://youtu.be/y-nsiwzltVI",
+			"Reuser": "https://www.instagram.com/tv/CpIdPEfDJcH/?igshid=YmMyMTA2M2Y="
         },
 		"location": {}
 	},
