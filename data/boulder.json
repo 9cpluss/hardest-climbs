@@ -403,17 +403,6 @@
 		"location": {}
 	},
 	{
-		"name": "Gakido",
-		"grade": "8C+",
-		"fa": "Shinichiro Nomura",
-		"date": "2022-03-20",
-		"repeat": ["Ryuichi Murai"],
-		"videos": {
-			"Nomura": "https://youtu.be/rN5Z3V4QYtA"
-		},
-		"location": {}
-	},
-	{
 		"name": "Epitaph",
 		"grade": "8C+",
 		"fa": "Dai Koyamada",
