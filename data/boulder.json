@@ -589,9 +589,10 @@
 		"grade": "8C+",
 		"fa": "Drew Ruana",
 		"date": "2022-12-21",
-		"repeat": [],
+		"repeat": ["Colin Duffy"],
 		"videos": {
-			"Ruana": "https://youtu.be/xJEMuGHaohQ"
+			"Ruana": "https://youtu.be/xJEMuGHaohQ",
+			"Duffy": "https://youtu.be/ApQcTjGWMrc"
 		},
 		"location": {
 			"country": "USA",
