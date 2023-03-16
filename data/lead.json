@@ -948,5 +948,19 @@
             "latitude": 41.27560, 
             "longitude": 0.76803
         }
+	},
+	{
+        "name": "Brooklin",
+        "grade": "9b",
+        "fa": "Loic Zehani",
+		"date": "2023-03-15",
+        "repeat": [],
+        "videos": {},
+        "location": {
+            "country": "France",
+            "area": "Orgon",
+            "latitude": 43.783989,
+            "longitude": 5.028990
+        }
 	}
 ]
