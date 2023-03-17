@@ -649,5 +649,16 @@
 			"latitude": 39.9667959,
 			"longitude": -105.3797932
 		}
+	},
+	{
+		"name": "Vecchio Leone Sit",
+		"grade": "8C+",
+		"fa": "Aidan Roberts",
+		"date": "",
+		"repeat": [],
+		"videos": {
+			"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s"
+		},
+		"location": {}
 	}
 ]
