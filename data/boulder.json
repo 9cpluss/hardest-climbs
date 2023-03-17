@@ -38,7 +38,8 @@
         "date": "2022-04-06",
         "repeat": ["Aidan Roberts", "William Bosi", "Simon Lorenzi"],
         "videos": {
-            "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115"
+            "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115",
+				"Roberts": "https://m.youtube.com/watch?v=zilINHowP2g&t=16m36s"
         },
         "location": {
             "country": "Switzerland",
@@ -511,7 +512,9 @@
 		"fa": "Aidan Roberts",
 		"date": "2022-07-28",
 		"repeat": [],
-		"videos": {},
+		"videos": {
+			"Roberts": "https://youtu.be/zilINHowP2g&t=37m58s"
+		},
 		"location": {}
 	},
 	{
