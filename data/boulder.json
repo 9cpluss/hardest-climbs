@@ -660,5 +660,21 @@
 			"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s"
 		},
 		"location": {}
+	},
+	{
+		"name": "Emotional Landscapes",
+		"grade": "8C/+",
+		"fa": "Klem Loskot",
+		"date": "",
+		"repeat": ["Nalle Hukkataival", "Martin Moser", "Nicolai Užnik"],
+		"videos": {
+			"Loskot": "https://youtu.be/2hFOORgE5FA"
+		},
+		"location": {
+			"country": "Austria",
+			"area": "Maltatal",
+			"latitude": 47.00280,
+			"longitude": 13.44965
+		}
 	}
 ]
