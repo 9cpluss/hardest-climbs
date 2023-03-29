@@ -655,9 +655,10 @@
 		"grade": "8C+",
 		"fa": "Aidan Roberts",
 		"date": "",
-		"repeat": [],
+		"repeat": ["Matt Fultz"],
 		"videos": {
-			"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s"
+			"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
+			"Fultz": "https://youtu.be/xILbH7MkBPo"
 		},
 		"location": {}
 	},
