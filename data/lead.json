@@ -166,6 +166,20 @@
 		"location": {}
 	},
 	{
+		"name": "Sleeping Lion",
+		"grade": "9b+",
+		"fa": "Chris Sharma",
+		"date": "2023-03-30",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "Spain",
+			"area": "Siurana",
+			"latitude": 41.26494,
+			"longitude": 0.93733
+		}
+	},
+	{
 		"name": "Nordic Marathon",
 		"grade": "9b/+",
 		"fa": "Sebastien Bouin",
