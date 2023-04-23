@@ -990,5 +990,19 @@
             "latitude": 43.77900, 
             "longitude": 3.80544
 	}
+	},
+	{
+		"name": "Mossoul",
+		"grade": "9b/+",
+		"fa": "Loic Zehani",
+		"date": "2023-04-17",
+		"repeat": [],
+		"videos": [],
+		"location": {
+			"country": "France",
+			"area": "Orgon"
+         "latitude": 43.783989,
+         "longitude": 5.028990
+		}
 	}
 ]
