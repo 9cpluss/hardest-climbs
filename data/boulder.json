@@ -4,7 +4,7 @@
         "grade": "9A",
         "fa": "Nalle Hukkataival",
 		"date": "",
-        "repeat": [],
+        "repeat": ["William Bosi"],
         "videos": {
             "Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
         },
@@ -38,7 +38,8 @@
         "date": "2022-04-06",
         "repeat": ["Aidan Roberts", "William Bosi", "Simon Lorenzi"],
         "videos": {
-            "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115"
+            "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115",
+				"Roberts": "https://m.youtube.com/watch?v=zilINHowP2g&t=16m36s"
         },
         "location": {
             "country": "Switzerland",
@@ -291,10 +292,12 @@
         "grade": "8C+",
         "fa": "Charles Albert",
 		"date": "",
-        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Nikkolò Ceria", "Tim Reuser"],
+        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Nikkolò Ceria", "Tim Reuser", "Michiel Nieuwenhuijsen"],
         "videos": {
         	"Kameyama": "https://youtu.be/y-nsiwzltVI",
-			"Reuser": "https://www.instagram.com/tv/CpIdPEfDJcH/?igshid=YmMyMTA2M2Y="
+			"Lorenzi": "https://youtu.be/0VdgtiriKec",
+			"Reuser": "https://www.instagram.com/tv/CpIdPEfDJcH/?igshid=YmMyMTA2M2Y=",
+			"Nieuwenhuijsen": "https://www.instagram.com/reel/CrDM7QbtrTb/?utm_source=ig_web_copy_link"
         },
 		"location": {}
 	},
@@ -511,7 +514,9 @@
 		"fa": "Aidan Roberts",
 		"date": "2022-07-28",
 		"repeat": [],
-		"videos": {},
+		"videos": {
+			"Roberts": "https://youtu.be/zilINHowP2g&t=37m58s"
+		},
 		"location": {}
 	},
 	{
@@ -645,6 +650,43 @@
 			"area": "Secret Garden",
 			"latitude": 39.9667959,
 			"longitude": -105.3797932
+		}
+	},
+	{
+		"name": "Vecchio Leone Sit",
+		"grade": "8C+",
+		"fa": "Aidan Roberts",
+		"date": "",
+		"repeat": ["Matt Fultz"],
+		"videos": {
+			"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
+			"Fultz": "https://youtu.be/xILbH7MkBPo"
+		},
+		"location": {}
+	},
+	{
+  "name": "The Lions Share",
+  "grade": "8C+",
+  "fa": "Aidan Roberts",
+  "date": "",
+  "repeat": [],
+  "videos": {},
+  "location": {}
+ },
+	{
+		"name": "Emotional Landscapes",
+		"grade": "8C/+",
+		"fa": "Klem Loskot",
+		"date": "",
+		"repeat": ["Nalle Hukkataival", "Martin Moser", "Nicolai Užnik"],
+		"videos": {
+			"Loskot": "https://youtu.be/2hFOORgE5FA"
+		},
+		"location": {
+			"country": "Austria",
+			"area": "Maltatal",
+			"latitude": 47.00280,
+			"longitude": 13.44965
 		}
 	}
 ]

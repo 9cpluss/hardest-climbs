@@ -166,6 +166,20 @@
 		"location": {}
 	},
 	{
+		"name": "Sleeping Lion",
+		"grade": "9b+",
+		"fa": "Chris Sharma",
+		"date": "2023-03-30",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "Spain",
+			"area": "Siurana",
+			"latitude": 41.26494,
+			"longitude": 0.93733
+		}
+	},
+	{
 		"name": "Nordic Marathon",
 		"grade": "9b/+",
 		"fa": "Sebastien Bouin",
@@ -250,7 +264,7 @@
 		"grade": "9b",
 		"fa": "Stefano Ghisolfi",
 		"date": "",
-		"repeat": ["Laura Rogora", "Adam Ondra", "Jakob Schubert"],
+		"repeat": ["Laura Rogora", "Adam Ondra", "Jakob Schubert", "Stefano Carnati"],
 		"videos": {
 		  "Ghisolfi": "https://youtu.be/gPuePc_iiPE",
 			"Rogora": "https://youtu.be/O6KKSjutlyg"
@@ -454,7 +468,7 @@
 		"grade": "9b",
 		"fa": "Chris Sharma",
 		"date": "",
-		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Sachi Amma"],
+		"repeat": ["Adam Ondra", "Stefano Ghisolfi", "Sachi Amma", "Jonathan Siegrist"],
 		"videos": {
 			"Ondra": "https://youtu.be/Uo64D1-Vumw",
 			"Amma": "https://youtu.be/FRZVA090NZ4"
@@ -938,7 +952,7 @@
         "grade": "9b",
         "fa": "Alexander Megos",
 		"date": "2022-10-11",
-        "repeat": [],
+        "repeat": ["Jorge Diaz-Rullo"],
         "videos": {
 				"Megos": "https://youtu.be/QwjykRehg7M"
 			},
@@ -964,17 +978,31 @@
         }
 	},
 	{
-		"name": "Ariégeois Cœur Loyal",
-		"grade": "9b",
-		"fa": "Sebastien Bouin",
-		"date": "2023-04-11",
-		"repeat": [],
-		"videos": {},
-		"location": {
+	"name": "Ariégeois Cœur Loyal",
+	"grade": "9b",
+	"fa": "Sebastien Bouin",
+	"date": "2023-04-11",
+	"repeat": [],
+	"videos": {},
+	"location": {
             "country": "France",
             "area": "Pic Saint-Loup",
             "latitude": 43.77900, 
             "longitude": 3.80544
+		}
+	},
+	{
+		"name": "Mossoul",
+		"grade": "9b/+",
+		"fa": "Loic Zehani",
+		"date": "2023-04-17",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "France",
+			"area": "Orgon",
+         "latitude": 43.783989,
+         "longitude": 5.028990
 		}
 	}
 ]
