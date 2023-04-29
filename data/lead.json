@@ -116,9 +116,7 @@
 		"fa": "Sebastien Bouin",
 		"date": "2022-11-03",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "USA",
             "area": "Clark Mountain",
@@ -316,9 +314,7 @@
 		"fa": "Adam Ondra",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Czech Republic",
             "area": "Moravský kras",
@@ -382,9 +378,7 @@
 		"fa": "Chris Sharma",
 		"date": "2009-12-18",
 		"repeat": ["Jakob Schubert", "Adam Ondra"],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Spain",
             "area": "Santa Linya",
@@ -398,9 +392,7 @@
 		"fa": "Adam Ondra",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Canada",
             "area": "Canmore",
@@ -566,9 +558,7 @@
 		"fa": "Adam Ondra",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Slovakia",
             "area": "Alternatívna stena",
@@ -582,9 +572,7 @@
 		"fa": "Adam Ondra",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "France",
             "area": "Mollans-sur-Ouvèze",
@@ -634,9 +622,7 @@
 		"fa": "Adam Ondra",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Norway",
             "area": "Flatanger",
@@ -684,9 +670,7 @@
 		"fa": "Chris Sharma",
 		"date": "",
 		"repeat": ["Adam Ondra"],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Spain",
             "area": "Catalunya",
@@ -733,9 +717,7 @@
 		"fa": "Chris Sharma",
 		"date": "",
 		"repeat": ["Jonathan Siegrist", "Ethan Pringle", "Sebastien Bouin"],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "USA",
             "area": "Clark Mountain",
@@ -813,9 +795,7 @@
 		"fa": "Pirmin Bertle",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Switzerland",
             "area": "Greyerzerland",
@@ -845,9 +825,7 @@
 		"fa": "Sachi Amma",
 		"date": "",
 		"repeat": [],
-		"videos": {
-			"": ""
-		},
+		"videos": {},
         "location": {
             "country": "Japan",
             "area": "Gozen Iwa",
@@ -893,7 +871,7 @@
 		"fa": "Jonathan Siegrist",
 		"date": "2022-05-31",
 		"repeat": [],
-		"videos": {"": ""},
+		"videos": {},
         "location": {
             "country": "USA",
             "area": "5g Wall",
