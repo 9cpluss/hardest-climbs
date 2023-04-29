@@ -159,7 +159,7 @@
         "grade": "8C+",
         "fa": "Jimmy Webb",
 		"date": "",
-        "repeat": ["Nikkolò Ceria", "Giuliano Cameroni", "William Bosi", "Yannick Flohé"],
+        "repeat": ["Niccolò Ceria", "Giuliano Cameroni", "William Bosi", "Yannick Flohé"],
         "videos": {
             "Webb": "https://youtu.be/W5HjTGwqero",
             "Ceria": "https://youtu.be/iASCEwslRLI",
@@ -292,7 +292,7 @@
         "grade": "8C+",
         "fa": "Charles Albert",
 		"date": "",
-        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Nikkolò Ceria", "Tim Reuser", "Michiel Nieuwenhuijsen"],
+        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niccolò Ceria", "Tim Reuser", "Michiel Nieuwenhuijsen"],
         "videos": {
         	"Kameyama": "https://youtu.be/y-nsiwzltVI",
 			"Lorenzi": "https://youtu.be/0VdgtiriKec",
@@ -443,7 +443,7 @@
 	{
 		"name": "Euclase",
 		"grade": "8C+",
-		"fa": "David Graham",
+		"fa": "Dave Graham",
 		"date": "2022-04-20",
 		"repeat": [],
 		"videos": {
