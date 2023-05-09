@@ -116,7 +116,7 @@
 		"fa": "Sebastien Bouin",
 		"date": "2022-11-03",
 		"repeat": [],
-		"videos": {},
+		"videos": {"Bouin": "https://youtu.be/snHVl7AX1mw"},
         "location": {
             "country": "USA",
             "area": "Clark Mountain",
