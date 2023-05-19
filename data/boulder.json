@@ -76,6 +76,20 @@
         },
 		"location": {}
     },
+	{
+		"name": "Blackflip",
+		"grade": "8C+/9A",
+		"fa": "Vadim Timonov",
+		"date": "2023-05-17",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "Russia",
+			"area": "Pushka",
+			"latitude": 43.221261,
+			"longitude": 42.684286
+		}
+	},
     {
         "name": "Hypnotized Minds",
         "grade": "8C+",
