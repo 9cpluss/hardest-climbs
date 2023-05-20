@@ -696,5 +696,25 @@
 			"latitude": 47.00280,
 			"longitude": 13.44965
 		}
+	},
+	{
+		"name": "Bloody Sunday",
+		"grade": "8C+",
+		"fa": "Drew Ruana",
+		"date": "2021-04-30",
+		"repeat": [],
+		"videos": {
+			"Ruana": "https://youtu.be/PPQM-2MabLs"
+		},
+		"location": {}
+	},
+	{
+		"name": "Howl at the Moon sit",
+		"grade": "8C+",
+		"fa": "Drew Ruana",
+		"date": "2023-05-18",
+		"repeat": [],
+		"videos": {},
+		"location": {}
 	}
 ]
