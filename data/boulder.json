@@ -519,10 +519,10 @@
 	},
 	{
 		"name": "Isles of Wonder SS",
-		"grade": "8C+",
+		"grade": "8C/+",
 		"fa": "Aidan Roberts",
 		"date": "2022-07-28",
-		"repeat": [],
+		"repeat": ["William Bosi"],
 		"videos": {
 			"Roberts": "https://youtu.be/zilINHowP2g&t=37m58s"
 		},
