@@ -201,7 +201,7 @@
             "Matt Fultz",
             "Pablo Hammack",
             "Griffin Whiteside",
-				"Ryuichi Murai"
+			"Ryuichi Murai"
         ],
         "videos": {
             "Webb": "https://youtu.be/TMIIffUMV8g",
@@ -210,9 +210,14 @@
             "Williams": "https://youtu.be/nsG3oGb4S3s",
             "Fultz": "https://youtu.be/X-Tw2HpbAaQ",
             "Hammack": "https://intagram.com/p/CLBPueOD4Nj/",
-				"Murai": "https://www.instagram.com/reel/Co7PTw_jwxT/?igshid=YmMyMTA2M2Y="
+			"Murai": "https://youtu.be/zbzTGtZ-zd8"
         },
-		"location": {}
+		"location": {
+			"country": "USA",
+			"area": "Red Rock",
+			"latitude": "36.03712",
+			"longitude": "-115.46810"
+		}
     },
     {
         "name": "Box Therapy",
