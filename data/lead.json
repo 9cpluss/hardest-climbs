@@ -982,5 +982,19 @@
          "latitude": 43.783989,
          "longitude": 5.028990
 		}
+	},
+	{
+		"name": "Fantasia",
+		"grade": "9b",
+		"fa": "Cedric Lachat",
+		"date": "2023-05-20",
+		"repeat": [],
+		"videos": {},
+		"location": {
+			"country": "France",
+			"area": "Vercors",
+         "latitude": 46.214336,
+         "longitude": 2.385136
+		}
 	}
 ]
