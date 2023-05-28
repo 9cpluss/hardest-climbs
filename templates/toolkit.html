@@ -14,9 +14,11 @@
 {% endmacro %}
 
 {% macro location_link(country, area, latitude, longitude) %}
-    {% if country is defined %}
+    {% if latitude is defined and longitude is defined %}
     <a href="https://www.openstreetmap.org/?mlat={{ latitude }}&mlon={{ longitude }}&zoom=12" class="link-light" target="_blank">
         {{ country }}, {{ area }}
     </a>
+    {% elif country is defined %}
+    {{ country }}, {{ area }}
     {% endif %}
 {% endmacro %}
