@@ -1,727 +1,897 @@
 [
-    {
-        "name": "Burden of Dreams",
-        "grade": "9A",
-        "fa": "Nalle Hukkataival",
-		"date": "",
-        "repeat": ["William Bosi"],
-        "videos": {
-            "Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
-        },
-		"location": {
-			"country": "Finland",
-			"area": "Lappnor",
-			"latitude": "60.423895",
-			"longitude": "26.135606"
-		}
-    },
-    {
-        "name": "Return of the Sleepwalker",
-        "grade": "9A",
-        "fa": "Daniel Woods",
-		"date": "",
-        "repeat": [],
-        "videos": {
-            "Woods": "https://youtu.be/IoEeHwd5GTs"
-        },
-		"location": {
-			"country": "USA",
-			"area": "Red Rock",
-			"latitude": "36.03712",
-			"longitude": "-115.46810"
-		}
-    },
-    {
-        "name": "Alphane",
-        "grade": "9A",
-        "fa": "Shawn Raboutou",
-        "date": "2022-04-06",
-        "repeat": ["Aidan Roberts", "William Bosi", "Simon Lorenzi"],
-        "videos": {
-            "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115",
-				"Roberts": "https://m.youtube.com/watch?v=zilINHowP2g&t=16m36s"
-        },
-        "location": {
-            "country": "Switzerland",
-            "area": "Chironico",
-            "latitude": 46.430725,
-            "longitude": 8.848445
-        }
-    },
-    {
-        "name": "Megatron",
-        "grade": "9A",
-        "fa": "Shawn Raboutou",
-        "date": "",
-        "repeat": [],
-        "videos": {
-            "Raboutou": "https://youtu.be/f_MniTA8MYU"
-        },
-        "location": {
-            "country": "USA",
-            "area": "Eldorado Canyon",
-            "latitude": 39.93046,
-            "longitude": -105.29975
-        }
-    },
-    {
-        "name": "Soudain Seul",
-        "grade": "8C+/9A",
-        "fa": "Simon Lorenzi",
-		"date": "",
-        "repeat": ["Nicolas Pelorson", "Camille Coudert"],
-        "videos": {
-            "Pelorson": "https://youtu.be/TROzPjONA6M",
-            "Coudert": "https://www.instagram.com/tv/CaCJgPBIUR0"
-        },
-		"location": {}
-    },
 	{
-		"name": "Blackflip",
-		"grade": "8C+/9A",
-		"fa": "Vadim Timonov",
-		"date": "2023-05-17",
-		"repeat": [],
-		"videos": {},
-		"location": {
-			"country": "Russia",
-			"area": "Pushka",
-			"latitude": 43.221261,
-			"longitude": 42.684286
-		}
-	},
-    {
-        "name": "Hypnotized Minds",
-        "grade": "8C+",
-        "fa": "Daniel Woods",
-		"date": "",
-        "repeat": ["Rustam Gelmanov", "Dave Graham", "Matt Fultz"],
-        "videos": {
-            "Woods": "https://youtu.be/Jq6CaFjJJlY",
-            "Fultz": "https://youtu.be/0fgfgVd3K28"
-        },
-		"location": {}
-    },
-    {
-        "name": "Off the Wagon Sit/Low",
-        "grade": "8C+",
-        "fa": "Shawn Raboutou",
-		"date": "",
-        "repeat": [
-            "Daniel Woods",
-            "Jimmy Webb",
-            "Giuliano Cameroni",
-            "Sergei Topishko",
-            "Yannick Flohé",
-            "Simon Lorenzi",
-				"Florian Wientjes",
-				"Niccolò Ceria",
-				"Francesco Berardino"
-        ],
-        "videos": {
-            "Raboutou": "https://youtu.be/lOfpAd0St7Q",
-            "Woods": "https://youtu.be/MJF8VqncuAE",
-            "Webb": "https://youtu.be/76v9jvW56vw",
-            "Cameroni": "https://youtu.be/edxHp45ECuE",
-            "Topishko": "https://youtu.be/IdB5ot_EGF4",
-			"Flohé": "https://youtu.be/9mfClKjyzxw",
-			"Ceria": "https://www.instagram.com/reel/CpiU1EFDdGc/?utm_source=ig_web_copy_link"
-        },
-		"location": {
-			"country": "Switzerland",
-			"area": "Val Bavona",
-			"latitude": 46.39447,
-			"longitude": 8.53964
-		}
-    },
-    {
-        "name": "Floatin",
-        "grade": "8C+",
-        "fa": "Ryuichi Murai",
-		"date": "",
-        "repeat": [],
-        "videos": {
-            "Murai": "https://youtu.be/zIOCIRd8Mxk"
-        },
-		"location": {}
-    },
-    {
-        "name": "Big Z",
-        "grade": "8C+",
-        "fa": "Shawn Raboutou",
-		"date": "",
-        "repeat": [],
-        "videos": {
-            "Raboutou": "https://youtu.be/xcBuV2jlavc"
-        },
-		"location": {}
-    },
-    {
-        "name": "Grand Illusion",
-        "grade": "8C+",
-        "fa": "Nathaniel Coleman",
-		"date": "",
-        "repeat": ["Sean Bailey", "Daniel Woods", "Matt Fultz", "Zach Galla"],
-        "videos": {
-            "Coleman": "https://youtu.be/z1d0s162f30",
-            "Bailey": "https://youtu.be/4zh851161Dg",
-            "Woods": "https://youtu.be/C748SL0rH6A"
-        },
-		"location": {}
-    },
-    {
-        "name": "Ephyra",
-        "grade": "8C+",
-        "fa": "Jimmy Webb",
-		"date": "",
-        "repeat": ["Niccolò Ceria", "Giuliano Cameroni", "William Bosi", "Yannick Flohé"],
-        "videos": {
-            "Webb": "https://youtu.be/W5HjTGwqero",
-            "Ceria": "https://youtu.be/iASCEwslRLI",
-            "Cameroni": "https://youtu.be/4IvYtPiHwUM",
-				"Bosi": "https://youtu.be/uoMkeCPznDw"
-        },
-		"location": {
-			"country": "Switzerland",
-			"area": "Chironico",
-			"latitude": 46.41890,
-			"longitude": 8.85411
-		}
-    },
-    {
-        "name": "Sleepwalker",
-        "grade": "8C+",
-        "fa": "Jimmy Webb",
-		"date": "",
-        "repeat": [
-            "Daniel Woods",
-            "Nalle Hukkataival",
-            "Drew Ruana",
-            "Nathan Williams",
-            "Matt Fultz",
-            "Pablo Hammack",
-            "Griffin Whiteside",
-			"Ryuichi Murai"
-        ],
-        "videos": {
-            "Webb": "https://youtu.be/TMIIffUMV8g",
-            "Woods": "https://youtu.be/Fb1Cb9ubp8E",
-            "Ruana": "https://youtu.be/ql4XnjGclLw",
-            "Williams": "https://youtu.be/nsG3oGb4S3s",
-            "Fultz": "https://youtu.be/X-Tw2HpbAaQ",
-            "Hammack": "https://intagram.com/p/CLBPueOD4Nj/",
-			"Murai": "https://youtu.be/zbzTGtZ-zd8"
-        },
-		"location": {
-			"country": "USA",
-			"area": "Red Rock",
-			"latitude": "36.03712",
-			"longitude": "-115.46810"
-		}
-    },
-    {
-        "name": "Box Therapy",
-        "grade": "8C+",
-        "fa": "Daniel Woods",
-		"date": "",
-        "repeat": ["Drew Ruana", "Sean Bailey"],
-        "videos": {
-            "Woods": "https://youtu.be/rR1QDk76LRk",
-            "Ruana": "https://youtu.be/B8VwgjiZKIo"
-        },
-		"location": {}
-    },
-    {
-    	"name": "Terranova",
-    	"grade": "8C+",
-    	"fa": "Adam Ondra",
-		"date": "",
-    	"repeat": [],
-    	"videos": {
-    		"Ondra": "https://youtu.be/QeR47AQ05Jo"
-    	},
-		"location": {}
-    },
-    {
-    	"name": "Gioia",
-    	"grade": "8C/+",
-    	"fa": "Christian Core",
-		"date": "",
-    	"repeat": ["Adam Ondra", "Nalle Hukkataival", "Niccolò Ceria", "Elias Iagnemma"],
-    	"videos": {
-    		"Ondra": "https://youtu.be/QeR47AQ05Jo",
-    		"Hukkataival": "https://youtu.be/Fezk14WH3jI",
-    		"Iagnemma": "https://youtu.be/dvttLU5I9hc"
-    	},
-		"location": {}
-    },
-    {
-    	"name": "Brutal Rider",
-    	"grade": "8C+",
-    	"fa": "Adam Ondra",
-		"date": "",
-    	"repeat": [],
-    	"videos": {
-    		"Ondra": "https://youtu.be/MiutwLqQZFs"
-    	},
-		"location": {}
-    },
-	{
-    	"name": "The Process",
-    	"grade": "8C+",
-    	"fa": "Daniel Woods",
-		"date": "",
-    	"repeat": [],
-    	"videos": {
-    		"Woods": "https://youtu.be/fzn43YOyaLk"
-    	},
-		"location": {}
+	  "name": "Burden of Dreams",
+	  "grade": "9A",
+	  "fa": "Nalle Hukkataival",
+	  "date": "2016-10-23",
+	  "repeat": [
+		"William Bosi"
+	  ],
+	  "videos": {
+		"Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
+	  },
+	  "location": {
+		"country": "Finland",
+		"area": "Lappnor",
+		"latitude": "60.423895",
+		"longitude": "26.135606"
+	  }
 	},
 	{
-    	"name": "Creature From the Black Lagoon",
-    	"grade": "8C+",
-    	"fa": "Daniel Woods",
-		"date": "",
-    	"repeat": [
-    	    "Dave Graham",
-    	    "Jimmy Webb",
-    	    "Daisuke Ichimiya",
-    	    "Carlo Traversi",
-    	    "Shawn Raboutou",
-    	    "Drew Ruana",
-    	    "Matt Fultz",
-    	    "Dylan Barks",
-    	    "Griffin Whiteside"
-    	],
-    	"videos": {
-    		"Traversi": "https://youtu.be/SwhZP0IaVbU",
-    		"Raboutou": "https://youtu.be/oqWHhcGXjmI",
-    		"Ruana": "https://youtu.be/xorFvE4Zt8Y",
-    		"Ichimiya": "https://www.instagram.com/p/BZDo0BGl1cV/",
-    		"Fultz": "https://www.instagram.com/p/CQ6Q7RQDSLF/"
-    	},
-		"location": {
-			"country": "USA",
-			"area": "Rocky Mountain National Park",
-			"latitude": 40.304062,
-			"longitude": -105.667751
-		}
+	  "name": "Return of the Sleepwalker",
+	  "grade": "9A",
+	  "fa": "Daniel Woods",
+	  "date": "2021-03-30",
+	  "repeat": [],
+	  "videos": {
+		"Woods": "https://youtu.be/IoEeHwd5GTs"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Red Rock",
+		"latitude": "36.03712",
+		"longitude": "-115.46810"
+	  }
 	},
 	{
-        "name": "La Révolutionnaire",
-        "grade": "8C+",
-        "fa": "Charles Albert",
-		"date": "",
-        "repeat": ["Ryohei Kameyama", "Simon Lorenzi", "Niccolò Ceria", "Tim Reuser", "Michiel Nieuwenhuijsen"],
-        "videos": {
-        	"Kameyama": "https://youtu.be/y-nsiwzltVI",
-			"Lorenzi": "https://youtu.be/0VdgtiriKec",
-			"Reuser": "https://www.instagram.com/tv/CpIdPEfDJcH/?igshid=YmMyMTA2M2Y=",
-			"Nieuwenhuijsen": "https://www.instagram.com/reel/CrDM7QbtrTb/?utm_source=ig_web_copy_link"
-        },
-		"location": {}
+	  "name": "Alphane",
+	  "grade": "9A",
+	  "fa": "Shawn Raboutou",
+	  "date": "2022-04-06",
+	  "repeat": [
+		"Aidan Roberts",
+		"William Bosi",
+		"Simon Lorenzi"
+	  ],
+	  "videos": {
+		"Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115",
+		"Roberts": "https://m.youtube.com/watch?v=zilINHowP2g&t=16m36s"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Chironico",
+		"latitude": 46.430725,
+		"longitude": 8.848445
+	  }
 	},
 	{
-    	"name": "Poison the Well",
-    	"grade": "8C+",
-    	"fa": "Giuliano Cameroni",
-		"date": "",
-    	"repeat": ["Jimmy Webb"],
-    	"videos": {
-    		"Cameroni": "https://youtu.be/VKpn_X5yiZA",
-    		"Webb": "https://youtu.be/MJF8VqncuAE"
-    	},
-		"location": {}
-    },
-	{
-		"name": "United",
-		"grade": "8C+",
-		"fa": "Ryuichi Murai",
-		"date": "",
-		"repeat": [],
-		"videos": {
-			"Murai": "https://youtu.be/3sGxQIg7TOw"
-		},
-		"location": {}
+	  "name": "Megatron",
+	  "grade": "9A",
+	  "fa": "Shawn Raboutou",
+	  "date": "2022",
+	  "repeat": [],
+	  "videos": {
+		"Raboutou": "https://youtu.be/f_MniTA8MYU"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Eldorado Canyon",
+		"latitude": 39.93046,
+		"longitude": -105.29975
+	  }
 	},
 	{
-		"name": "Insomniac",
-		"grade": "8C+",
-		"fa": "Drew Ruana",
-		"date": "2021-07-09",
-		"repeat": ["Shawn Raboutou", "Daniel Woods", "Jimmy Webb"],
-		"videos": {
-			"Ruana": "https://youtu.be/fZD3wY2-ULY"
-		},
-		"location": {
-			"country": "USA",
-			"area": "Mount Evans",
-			"latitude": 39.6184722,
-			"longitude": -105.6027500
-		}
+	  "name": "Soudain Seul",
+	  "grade": "8C+/9A",
+	  "fa": "Simon Lorenzi",
+	  "date": "2021-02-08",
+	  "repeat": [
+		"Nicolas Pelorson",
+		"Camille Coudert"
+	  ],
+	  "videos": {
+		"Pelorson": "https://youtu.be/TROzPjONA6M",
+		"Coudert": "https://www.instagram.com/tv/CaCJgPBIUR0"
+	  },
+	  "location": {
+		"country": "France",
+		"area": "Fontainebleau"
+	  }
 	},
 	{
-		"name": "Moonlight Sonata",
-		"grade": "8C+",
-		"fa": "Taylor McNeill",
-		"date": "2021-03-10",
-		"repeat": ["Matt Fultz"],
-		"videos": {
-			"McNeill": "https://youtu.be/rr5OgcE9Ny0",
-			"Fultz": "https://kaya-app.kayaclimb.com/post/Moonlight%20Sonata-v16-Joes-Valley-0/306704/317492"
-		},
-		"location": {}
+	  "name": "Blackflip",
+	  "grade": "8C+/9A",
+	  "fa": "Vadim Timonov",
+	  "date": "2023-05-17",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "Russia",
+		"area": "Pushka",
+		"latitude": 43.221261,
+		"longitude": 42.684286
+	  }
 	},
 	{
-		"name": "Nexus",
-		"grade": "8C+",
-		"fa": "Ryuichi Murai",
-		"date": "",
-		"repeat": [],
-		"videos": {
-			"Murai": "https://www.instagram.com/p/CVQVAXgJg3X/"
-		},
-		"location": {}
+	  "name": "Hypnotized Minds",
+	  "grade": "8C+",
+	  "fa": "Daniel Woods",
+	  "date": "2010-10-21",
+	  "repeat": [
+		"Rustam Gelmanov",
+		"Dave Graham",
+		"Matt Fultz"
+	  ],
+	  "videos": {
+		"Woods": "https://youtu.be/Jq6CaFjJJlY",
+		"Fultz": "https://youtu.be/0fgfgVd3K28"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": " Rocky Mountain National Park"
+	  }
 	},
 	{
-		"name": "Ledoborec",
-		"grade": "8C+",
-		"fa": "Adam Ondra",
-		"date": "",
-		"repeat": [],
-		"videos": {
-			"Ondra": "https://youtu.be/rEqUiPhyxFM"
-		},
-		"location": {}
+	  "name": "Off the Wagon Sit/Low",
+	  "grade": "8C+",
+	  "fa": "Shawn Raboutou",
+	  "date": "2018-11-27",
+	  "repeat": [
+		"Daniel Woods",
+		"Jimmy Webb",
+		"Giuliano Cameroni",
+		"Sergei Topishko",
+		"Yannick Flohé",
+		"Simon Lorenzi",
+		"Florian Wientjes",
+		"Niccolò Ceria",
+		"Francesco Berardino"
+	  ],
+	  "videos": {
+		"Raboutou": "https://youtu.be/lOfpAd0St7Q",
+		"Woods": "https://youtu.be/MJF8VqncuAE",
+		"Webb": "https://youtu.be/76v9jvW56vw",
+		"Cameroni": "https://youtu.be/edxHp45ECuE",
+		"Topishko": "https://youtu.be/IdB5ot_EGF4",
+		"Flohé": "https://youtu.be/9mfClKjyzxw",
+		"Ceria": "https://www.instagram.com/reel/CpiU1EFDdGc/?utm_source=ig_web_copy_link"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Val Bavona",
+		"latitude": 46.39447,
+		"longitude": 8.53964
+	  }
 	},
 	{
-		"name": "Hallucination",
-		"grade": "8C+",
-		"fa": "Kazuma Ise",
-		"date": "",
-		"repeat": [],
-		"videos": {},
-		"location": {}
+	  "name": "Floatin",
+	  "grade": "8C+",
+	  "fa": "Ryuichi Murai",
+	  "date": "2021-12-11",
+	  "repeat": [],
+	  "videos": {
+		"Murai": "https://youtu.be/zIOCIRd8Mxk"
+	  },
+	  "location": {
+		"country": "Japan",
+		"area": "Mizugaki"
+	  }
 	},
 	{
-		"name": "Hypothèse (assis)",
-		"grade": "8C+",
-		"fa": "Charles Albert",
-		"date": "",
-		"repeat": [],
-		"videos": {},
-		"location": {}
+	  "name": "Big Z",
+	  "grade": "8C+",
+	  "fa": "Shawn Raboutou",
+	  "date": "2020-12-29",
+	  "repeat": [],
+	  "videos": {
+		"Raboutou": "https://youtu.be/xcBuV2jlavc"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Lake Tahoe"
+	  }
 	},
 	{
-		"name": "Big Conviction",
-		"grade": "8C+",
-		"fa": "Simon Lorenzi",
-		"date": "",
-		"repeat": [],
-		"videos": {
-			"Lorenzi": "https://youtu.be/260NRRSq4d8"
-		},
-		"location": {}
+	  "name": "Grand Illusion",
+	  "grade": "8C+",
+	  "fa": "Nathaniel Coleman",
+	  "date": "Jan 2020",
+	  "repeat": [
+		"Sean Bailey",
+		"Daniel Woods",
+		"Matt Fultz",
+		"Zach Galla"
+	  ],
+	  "videos": {
+		"Coleman": "https://youtu.be/z1d0s162f30",
+		"Bailey": "https://youtu.be/4zh851161Dg",
+		"Woods": "https://youtu.be/C748SL0rH6A"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Salt Lake City"
+	  }
 	},
 	{
-		"name": "Epitaph",
-		"grade": "8C+",
-		"fa": "Dai Koyamada",
-		"date": "2022-04-02",
-		"repeat": ["Toru Nakajima"],
-		"videos": {
-			"Nakajima": "https://vimeo.com/760144758"
-		},
-		"location": {}
+	  "name": "Ephyra",
+	  "grade": "8C+",
+	  "fa": "Jimmy Webb",
+	  "date": "2019-03-29",
+	  "repeat": [
+		"Niccolò Ceria",
+		"Giuliano Cameroni",
+		"William Bosi",
+		"Yannick Flohé"
+	  ],
+	  "videos": {
+		"Webb": "https://youtu.be/W5HjTGwqero",
+		"Ceria": "https://youtu.be/iASCEwslRLI",
+		"Cameroni": "https://youtu.be/4IvYtPiHwUM",
+		"Bosi": "https://youtu.be/uoMkeCPznDw"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Chironico",
+		"latitude": 46.4189,
+		"longitude": 8.85411
+	  }
 	},
 	{
-		"name": "Fuck the System",
-		"grade": "8C+",
-		"fa": "Shawn Raboutou",
-		"date": "",
-		"repeat": ["Dave Graham", "Clément Lechaptois"],
-		"videos": {
-			"Raboutou": "https://youtu.be/SJ9SZm0pjLo"
-		},
-		"location": {}
+	  "name": "Sleepwalker",
+	  "grade": "8C+",
+	  "fa": "Jimmy Webb",
+	  "date": "2018-12-15",
+	  "repeat": [
+		"Daniel Woods",
+		"Nalle Hukkataival",
+		"Drew Ruana",
+		"Nathan Williams",
+		"Matt Fultz",
+		"Pablo Hammack",
+		"Griffin Whiteside",
+		"Ryuichi Murai"
+	  ],
+	  "videos": {
+		"Webb": "https://youtu.be/TMIIffUMV8g",
+		"Woods": "https://youtu.be/Fb1Cb9ubp8E",
+		"Ruana": "https://youtu.be/ql4XnjGclLw",
+		"Williams": "https://youtu.be/nsG3oGb4S3s",
+		"Fultz": "https://youtu.be/X-Tw2HpbAaQ",
+		"Hammack": "https://intagram.com/p/CLBPueOD4Nj/",
+		"Murai": "https://youtu.be/zbzTGtZ-zd8"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Red Rock",
+		"latitude": "36.03712",
+		"longitude": "-115.46810"
+	  }
 	},
 	{
-		"name": "Daños con-laterales",
-		"grade": "8C+",
-		"fa": "Nacho Sánchez",
-		"date": "2022-06-13",
-		"repeat": [],
-		"videos": {
-			"Sánchez": "https://www.instagram.com/p/Cet0g7LDnoK/"
-		},
-		"location": {}
+	  "name": "Box Therapy",
+	  "grade": "8C+",
+	  "fa": "Daniel Woods",
+	  "date": "2018-10-31",
+	  "repeat": [
+		"Drew Ruana",
+		"Sean Bailey"
+	  ],
+	  "videos": {
+		"Woods": "https://youtu.be/rR1QDk76LRk",
+		"Ruana": "https://youtu.be/B8VwgjiZKIo"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Rocky Mountain National Park"
+	  }
 	},
 	{
-		"name": "Euclase",
-		"grade": "8C+",
-		"fa": "Dave Graham",
-		"date": "2022-04-20",
-		"repeat": [],
-		"videos": {},
-		"location": {}
+	  "name": "Terranova",
+	  "grade": "8C+",
+	  "fa": "Adam Ondra",
+	  "date": "2011-11-10",
+	  "repeat": [],
+	  "videos": {
+		"Ondra": "https://youtu.be/QeR47AQ05Jo"
+	  },
+	  "location": {
+		"country": "Czech Republic",
+		"area": "Sloup"
+	  }
 	},
 	{
-		"name": "Brace for the Cure",
-		"grade": "8C+",
-		"fa": "Matt Fultz",
-		"date": "2022-06-28",
-		"repeat": [],
-		"videos": {"Fultz": "https://youtu.be/34CF-_J_tCo"},
-		"location": {
-			"country": "USA",
-			"area": "Rocky Mountain National Park",
-			"latitude": 40.303968,
-			"longitude": -105.667730
-		}
+	  "name": "Gioia",
+	  "grade": "8C/+",
+	  "fa": "Christian Core",
+	  "date": "2008-02-28",
+	  "repeat": [
+		"Adam Ondra",
+		"Nalle Hukkataival",
+		"Niccolò Ceria",
+		"Elias Iagnemma"
+	  ],
+	  "videos": {
+		"Ondra": "https://youtu.be/QeR47AQ05Jo",
+		"Hukkataival": "https://youtu.be/Fezk14WH3jI",
+		"Iagnemma": "https://youtu.be/dvttLU5I9hc"
+	  },
+	  "location": {
+		"country": "France",
+		"area": "Fontainebleau"
+	  }
 	},
 	{
-		"name": "The Ice Knife Sit",
-		"grade": "8C+",
-		"fa": "Daniel Woods",
-		"date": "2013-11-01",
-		"repeat": ["Drew Ruana"],
-		"videos": {"Woods": "https://youtu.be/OxAZZNkVJ1U"},
-		"location": {}
+	  "name": "Brutal Rider",
+	  "grade": "8C+",
+	  "fa": "Adam Ondra",
+	  "date": "2020",
+	  "repeat": [],
+	  "videos": {
+		"Ondra": "https://youtu.be/MiutwLqQZFs"
+	  },
+	  "location": {
+		"country": "Czech Republic",
+		"area": "Sloup"
+	  }
 	},
 	{
-		"name": "Livin' Large",
-		"grade": "8C/+",
-		"fa": "Nalle Hukkataival",
-		"date": "2009-08-05",
-		"repeat": ["Jimmy Webb", "Shawn Raboutou"],
-		"videos": {
-			"Hukkataival": "https://youtu.be/2pSbj6mIFy0",
-			"Raboutou": "https://youtu.be/MiQQDIrUYnw"
-		},
-		"location": {}
+	  "name": "The Process",
+	  "grade": "8C+",
+	  "fa": "Daniel Woods",
+	  "date": "2015-01-15",
+	  "repeat": [],
+	  "videos": {
+		"Woods": "https://youtu.be/fzn43YOyaLk"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Buttermilks"
+	  }
 	},
 	{
-		"name": "Superpower",
-		"grade": "8C+",
-		"fa": "Aidan Roberts",
-		"date": "",
-		"repeat": [],
-		"videos": {
-			"Roberts": "https://youtu.be/ATE-tZo12mg"
-		},
-		"location": {}
+	  "name": "Creature From the Black Lagoon",
+	  "grade": "8C+",
+	  "fa": "Daniel Woods",
+	  "date": "2016-09-28",
+	  "repeat": [
+		"Dave Graham",
+		"Jimmy Webb",
+		"Daisuke Ichimiya",
+		"Carlo Traversi",
+		"Shawn Raboutou",
+		"Drew Ruana",
+		"Matt Fultz",
+		"Dylan Barks",
+		"Griffin Whiteside"
+	  ],
+	  "videos": {
+		"Traversi": "https://youtu.be/SwhZP0IaVbU",
+		"Raboutou": "https://youtu.be/oqWHhcGXjmI",
+		"Ruana": "https://youtu.be/xorFvE4Zt8Y",
+		"Ichimiya": "https://www.instagram.com/p/BZDo0BGl1cV/",
+		"Fultz": "https://www.instagram.com/p/CQ6Q7RQDSLF/"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Rocky Mountain National Park",
+		"latitude": 40.304062,
+		"longitude": -105.667751
+	  }
 	},
 	{
-		"name": "Story of 3 Worlds",
-		"grade": "8C+",
-		"fa": "Shawn Raboutou",
-		"date": "2022-07-21",
-		"repeat": [],
-		"videos": {
-			"Raboutou": "https://youtu.be/oa0bXWl2RBs"
-		},
-		"location": {}
+	  "name": "La Révolutionnaire",
+	  "grade": "8C+",
+	  "fa": "Charles Albert",
+	  "date": "Nov 2017",
+	  "repeat": [
+		"Ryohei Kameyama",
+		"Simon Lorenzi",
+		"Niccolò Ceria",
+		"Tim Reuser",
+		"Michiel Nieuwenhuijsen"
+	  ],
+	  "videos": {
+		"Kameyama": "https://youtu.be/y-nsiwzltVI",
+		"Lorenzi": "https://youtu.be/0VdgtiriKec",
+		"Reuser": "https://www.instagram.com/tv/CpIdPEfDJcH/?igshid=YmMyMTA2M2Y=",
+		"Nieuwenhuijsen": "https://www.instagram.com/reel/CrDM7QbtrTb/?utm_source=ig_web_copy_link"
+	  },
+	  "location": {
+		"country": "France",
+		"area": "Fontainebleau"
+	  }
 	},
 	{
-		"name": "Isles of Wonder SS",
-		"grade": "8C/+",
-		"fa": "Aidan Roberts",
-		"date": "2022-07-28",
-		"repeat": ["William Bosi"],
-		"videos": {
-			"Roberts": "https://youtu.be/zilINHowP2g&t=37m58s",
-			"Bosi": "https://youtu.be/pcB7xINW-ek"
-		},
-		"location": {}
+	  "name": "Poison the Well",
+	  "grade": "8C+",
+	  "fa": "Giuliano Cameroni",
+	  "date": "2019-02-12",
+	  "repeat": [
+		"Jimmy Webb"
+	  ],
+	  "videos": {
+		"Cameroni": "https://youtu.be/VKpn_X5yiZA",
+		"Webb": "https://youtu.be/MJF8VqncuAE"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Brione"
+	  }
 	},
 	{
-		"name": "Honey Badger",
-		"grade": "8C+",
-		"fa": "William Bosi",
-		"date": "2022-08-12",
-		"repeat": [],
-		"videos": {
-			"Bosi": "https://youtu.be/wtSeQ8Xm3mw"
-		},
-		"location": {
-            "country": "United Kingdom",
-            "area": "Badger Cove",
-            "latitude": 53.2441,
-            "longitude": -1.8437
-        }
+	  "name": "United",
+	  "grade": "8C+",
+	  "fa": "Ryuichi Murai",
+	  "date": "2019-10-30",
+	  "repeat": [],
+	  "videos": {
+		"Murai": "https://youtu.be/3sGxQIg7TOw"
+	  },
+	  "location": {
+		"country": "Japan",
+		"area": "Mizugaki"
+	  }
 	},
 	{
-		"name": "Distortion",
-		"grade": "8C+",
-		"fa": "Drew Ruana",
-		"date": "2022-08-11",
-		"repeat": [],
-		"videos": {},
-		"location": {
-			"country": "USA",
-			"area": "Mount Evans",
-			"latitude": 39.6184722,
-			"longitude": -105.6027500
-		}
+	  "name": "Insomniac",
+	  "grade": "8C+",
+	  "fa": "Drew Ruana",
+	  "date": "2021-07-09",
+	  "repeat": [
+		"Shawn Raboutou",
+		"Daniel Woods",
+		"Jimmy Webb"
+	  ],
+	  "videos": {
+		"Ruana": "https://youtu.be/fZD3wY2-ULY"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Mount Evans",
+		"latitude": 39.6184722,
+		"longitude": -105.60275
+	  }
 	},
 	{
-		"name": "Nayuta",
-		"grade": "8C+",
-		"fa": "Dai Koyamada",
-		"date": "2017-04-04",
-		"repeat": ["Yuta Imaizumi"],
-		"videos": {
-			"Koyamada": "https://www.mntnfilm.com/en/film/nayuta-v16-2018",
-			"Imaizumi": "https://youtu.be/gODHt1aX91Y"
-		},
-		"location": {
-			"country": "Japan",
-			"area": "Gero",
-			"latitude": 35.79203,
-			"longitude": 137.23558
-		}
+	  "name": "Moonlight Sonata",
+	  "grade": "8C+",
+	  "fa": "Taylor McNeill",
+	  "date": "2021-03-10",
+	  "repeat": [
+		"Matt Fultz"
+	  ],
+	  "videos": {
+		"McNeill": "https://youtu.be/rr5OgcE9Ny0",
+		"Fultz": "https://kaya-app.kayaclimb.com/post/Moonlight%20Sonata-v16-Joes-Valley-0/306704/317492"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Joe's valley"
+	  }
 	},
 	{
-		"name": "Ganesh",
-		"grade": "8C+",
-		"fa": "Elias Iagnemma",
-		"date": "2022-02-02",
-		"repeat": [],
-		"videos": {},
-		"location": {
-			"country": "Italy",
-			"area": "Abruzzo e Molise",
-			"latitude": 42.54997,
-			"longitude": 13.49957
-		}
+	  "name": "Nexus",
+	  "grade": "8C+",
+	  "fa": "Ryuichi Murai",
+	  "date": "2021-10-24",
+	  "repeat": [],
+	  "videos": {
+		"Murai": "https://www.instagram.com/p/CVQVAXgJg3X/"
+	  },
+	  "location": {
+		"country": "Japan",
+		"area": "Shiobara boulder"
+	  }
 	},
 	{
-		"name": "Bookkeeping",
-		"grade": "8C+",
-		"fa": "Drew Ruana",
-		"date": "2022-12-21",
-		"repeat": ["Colin Duffy"],
-		"videos": {
-			"Ruana": "https://youtu.be/xJEMuGHaohQ",
-			"Duffy": "https://youtu.be/ApQcTjGWMrc"
-		},
-		"location": {
-			"country": "USA",
-			"area": "Clear Creek Canyon",
-			"latitude": 39.738913,
-			"longitude": -105.415436
-		}
+	  "name": "Ledoborec",
+	  "grade": "8C+",
+	  "fa": "Adam Ondra",
+	  "date": "2020",
+	  "repeat": [],
+	  "videos": {
+		"Ondra": "https://youtu.be/rEqUiPhyxFM"
+	  },
+	  "location": {
+		"country": "Czech Republic",
+		"area": "Moravský kras"
+	  }
 	},
 	{
-		"name": "Cup of Immortality (extension)",
-		"grade": "8C/+",
-		"fa": "Adam Ondra",
-		"date": "2022-11-22",
-		"repeat": [],
-		"videos": {
-			"Ondra": "https://www.instagram.com/reel/ClUOrTTu-Zh/?igshid=YmMyMTA2M2Y="
-		},
-		"location": {}
+	  "name": "Hallucination",
+	  "grade": "8C+",
+	  "fa": "Kazuma Ise",
+	  "date": "2022-01-24",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "Japan",
+		"area": "Hourai"
+	  }
 	},
 	{
-		"name": "The Megg",
-		"grade": "8C+",
-		"fa": "Gabe Lawson",
-		"date": "2023-01-24",
-		"repeat": [],
-		"videos": {},
-		"location": {
-			"country": "Canada",
-			"area": "Squamish",
-			"latitude": 49.69406,
-			"longitude": -123.13367
-		}
+	  "name": "Hypothèse (assis)",
+	  "grade": "8C+",
+	  "fa": "Charles Albert",
+	  "date": "Dec 2018",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "France",
+		"area": "Fontainebleau"
+	  }
 	},
 	{
-		"name": "Return of the Dreamtime",
-		"grade": "8C+",
-		"fa": "Yannick Flohé",
-		"date": "2023-01-31",
-		"repeat": [],
-		"videos": {
-			"Flohé": "https://youtu.be/RSbuqb-oF3I"
-		},
-		"location": {
-			"country": "Switzerland",
-			"area": "Cresciano",
-			"latitude": 46.28796, 
-			"longitude": 9.00612
-		}
+	  "name": "Big Conviction",
+	  "grade": "8C+",
+	  "fa": "Simon Lorenzi",
+	  "date": "2022-01-23",
+	  "repeat": [],
+	  "videos": {
+		"Lorenzi": "https://youtu.be/260NRRSq4d8"
+	  },
+	  "location": {
+		"country": "France",
+		"area": "Fontainebleau"
+	  }
 	},
 	{
-		"name": "Maxwell's Demon sit",
-		"grade": "8C+",
-		"fa": "Drew Ruana",
-		"date": "2023-02-13",
-		"repeat": [],
-		"videos": {},
-		"location": {
-			"country": "USA",
-			"area": "Secret Garden",
-			"latitude": 39.9667959,
-			"longitude": -105.3797932
-		}
+	  "name": "Epitaph",
+	  "grade": "8C+",
+	  "fa": "Dai Koyamada",
+	  "date": "2022-04-02",
+	  "repeat": [
+		"Toru Nakajima"
+	  ],
+	  "videos": {
+		"Nakajima": "https://vimeo.com/760144758"
+	  },
+	  "location": {
+		"country": "Japan",
+		"area": "Hourai"
+	  }
 	},
 	{
-		"name": "Vecchio Leone Sit",
-		"grade": "8C+",
-		"fa": "Aidan Roberts",
-		"date": "",
-		"repeat": ["Matt Fultz"],
-		"videos": {
-			"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
-			"Fultz": "https://youtu.be/xILbH7MkBPo"
-		},
-		"location": {}
+	  "name": "Fuck the System",
+	  "grade": "8C+",
+	  "fa": "Shawn Raboutou",
+	  "date": "2021",
+	  "repeat": [
+		"Dave Graham",
+		"Clément Lechaptois"
+	  ],
+	  "videos": {
+		"Raboutou": "https://youtu.be/SJ9SZm0pjLo"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Fionnay"
+	  }
 	},
 	{
-  "name": "The Lions Share",
-  "grade": "8C+",
-  "fa": "Aidan Roberts",
-  "date": "",
-  "repeat": [],
-  "videos": {},
-  "location": {}
- },
-	{
-		"name": "Emotional Landscapes",
-		"grade": "8C/+",
-		"fa": "Klem Loskot",
-		"date": "",
-		"repeat": ["Nalle Hukkataival", "Martin Moser", "Nicolai Užnik"],
-		"videos": {
-			"Loskot": "https://youtu.be/2hFOORgE5FA"
-		},
-		"location": {
-			"country": "Austria",
-			"area": "Maltatal",
-			"latitude": 47.00280,
-			"longitude": 13.44965
-		}
+	  "name": "Daños con-laterales",
+	  "grade": "8C+",
+	  "fa": "Nacho Sánchez",
+	  "date": "2022-06-12",
+	  "repeat": [],
+	  "videos": {
+		"Sánchez": "https://www.instagram.com/p/Cet0g7LDnoK/"
+	  },
+	  "location": {
+		"country": "Russia",
+		"area": "Djan-Tugan"
+	  }
 	},
 	{
-		"name": "Bloody Sunday",
-		"grade": "8C+",
-		"fa": "Drew Ruana",
-		"date": "2021-04-30",
-		"repeat": [],
-		"videos": {
-			"Ruana": "https://youtu.be/PPQM-2MabLs"
-		},
-		"location": {}
+	  "name": "Euclase",
+	  "grade": "8C+",
+	  "fa": "Dave Graham",
+	  "date": "2022-04-20",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "Switzerland",
+		"area": "Val Bavona"
+	  }
 	},
 	{
-		"name": "Howl at the Moon sit",
-		"grade": "8C+",
-		"fa": "Drew Ruana",
-		"date": "2023-05-18",
-		"repeat": [],
-		"videos": {},
-		"location": {}
+	  "name": "Brace for the Cure",
+	  "grade": "8C+",
+	  "fa": "Matt Fultz",
+	  "date": "2022-06-28",
+	  "repeat": [],
+	  "videos": {
+		"Fultz": "https://youtu.be/34CF-_J_tCo"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Rocky Mountain National Park",
+		"latitude": 40.303968,
+		"longitude": -105.66773
+	  }
+	},
+	{
+	  "name": "The Ice Knife Sit",
+	  "grade": "8C+",
+	  "fa": "Daniel Woods",
+	  "date": "2013-11-01",
+	  "repeat": [
+		"Drew Ruana"
+	  ],
+	  "videos": {
+		"Woods": "https://youtu.be/OxAZZNkVJ1U"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Guanella Pass"
+	  }
+	},
+	{
+	  "name": "Livin' Large",
+	  "grade": "8C/+",
+	  "fa": "Nalle Hukkataival",
+	  "date": "2009-08-05",
+	  "repeat": [
+		"Jimmy Webb",
+		"Shawn Raboutou"
+	  ],
+	  "videos": {
+		"Hukkataival": "https://youtu.be/2pSbj6mIFy0",
+		"Raboutou": "https://youtu.be/MiQQDIrUYnw"
+	  },
+	  "location": {
+		"country": "South Africa",
+		"area": "Rocklands"
+	  }
+	},
+	{
+	  "name": "Superpowers",
+	  "grade": "8C/+",
+	  "fa": "Aidan Roberts",
+	  "date": "2020-09-11",
+	  "repeat": [],
+	  "videos": {
+		"Roberts": "https://youtu.be/ATE-tZo12mg"
+	  },
+	  "location": {
+		"country": "United Kingdom",
+		"area": "Lad Stones"
+	  }
+	},
+	{
+	  "name": "Story of 3 Worlds",
+	  "grade": "8C+",
+	  "fa": "Shawn Raboutou",
+	  "date": "2022-07-21",
+	  "repeat": [],
+	  "videos": {
+		"Raboutou": "https://youtu.be/oa0bXWl2RBs"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Cresciano"
+	  }
+	},
+	{
+	  "name": "Isles of Wonder SS",
+	  "grade": "8C/+",
+	  "fa": "Aidan Roberts",
+	  "date": "2022-07-28",
+	  "repeat": [
+		"William Bosi"
+	  ],
+	  "videos": {
+		"Roberts": "https://youtu.be/zilINHowP2g&t=37m58s",
+		"Bosi": "https://youtu.be/pcB7xINW-ek"
+	  },
+	  "location": {
+		"country": "United Kingdom",
+		"area": "Llyn Ogwen"
+	  }
+	},
+	{
+	  "name": "Honey Badger",
+	  "grade": "8C+",
+	  "fa": "William Bosi",
+	  "date": "2022-08-12",
+	  "repeat": [],
+	  "videos": {
+		"Bosi": "https://youtu.be/wtSeQ8Xm3mw"
+	  },
+	  "location": {
+		"country": "United Kingdom",
+		"area": "Badger Cove",
+		"latitude": 53.2441,
+		"longitude": -1.8437
+	  }
+	},
+	{
+	  "name": "Distortion",
+	  "grade": "8C+",
+	  "fa": "Drew Ruana",
+	  "date": "2022-08-11",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "USA",
+		"area": "Mount Evans",
+		"latitude": 39.6184722,
+		"longitude": -105.60275
+	  }
+	},
+	{
+	  "name": "Nayuta",
+	  "grade": "8C+",
+	  "fa": "Dai Koyamada",
+	  "date": "2017-04-04",
+	  "repeat": [
+		"Yuta Imaizumi"
+	  ],
+	  "videos": {
+		"Koyamada": "https://www.mntnfilm.com/en/film/nayuta-v16-2018",
+		"Imaizumi": "https://youtu.be/gODHt1aX91Y"
+	  },
+	  "location": {
+		"country": "Japan",
+		"area": "Gero",
+		"latitude": 35.79203,
+		"longitude": 137.23558
+	  }
+	},
+	{
+	  "name": "Ganesh",
+	  "grade": "8C+",
+	  "fa": "Elias Iagnemma",
+	  "date": "2022-02-02",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "Italy",
+		"area": "Abruzzo e Molise",
+		"latitude": 42.54997,
+		"longitude": 13.49957
+	  }
+	},
+	{
+	  "name": "Bookkeeping",
+	  "grade": "8C+",
+	  "fa": "Drew Ruana",
+	  "date": "2022-12-21",
+	  "repeat": [
+		"Colin Duffy"
+	  ],
+	  "videos": {
+		"Ruana": "https://youtu.be/xJEMuGHaohQ",
+		"Duffy": "https://youtu.be/ApQcTjGWMrc"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "Clear Creek Canyon",
+		"latitude": 39.738913,
+		"longitude": -105.415436
+	  }
+	},
+	{
+	  "name": "Cup of Immortality (extension)",
+	  "grade": "8C/+",
+	  "fa": "Adam Ondra",
+	  "date": "2022-11-22",
+	  "repeat": [],
+	  "videos": {
+		"Ondra": "https://www.instagram.com/reel/ClUOrTTu-Zh/?igshid=YmMyMTA2M2Y="
+	  },
+	  "location": {
+		"country": "Czech Republic",
+		"area": "Moravský kras"
+	  }
+	},
+	{
+	  "name": "The Megg",
+	  "grade": "8C+",
+	  "fa": "Gabe Lawson",
+	  "date": "2023-01-24",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "Canada",
+		"area": "Squamish",
+		"latitude": 49.69406,
+		"longitude": -123.13367
+	  }
+	},
+	{
+	  "name": "Return of the Dreamtime",
+	  "grade": "8C+",
+	  "fa": "Yannick Flohé",
+	  "date": "2023-01-31",
+	  "repeat": [],
+	  "videos": {
+		"Flohé": "https://youtu.be/RSbuqb-oF3I"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Cresciano",
+		"latitude": 46.28796,
+		"longitude": 9.00612
+	  }
+	},
+	{
+	  "name": "Maxwell's Demon sit",
+	  "grade": "8C+",
+	  "fa": "Drew Ruana",
+	  "date": "2023-02-13",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "USA",
+		"area": "Secret Garden",
+		"latitude": 39.9667959,
+		"longitude": -105.3797932
+	  }
+	},
+	{
+	  "name": "Vecchio Leone Sit",
+	  "grade": "8C+",
+	  "fa": "Aidan Roberts",
+	  "date": "Nov 2022",
+	  "repeat": [
+		"Matt Fultz"
+	  ],
+	  "videos": {
+		"Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
+		"Fultz": "https://youtu.be/xILbH7MkBPo"
+	  },
+	  "location": {
+		"country": "Switzerland",
+		"area": "Brione"
+	  }
+	},
+	{
+	  "name": "The Lions Share",
+	  "grade": "8C+",
+	  "fa": "Aidan Roberts",
+	  "date": "Feb 2023",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "Switzerland",
+		"area": "Brione"
+	  }
+	},
+	{
+	  "name": "Emotional Landscapes",
+	  "grade": "8C/+",
+	  "fa": "Klem Loskot",
+	  "date": "2002-11-10",
+	  "repeat": [
+		"Nalle Hukkataival",
+		"Martin Moser",
+		"Nicolai Užnik"
+	  ],
+	  "videos": {
+		"Loskot": "https://youtu.be/2hFOORgE5FA"
+	  },
+	  "location": {
+		"country": "Austria",
+		"area": "Maltatal",
+		"latitude": 47.0028,
+		"longitude": 13.44965
+	  }
+	},
+	{
+	  "name": "Bloody Sunday",
+	  "grade": "8C+",
+	  "fa": "Drew Ruana",
+	  "date": "2021-04-30",
+	  "repeat": [],
+	  "videos": {
+		"Ruana": "https://youtu.be/PPQM-2MabLs"
+	  },
+	  "location": {
+		"country": "USA",
+		"area": "The Scoop/Coal Creek"
+	  }
+	},
+	{
+	  "name": "Howl at the Moon sit",
+	  "grade": "8C+",
+	  "fa": "Drew Ruana",
+	  "date": "2023-05-18",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+		"country": "USA",
+		"area": "Guanella Pass"
+	  }
 	}
-]
+  ]
