@@ -6,6 +6,7 @@
                         <h4>{{ climb["name"] }}</h4>
                         <b>Grade:</b> {{ climb["grade"] }} / {{ climb["grade"] | map_grade }}<br>
                         <b>First Ascent:</b> {{ name_link(climb["fa"], category) }}<br>
+                        <b>FA Date:</b> {{ climb["date"] }}<br>
                         <b>Location:</b> {{ location_link(climb["location"]["country"], climb["location"]["area"], climb["location"]["latitude"], climb["location"]["longitude"]) }}<br>
                         <b>Repeated by:</b> {% for r in climb["repeat"] %}{{ name_link(r, category) }}{% if not loop.last %}, {% endif %}{% endfor %}<br>
                         <b>Videos:</b> {% for name, link in climb["videos"].items() %}<a href="{{ link }}" class="link-warning" target="_blank">{{ name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
