@@ -1,24 +1,45 @@
 import os
 import json
 import git
-import sshtunnel
 
 from flask import render_template
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 
 from src.update import update
+from src.tunnel import create_tunnel
+from src.config import settings
+from src.models import db
+
+
+THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+
+app = Flask("Hardest Climbs", template_folder=THIS_FOLDER + "/templates")
+
 
 # Database
-sshtunnel.SSH_TIMEOUT = 5.0
-sshtunnel.TUNNEL_TIMEOUT = 5.0
+if settings.local:
+    tunnel = create_tunnel()
+    tunnel.start()
 
-ssh_config = {
-    "ssh_address_or_host": ("ssh.pythonanywhere.com"),
-    "ssh_username": "9cpluss",
-    "ssh_password": ,
-    "remote_bind_address": ("9cpluss.mysql.pythonanywhere-services.com", 3306),
-}
+    db_uri = "mysql://{user}:{pwd}@127.0.0.1:{port}/{user}${schema}".format(
+        user=settings.db_username,
+        pwd=settings.db_password,
+        port=tunnel.local_bind_port,
+        schema=settings.db_schema,
+    )
+else:
+    db_uri = "mysql://{user}:{pwd}@127.0.0.1/{user}${schema}".format(
+        user=settings.db_username,
+        pwd=settings.db_password,
+        schema=settings.db_schema,
+    )
+
+
+app.config["SQLALCHEMY_DATABASE_URI"] = db_uri
+app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
+
+db.init_app(app)
 
 grade_map = {
     "9c": "5.15d",
@@ -34,24 +55,6 @@ grade_map = {
     "8C/+": "V15/16",
     "8C": "V15",
 }
-
-THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-
-
-app = Flask("Hardest Climbs", template_folder=THIS_FOLDER + "/templates")
-
-tunnel = sshtunnel.SSHTunnelForwarder(**ssh_config)
-
-tunnel.start()
-
-app.config["SQLALCHEMY_DATABASE_URI"] = f"mysql://@127.0.0.1:{tunnel.local_bind_port}/9cpluss$hardestclimbs"
-app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
-db = SQLAlchemy(app)
-
-class Climbers(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    first_name = db.Column(db.String(255))
-    last_name = db.Column(db.String(255))
 
 
 with open(os.path.join(THIS_FOLDER, 'data/lead.json'), "r", encoding='utf-8') as f:
