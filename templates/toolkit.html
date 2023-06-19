@@ -1,17 +1,28 @@
-{% macro name_link(name, category) %}{{ name | climber_first_name }} <a href="/{{ category }}/{{ name | climber_last_name | lower }}" class="link-light">{{ name | climber_last_name }}</a>{% endmacro %}
+{% macro name_link(first, last, category) %}
+    {{ first  }} <a href="/{{ category }}/{{ last | lower }}" class="link-light">{{ last }}</a>
+{% endmacro %}
 
 {% macro climb_entry(climb, category, bg) %}
-                <div class="col-5 bg-{{ bg }} text-white rounded">
-                    <div class="p-3">
-                        <h4>{{ climb["name"] }}</h4>
-                        <b>Grade:</b> {{ climb["grade"] }} / {{ climb["grade"] | map_grade }}<br>
-                        <b>First Ascent:</b> {{ name_link(climb["fa"], category) }}<br>
-                        <b>FA Date:</b> {{ climb["date"] }}<br>
-                        <b>Location:</b> {{ location_link(climb["location"]["country"], climb["location"]["area"], climb["location"]["latitude"], climb["location"]["longitude"]) }}<br>
-                        <b>Repeated by:</b> {% for r in climb["repeat"] %}{{ name_link(r, category) }}{% if not loop.last %}, {% endif %}{% endfor %}<br>
-                        <b>Videos:</b> {% for name, link in climb["videos"].items() %}<a href="{{ link }}" class="link-warning" target="_blank">{{ name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
-                    </div>
-                </div>
+    <div class="col-5 bg-{{ bg }} text-white rounded">
+        <div class="p-3">
+            <h4>{{ climb.Climbs.name }}</h4>
+            <b>Grade:</b> {{ climb.Grades.french }} / {{ climb.Grades.us }}<br>
+            <b>First Ascent:</b>
+                {{ name_link(
+                    climb.Climbers.first_name,
+                    climb.Climbers.last_name,
+                    category
+                ) }} <br>
+            <b>FA Date:</b> {{ climb.Climbs.fa_date }}<br>
+            <b>Location:</b>
+                {{ location_link(
+                    climb.Climbs.country,
+                    climb.Climbs.area,
+                    climb.Climbs.latitude,
+                    climb.Climbs.longitude
+                ) }}<br>
+        </div>
+    </div>
 {% endmacro %}
 
 {% macro location_link(country, area, latitude, longitude) %}

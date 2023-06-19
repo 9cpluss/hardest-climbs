@@ -9,7 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 from src.update import update
 from src.tunnel import create_tunnel
 from src.config import settings
-from src.models import db
+from src.models import db, Climbers, Climbs, Repeats, Videos, Grades
 
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
@@ -38,6 +38,7 @@ else:
 
 app.config["SQLALCHEMY_DATABASE_URI"] = db_uri
 app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
+app.config['SQLALCHEMY_ECHO'] = True
 
 db.init_app(app)
 
@@ -73,7 +74,10 @@ def climber_ascents(climber, data):
 
 @app.route('/')
 def index():
-    return render_template('index.html', climbs=zip(lead_data[0:3], boulder_data[0:3]))
+    select = db.select(Climbs, Grades, Climbers).join(Grades).join(Climbers).where(Grades.rank >= 4)
+    climbs = db.session.execute(select)
+
+    return render_template('index.html', climbs=climbs)
 
 
 @app.route('/sport')
