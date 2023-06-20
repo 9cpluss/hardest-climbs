@@ -8,7 +8,8 @@
 		"William Bosi"
 	  ],
 	  "videos": {
-		"Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17"
+		"Hukkataival": "https://vimeo.com/ondemand/thelappnorproject17",
+		"Bosi": "https://youtu.be/SlUw8X7xuq0"
 	  },
 	  "location": {
 		"country": "Finland",
@@ -45,7 +46,8 @@
 	  ],
 	  "videos": {
 		"Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115",
-		"Roberts": "https://m.youtube.com/watch?v=zilINHowP2g&t=16m36s"
+		"Roberts": "https://m.youtube.com/watch?v=zilINHowP2g&t=16m36s",
+		"Bosi": "https://youtu.be/DEUdY5otiqM?t=231"
 	  },
 	  "location": {
 		"country": "Switzerland",
@@ -217,7 +219,8 @@
 		"Webb": "https://youtu.be/W5HjTGwqero",
 		"Ceria": "https://youtu.be/iASCEwslRLI",
 		"Cameroni": "https://youtu.be/4IvYtPiHwUM",
-		"Bosi": "https://youtu.be/uoMkeCPznDw"
+		"Bosi": "https://youtu.be/uoMkeCPznDw",
+		"Flohé": "https://youtu.be/s9xHym1zqSs"
 	  },
 	  "location": {
 		"country": "Switzerland",
@@ -352,7 +355,8 @@
 		"Drew Ruana",
 		"Matt Fultz",
 		"Dylan Barks",
-		"Griffin Whiteside"
+		"Griffin Whiteside",
+		"Andy Lamb"
 	  ],
 	  "videos": {
 		"Traversi": "https://youtu.be/SwhZP0IaVbU",
@@ -430,10 +434,13 @@
 	  "repeat": [
 		"Shawn Raboutou",
 		"Daniel Woods",
-		"Jimmy Webb"
+		"Jimmy Webb",
+		"Austin Purdy"
 	  ],
 	  "videos": {
-		"Ruana": "https://youtu.be/fZD3wY2-ULY"
+		"Ruana": "https://youtu.be/fZD3wY2-ULY",
+		"Woods": "https://youtu.be/_X_RD2PkrNg",
+		"Webb": "https://youtu.be/_X_RD2PkrNg"
 	  },
 	  "location": {
 		"country": "USA",
@@ -466,7 +473,7 @@
 	  "date": "2021-10-24",
 	  "repeat": [],
 	  "videos": {
-		"Murai": "https://www.instagram.com/p/CVQVAXgJg3X/"
+		"Murai": "https://youtu.be/3cWfUmapmb0"
 	  },
 	  "location": {
 		"country": "Japan",
@@ -551,7 +558,8 @@
 		"Clément Lechaptois"
 	  ],
 	  "videos": {
-		"Raboutou": "https://youtu.be/SJ9SZm0pjLo"
+		"Raboutou": "https://youtu.be/SJ9SZm0pjLo",
+		"Lechaptois": "https://youtu.be/42RqQ5CX5LE?t=685"
 	  },
 	  "location": {
 		"country": "Switzerland",
@@ -893,5 +901,17 @@
 		"country": "USA",
 		"area": "Guanella Pass"
 	  }
-	}
+	},
+	{
+  "name": "Celestite",
+  "grade": "8C+",
+  "fa": "Dave Graham",
+  "date": "2023-03-28",
+  "repeat": [],
+  "videos": {},
+  "location": {
+		"country": "Switzerland",
+		"area": "Val Bavona"
+}
+ }
   ]

@@ -5,6 +5,7 @@ import git
 from flask import render_template
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import and_
 
 from src.update import update
 from src.tunnel import create_tunnel
@@ -45,7 +46,11 @@ db.init_app(app)
 
 @app.route('/')
 def index():
-    select = db.select(Climbs, Grades, Climbers).join(Grades).join(Climbers).where(Grades.rank >= 4)
+    select = db.select(Climbs, Grades, Climbers).\
+        join(Grades).join(Climbers).\
+        where(and_(Climbs.style == "sport", Grades.rank >= 3)).\
+        order_by(Grades.rank.desc(), Climbs.name.asc()).\
+        limit(3)
     climbs = db.session.execute(select)
 
     return render_template('index.html', climbs=climbs)
