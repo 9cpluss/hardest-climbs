@@ -6,6 +6,7 @@ from flask import render_template
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import and_
+from sqlalchemy.orm import aliased
 
 from src.update import update
 from src.tunnel import create_tunnel
@@ -39,26 +40,59 @@ else:
 
 app.config["SQLALCHEMY_DATABASE_URI"] = db_uri
 app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
-app.config['SQLALCHEMY_ECHO'] = True
+app.config['SQLALCHEMY_ECHO'] = True  # TODO: Remove after development
 
 db.init_app(app)
 
 
 @app.route('/')
 def index():
-    select = db.select(Climbs, Grades, Climbers).\
+    # TODO: All info
+    select_lead = db.select(Climbs, Grades, Climbers).\
         join(Grades).join(Climbers).\
         where(and_(Climbs.style == "sport", Grades.rank >= 3)).\
         order_by(Grades.rank.desc(), Climbs.name.asc()).\
         limit(3)
-    climbs = db.session.execute(select)
+    select_boulder = db.select(Climbs, Grades, Climbers).\
+        join(Grades).join(Climbers).\
+        where(and_(Climbs.style == "bouldering", Grades.rank >= 3)).\
+        order_by(Grades.rank.desc(), Climbs.name.asc()).\
+        limit(3)
+
+    lead = db.session.execute(select_lead).all()
+    boulder = db.session.execute(select_boulder).all()
+
+    # Mix them together
+    climbs = [item for sublist in zip(lead, boulder) for item in sublist]
 
     return render_template('index.html', climbs=climbs)
 
 
-# @app.route('/sport')
-# def sport():
-#     return render_template('generic.html', title="Sport Climbing", category="sport", climbs=lead_data)
+@app.route('/sport')
+def sport():
+    # TODO: Climbs are duplicated now (how to handle repeats)
+    RepeatClimbers = aliased(Climbers)
+    select = db.select(Climbs, Grades, Climbers, RepeatClimbers).\
+        join(Grades).join(Climbers).join(Repeats, Climbs.id == Repeats.climb_id, isouter=True).join(RepeatClimbers, isouter=True).\
+        where(Climbs.style == "sport").\
+        order_by(Grades.rank.desc(), Climbs.name.asc())
+    
+    climbs = db.session.execute(select)
+        
+    return render_template('generic.html', title="Sport Climbing", category="sport", climbs=climbs)
+
+
+@app.route('/sport/<route_id>')
+def sport_route(route_id):
+    # TODO: WIP needs proper implementation
+    RepeatClimbers = aliased(Climbers)
+    select = db.select(Climbs, Grades, Climbers, RepeatClimbers).\
+        join(Grades).join(Climbers).join(Repeats, Climbs.id == Repeats.climb_id, isouter=True).join(RepeatClimbers, isouter=True).\
+        where(and_(Climbs.style == "sport", Climbs.id == route_id))
+    
+    climbs = db.session.execute(select)
+        
+    return render_template('generic.html', category="sport", climbs=climbs)
 
 
 # @app.route("/bouldering")
