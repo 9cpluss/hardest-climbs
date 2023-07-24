@@ -72,7 +72,9 @@
 	  "fa": "Adam Ondra",
 	  "date": "",
 	  "repeat": [],
-	  "videos": {},
+	  "videos": {
+		"Ondra": "https://youtu.be/bw2I0nI8FLA"
+	},
 	  "location": {
 		"country": "Czech Republic",
 		"area": "Sloup",
