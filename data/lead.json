@@ -1081,9 +1081,14 @@
   "name": "ACL",
   "grade": "9b",
   "fa": "Sebastien Bouin",
-  "date": "",
+  "date": "2023-08-17",
   "repeat": [],
   "videos": {},
-  "location": {}
+  "location": {
+		"country": "France",
+		"area": "Pic Saint-Loup",
+		"latitude": 43.779,
+		"longitude": 3.80544
+	  }
  }
   ]
