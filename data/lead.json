@@ -195,6 +195,22 @@
 	  }
 	},
 	{
+  		"name": "Project Big",
+  		"grade": "9b+",
+  		"fa": "Jakob Schubert",
+  		"date": "2023-09-20",
+  		"repeat": [],
+  		"videos": {
+			"Schubert": "https://www.youtube.com/live/1jBavqTama8?si=JJtgZk8invFlY28O"
+		},
+  		"location": {
+		"country": "Norway",
+		"area": "Flatanger",
+		"latitude": 64.489722,
+		"longitude": 10.818611
+		}
+ 	},
+	{
 	  "name": "Nordic Marathon",
 	  "grade": "9b/+",
 	  "fa": "Sebastien Bouin",
