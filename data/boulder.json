@@ -716,7 +716,9 @@
 	  "fa": "Drew Ruana",
 	  "date": "2022-08-11",
 	  "repeat": [],
-	  "videos": {},
+	  "videos": {
+			"Ruana": "https://youtu.be/nBb9DYxQyA8"
+		},
 	  "location": {
 		"country": "USA",
 		"area": "Mount Evans",
