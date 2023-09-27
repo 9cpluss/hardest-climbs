@@ -30,6 +30,22 @@
 	  }
 	},
 	{
+  		"name": "B.I.G",
+  		"grade": "9c",
+  		"fa": "Jakob Schubert",
+  		"date": "2023-09-20",
+  		"repeat": [],
+  		"videos": {
+			"Schubert": "https://www.youtube.com/live/1jBavqTama8?si=S6FU80JtkmB1XOrB"
+		},
+  		"location": {
+		"country": "Norway",
+		"area": "Flatanger",
+		"latitude": 64.489722,
+		"longitude": 10.818611
+		}
+ 	},
+	{
 	  "name": "La Dura Dura",
 	  "grade": "9b+",
 	  "fa": "Adam Ondra",
@@ -194,22 +210,6 @@
 		"longitude": 0.93733
 	  }
 	},
-	{
-  		"name": "Project Big",
-  		"grade": "9b+",
-  		"fa": "Jakob Schubert",
-  		"date": "2023-09-20",
-  		"repeat": [],
-  		"videos": {
-			"Schubert": "https://www.youtube.com/live/1jBavqTama8?si=S6FU80JtkmB1XOrB"
-		},
-  		"location": {
-		"country": "Norway",
-		"area": "Flatanger",
-		"latitude": 64.489722,
-		"longitude": 10.818611
-		}
- 	},
 	{
 	  "name": "Nordic Marathon",
 	  "grade": "9b/+",
