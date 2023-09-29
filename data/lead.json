@@ -1107,5 +1107,19 @@
 		"latitude": 43.779,
 		"longitude": 3.80544
 	  }
- }
+ },
+ 	{
+	"name": "B je to",
+	"grade": "9b",
+	"fa": "Adam Ondra",
+	"date": "",
+	"repeat": [],
+	"videos": {},
+	"location": {
+	  "country": "Croatia",
+	  "area": "Vranjača",
+	  "latitude": 44.233620,
+	  "longitude": 15.781411
+	}
+  }
   ]
