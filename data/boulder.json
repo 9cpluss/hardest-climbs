@@ -794,20 +794,6 @@
     }
   },
   {
-    "name": "The Megg",
-    "grade": "8C+",
-    "fa": "Gabe Lawson",
-    "date": "2023-01-24",
-    "repeat": [],
-    "videos": {},
-    "location": {
-      "country": "Canada",
-      "area": "Squamish",
-      "latitude": 49.69406,
-      "longitude": -123.13367
-    }
-  },
-  {
     "name": "Return of the Dreamtime",
     "grade": "8C+",
     "fa": "Yannick Flohé",
