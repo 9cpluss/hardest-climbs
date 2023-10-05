@@ -318,7 +318,7 @@
     "name": "Ali Hulk Sit Start Extension",
     "grade": "9b",
     "fa": "Dani Andrada",
-    "date": "",
+    "date": "2007-08-11",
     "repeat": [
       "Magnus Midtbø",
       "Domen Škofic",
@@ -538,7 +538,7 @@
     "name": "Mamichula",
     "grade": "9b",
     "fa": "Adam Ondra",
-    "date": "",
+    "date": "2017-02-02",
     "repeat": [
       "Sebastien Bouin"
     ],
@@ -625,9 +625,11 @@
     "name": "Robin Úd",
     "grade": "9b",
     "fa": "Adam Ondra",
-    "date": "",
+    "date": "2016-10-05",
     "repeat": [],
-    "videos": {},
+    "videos": {
+			"Ondra": "https://youtu.be/gbK4MqpFsVc"
+		},
     "location": {
       "country": "Slovakia",
       "area": "Alternatívna stena",
@@ -680,9 +682,10 @@
     "date": "",
     "repeat": [
       "Adam Ondra",
+      "Jakob Schubert",
       "Sachi Amma",
-      "Piotr Schab",
-      "Jakob Schubert"
+			"Matty Hong",
+      "Piotr Schab"
     ],
     "videos": {
       "Ondra": "https://youtu.be/45xlTby_S2A",
@@ -1112,7 +1115,7 @@
     "name": "B je to",
     "grade": "9b",
     "fa": "Adam Ondra",
-    "date": "",
+    "date": "2023-09-28",
     "repeat": [],
     "videos": {},
     "location": {
