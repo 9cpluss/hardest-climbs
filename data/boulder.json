@@ -935,5 +935,19 @@
       "country": "Switzerland",
       "area": "Creciano"
     }
+  },
+  {
+    "name": "Hydrangea [after hold broke]",
+    "grade": "8C+",
+    "fa": "Shinichiro Nomura",
+    "date": "2019-11-09",
+    "repeat": ["Akira Waku"],
+    "videos": {
+			"Waku": "https://youtu.be/jRrd3wyXhT8?feature=shared"
+		},
+    "location": {
+      "country": "Japan",
+      "area": "Shiobara"
+    }
   }
 ]
