@@ -923,5 +923,17 @@
 		"country": "Switzerland",
 		"area": "Val Bavona"
 }
+ },
+{
+  "name": "Gateway [after hold broke]",
+  "grade": "8C+",
+  "fa": "Martin Keller",
+  "date": "2023-10-02",
+  "repeat": [],
+  "videos": {},
+  "location": {
+		"country": "Switzerland",
+		"area": "Creciano"
+	}
  }
   ]
