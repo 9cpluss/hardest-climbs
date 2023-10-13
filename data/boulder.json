@@ -266,13 +266,15 @@
   },
   {
     "name": "Box Therapy",
-    "grade": "8C+",
+    "grade": "8C/+",
     "fa": "Daniel Woods",
     "date": "2018-10-31",
     "repeat": [
       "Drew Ruana",
       "Sean Bailey",
-      "Katie Lamb"
+      "Katie Lamb",
+		"Brooke Raboutou",
+		"Shawn Raboutou"
     ],
     "videos": {
       "Woods": "https://youtu.be/rR1QDk76LRk",
