@@ -235,7 +235,7 @@
   },
   {
     "name": "Sleepwalker",
-    "grade": "8C+",
+    "grade": "8C/+",
     "fa": "Jimmy Webb",
     "date": "2018-12-15",
     "repeat": [
@@ -246,7 +246,8 @@
       "Matt Fultz",
       "Pablo Hammack",
       "Griffin Whiteside",
-      "Ryuichi Murai"
+      "Ryuichi Murai",
+		"Zander Waller"
     ],
     "videos": {
       "Webb": "https://youtu.be/TMIIffUMV8g",
@@ -266,13 +267,15 @@
   },
   {
     "name": "Box Therapy",
-    "grade": "8C+",
+    "grade": "8C/+",
     "fa": "Daniel Woods",
     "date": "2018-10-31",
     "repeat": [
       "Drew Ruana",
       "Sean Bailey",
-      "Katie Lamb"
+      "Katie Lamb",
+		"Brooke Raboutou",
+		"Shawn Raboutou"
     ],
     "videos": {
       "Woods": "https://youtu.be/rR1QDk76LRk",
@@ -361,7 +364,8 @@
       "Matt Fultz",
       "Dylan Barks",
       "Griffin Whiteside",
-      "Andy Lamb"
+      "Andy Lamb",
+		"Pablo Hammack"
     ],
     "videos": {
       "Traversi": "https://youtu.be/SwhZP0IaVbU",
@@ -441,7 +445,8 @@
       "Daniel Woods",
       "Jimmy Webb",
       "Austin Purdy",
-      "Keenan Takahashi"
+      "Keenan Takahashi",
+		"Andy Lamb"
     ],
     "videos": {
       "Ruana": "https://youtu.be/fZD3wY2-ULY",
@@ -623,7 +628,8 @@
       "Drew Ruana"
     ],
     "videos": {
-      "Woods": "https://youtu.be/OxAZZNkVJ1U"
+      "Woods": "https://youtu.be/OxAZZNkVJ1U",
+		"Ruana": "https://youtu.be/MwoS56c08Fk"
     },
     "location": {
       "country": "USA",

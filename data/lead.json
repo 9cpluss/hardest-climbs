@@ -1070,7 +1070,7 @@
     }
   },
   {
-    "name": "Ariégeois Cœur Loyal",
+    "name": "Ariégeois Cœur Loyal (ACL)",
     "grade": "9b",
     "fa": "Sebastien Bouin",
     "date": "2023-04-11",
@@ -1109,20 +1109,6 @@
       "area": "Vercors",
       "latitude": 46.214336,
       "longitude": 2.385136
-    }
-  },
-  {
-    "name": "ACL",
-    "grade": "9b",
-    "fa": "Sebastien Bouin",
-    "date": "2023-08-17",
-    "repeat": [],
-    "videos": {},
-    "location": {
-      "country": "France",
-      "area": "Pic Saint-Loup",
-      "latitude": 43.779,
-      "longitude": 3.80544
     }
   },
   {
