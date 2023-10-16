@@ -1,4 +1,4 @@
-{% macro name_link(name, category) %}{{ name | climber_first_name }} <a href="/{{ category }}/{{ name | climber_last_name | lower }}" class="link-light">{{ name | climber_last_name }}</a>{% endmacro %}
+{% macro name_link(name, category) %}{{ name | climber_first_name }} <a href="/{{ category }}/{{ name | climber_first_name | lower }}+{{ name | climber_last_name | lower }}" class="link-light">{{ name | climber_last_name }}</a>{% endmacro %}
 
 {% macro climb_entry(climb, category, bg) %}
                 <div class="col-5 bg-{{ bg }} text-white rounded">
