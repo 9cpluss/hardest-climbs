@@ -36,8 +36,8 @@ with open(os.path.join(THIS_FOLDER, 'data/boulder.json'), "r", encoding='utf-8')
 
 def climber_ascents(climber, data):
     # TODO More elegant solution would require better data system than JSON/dict
-    fa_data = [x for x in data if climber in x["fa"].lower()]
-    repeat_data = [x for x in data if any(climber in y.lower() for y in x["repeat"])]
+    fa_data = [x for x in data if climber == x["fa"].replace(" ", "+").lower()]
+    repeat_data = [x for x in data if any(climber == y.replace(" ", "+").lower() for y in x["repeat"])]
     return fa_data + repeat_data
 
 
@@ -53,17 +53,42 @@ def sport():
 
 @app.route("/bouldering")
 def bouldering():
-    return render_template('generic.html', title="Bouldering", category="bouldering", climbs=boulder_data)
+    return render_template(
+        'generic.html',
+        title="Bouldering",
+        category="bouldering",
+        climbs=boulder_data
+    )
 
 
 @app.route("/sport/<climber>")
 def sport_climber(climber):
-    return render_template('generic.html', title=f"Sport Climbing: {climber.capitalize()}", category="sport", climbs=climber_ascents(climber, lead_data))
+    climbs = climber_ascents(climber, lead_data)
+
+    if climbs:
+        return render_template(
+            'generic.html',
+            title=f"Sport Climbing: {climber.replace('+', ' ').title()}",
+            category="sport",
+            climbs=climbs
+        )
+    else:
+        return "Climber not found", 404
 
 
 @app.route("/bouldering/<climber>")
 def bouldering_climber(climber):
-    return render_template('generic.html', title=f"Bouldering: {climber.capitalize()}", category="bouldering", climbs=climber_ascents(climber, boulder_data))
+    climbs = climber_ascents(climber, boulder_data)
+
+    if climbs:
+        return render_template(
+            'generic.html',
+            title=f"Bouldering: {climber.replace('+', ' ').title()}",
+            category="bouldering",
+            climbs=climbs
+        )
+    else:
+        return "Climber not found", 404
 
 
 @app.route("/update", methods=["POST"])
