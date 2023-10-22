@@ -15,9 +15,8 @@
                 </div>
 
                 <!-- Row 1 -->
-                {% for (l, b) in climbs %}
-                  {{ climb_entry(l, "sport", loop.index0 | bg_alternate) }}
-                  {{ climb_entry(b, "bouldering", loop.index0 | bg_alternate) }}
+                {% for index, row in climbs.iterrows() %}
+                  {{ climb_entry(row, loop.index0 | bg_alternate) }}
                 {% endfor %}
 
                 <!-- More -->
