@@ -5,21 +5,21 @@
 {% block title %}{{title}}{% endblock %}
 
 {% block content %}
-            <div class="row g-3 justify-content-evenly">
-                <!-- Headline -->
-                <div class="col-12 text-center">
-                    <h2>{{title}}</h2>
-                </div>
+    <div class="row g-3 justify-content-evenly">
+        <!-- Headline -->
+        <div class="col-12 text-center">
+            <h2>{{title}}</h2>
+        </div>
 
-                <!-- Climbs -->
-                {% for index, row in climbs.iterrows() %}
-                  {{ climb_entry(row, loop.index0 | bg_alternate) }}
-                {% endfor %}
-            </div>
+        <!-- Climbs -->
+        {% for index, row in climbs.iterrows() %}
+            {{ climb_entry(row, loop.index0 | bg_alternate) }}
+        {% endfor %}
+    </div>
 
-            <div class="row">
-                <div class="col text-center">
-                    Spotted a mistake or want to add some information? <a href="https://github.com/9cpluss/hardest-climbs" class="text-decoration-none" target="_blank">This way!</a>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col text-center">
+            Spotted a mistake or want to add some information? <a href="https://github.com/9cpluss/hardest-climbs" class="text-decoration-none" target="_blank">This way!</a>
+        </div>
+    </div>
 {% endblock %}

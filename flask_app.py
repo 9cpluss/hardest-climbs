@@ -91,10 +91,10 @@ def sport_route(route):
 
     if climbs.shape[0] > 0:
         return render_template(
-            'generic.html',
-            title=f"Route: {route.replace('+', ' ').title()}",
+            'single.html',
+            title="",
             category="sport",
-            climbs=climbs,
+            climbs=climbs.iloc[0],
         )
     else:
         return "Route not found", 404
@@ -121,10 +121,10 @@ def bouldering_route(problem):
 
     if climbs.shape[0] > 0:
         return render_template(
-            'generic.html',
-            title=f"Boulder: {problem.replace('+', ' ').title()}",
+            'single.html',
+            title="",
             category="bouldering",
-            climbs=climbs,
+            climbs=climbs.iloc[0],
         )
     else:
         return "Boulder not found", 404
