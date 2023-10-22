@@ -1,10 +1,12 @@
 import os
 import json
 import git
+import pandas as pd
 from flask import render_template
 from flask import Flask, request
 
 from src.update import update
+from src.utils import json_to_dataframe
 
 
 grade_map = {
@@ -34,53 +36,90 @@ with open(os.path.join(THIS_FOLDER, 'data/boulder.json'), "r", encoding='utf-8')
     boulder_data = json.load(f)
 
 
-def climber_ascents(climber, data):
-    # TODO More elegant solution would require better data system than JSON/dict
-    fa_data = [x for x in data if climber == x["fa"].replace(" ", "+").lower()]
-    repeat_data = [x for x in data if any(climber == y.replace(" ", "+").lower() for y in x["repeat"])]
-    return fa_data + repeat_data
+lead = json_to_dataframe(json_data=lead_data)
+boulder = json_to_dataframe(json_data=boulder_data)
+data = pd.concat([lead, boulder])
+data = data.sort_values(
+    by=["style", "rank", "name", "last_name"],
+    ascending=False,
+)
 
 
 @app.route('/')
 def index():
-    return render_template('index.html', climbs=zip(lead_data[0:3], boulder_data[0:3]))
+    unique_climbs = data[data["is_fa"]]
+
+    climbs = pd.concat([
+        unique_climbs[unique_climbs["style"] == "sport"][0:1],
+        unique_climbs[unique_climbs["style"] == "bouldering"][0:1],
+        unique_climbs[unique_climbs["style"] == "sport"][1:2],
+        unique_climbs[unique_climbs["style"] == "bouldering"][1:2],
+        unique_climbs[unique_climbs["style"] == "sport"][2:3],
+        unique_climbs[unique_climbs["style"] == "bouldering"][2:3],
+    ])
+
+    return render_template('index.html', climbs=climbs)
 
 
 @app.route('/sport')
 def sport():
-    return render_template('generic.html', title="Sport Climbing", category="sport", climbs=lead_data)
+    climbs = data[(data["is_fa"]) & (data["style"] == "sport")]
+
+    return render_template(
+        'generic.html',
+        title="Sport Climbing",
+        category="sport",
+        climbs=climbs
+    )
 
 
 @app.route("/bouldering")
 def bouldering():
+    climbs = data[(data["is_fa"]) & (data["style"] == "bouldering")]
+
     return render_template(
         'generic.html',
         title="Bouldering",
         category="bouldering",
-        climbs=boulder_data
+        climbs=climbs
     )
 
 
-@app.route("/sport/<climber>")
+@app.route("/sport/climber/<climber>")
 def sport_climber(climber):
-    climbs = climber_ascents(climber, lead_data)
+    climbs = data[(data["climber_key"] == climber) & (data["style"] == "sport")]
 
-    if climbs:
+    if climbs.shape[0] > 0:
         return render_template(
             'generic.html',
             title=f"Sport Climbing: {climber.replace('+', ' ').title()}",
             category="sport",
-            climbs=climbs
+            climbs=climbs,
         )
     else:
         return "Climber not found", 404
+    
+
+@app.route("/sport/route/<route>")
+def sport_route(route):
+    climbs = data[(data["route_key"] == route) & (data["style"] == "sport") & (data["is_fa"])]
+
+    if climbs.shape[0] > 0:
+        return render_template(
+            'generic.html',
+            title=f"Route: {route.replace('+', ' ').title()}",
+            category="sport",
+            climbs=climbs,
+        )
+    else:
+        return "Route not found", 404
 
 
-@app.route("/bouldering/<climber>")
+@app.route("/bouldering/climber/<climber>")
 def bouldering_climber(climber):
-    climbs = climber_ascents(climber, boulder_data)
+    climbs = data[(data["climber_key"] == climber) & (data["style"] == "bouldering")]
 
-    if climbs:
+    if climbs.shape[0] > 0:
         return render_template(
             'generic.html',
             title=f"Bouldering: {climber.replace('+', ' ').title()}",
@@ -89,6 +128,21 @@ def bouldering_climber(climber):
         )
     else:
         return "Climber not found", 404
+    
+
+@app.route("/bouldering/problem/<problem>")
+def bouldering_route(problem):
+    climbs = data[(data["route_key"] == problem) & (data["style"] == "bouldering") & (data["is_fa"])]
+
+    if climbs.shape[0] > 0:
+        return render_template(
+            'generic.html',
+            title=f"Boulder: {problem.replace('+', ' ').title()}",
+            category="bouldering",
+            climbs=climbs,
+        )
+    else:
+        return "Boulder not found", 404
 
 
 @app.route("/update", methods=["POST"])

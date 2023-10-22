@@ -12,8 +12,8 @@
                 </div>
 
                 <!-- Climbs -->
-                {% for c in climbs %}
-                  {{ climb_entry(c, category, loop.index0 | bg_alternate) }}
+                {% for index, row in climbs.iterrows() %}
+                  {{ climb_entry(row, loop.index0 | bg_alternate) }}
                 {% endfor %}
             </div>
 
