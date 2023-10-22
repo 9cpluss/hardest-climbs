@@ -9,21 +9,6 @@ from src.update import update
 from src.utils import json_to_dataframe
 
 
-grade_map = {
-    "9c": "5.15d",
-    "9b/c": "5.15c/d",
-    "9b+": "5.15c",
-    "9b/+": "5.15b/c",
-    "9b": "5.15b",
-    "9a+": "5.15a",
-    # Bouldering ---
-    "9A": "V17",
-    "8C+/9A": "V16/V17",
-    "8C+": "V16",
-    "8C/+": "V15/16",
-    "8C": "V15",
-}
-
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -159,12 +144,7 @@ def webhook():
         return 'Wrong event type', 400
 
 
-# helper template filters
-
-@app.template_filter('map_grade')
-def map_grade(grade):
-    return grade_map.get(grade)
-
+# helper template filters ----
 
 @app.template_filter('bg_alternate')
 def bg_alternate(index):
