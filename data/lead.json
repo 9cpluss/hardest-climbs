@@ -1125,5 +1125,19 @@
       "latitude": 44.23362,
       "longitude": 15.781411
     }
+  },
+  {
+    "name": "Quartiers Nord",
+    "grade": "9b",
+    "fa": "Loic Zehani",
+    "date": "2023-10-18",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Les Alpilles",
+      "latitude": 43.75544,
+      "longitude": 4.99681
+    }
   }
 ]
