@@ -164,7 +164,9 @@
     "grade": "8C+",
     "fa": "Ryuichi Murai",
     "date": "2021-12-11",
-    "repeat": [],
+    "repeat": [
+		"Florian Wientjes"
+	 ],
     "videos": {
       "Murai": "https://youtu.be/zIOCIRd8Mxk"
     },
