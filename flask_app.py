@@ -32,6 +32,8 @@ data = data.sort_values(
 
 @app.route('/')
 def index():
+    grades = request.args.get("grades", default="fr")
+
     unique_climbs = data[data["is_fa"]]
 
     climbs = pd.concat([
@@ -43,35 +45,40 @@ def index():
         unique_climbs[unique_climbs["style"] == "bouldering"][2:3],
     ])
 
-    return render_template('index.html', climbs=climbs)
+    return render_template('index.html', climbs=climbs, grades=grades)
 
 
 @app.route('/sport')
 def sport():
+    grades = request.args.get("grades", default="fr")
     climbs = data[(data["is_fa"]) & (data["style"] == "sport")]
 
     return render_template(
         'generic.html',
         title="Sport Climbing",
         category="sport",
-        climbs=climbs
+        climbs=climbs,
+        grades=grades,
     )
 
 
 @app.route("/bouldering")
 def bouldering():
+    grades = request.args.get("grades", default="fr")
     climbs = data[(data["is_fa"]) & (data["style"] == "bouldering")]
 
     return render_template(
         'generic.html',
         title="Bouldering",
         category="bouldering",
-        climbs=climbs
+        climbs=climbs,
+        grades=grades,
     )
 
 
 @app.route("/sport/climber/<climber>")
 def sport_climber(climber):
+    grades = request.args.get("grades", default="fr")
     climbs = data[(data["climber_key"] == climber) & (data["style"] == "sport")]
 
     if climbs.shape[0] > 0:
@@ -80,6 +87,7 @@ def sport_climber(climber):
             title=f"Sport Climbing: {climber.replace('+', ' ').title()}",
             category="sport",
             climbs=climbs,
+            grades=grades,
         )
     else:
         return "Climber not found", 404
@@ -87,14 +95,16 @@ def sport_climber(climber):
 
 @app.route("/sport/route/<route>")
 def sport_route(route):
+    grades = request.args.get("grades", default="fr")
     climbs = data[(data["route_key"] == route) & (data["style"] == "sport") & (data["is_fa"])]
 
     if climbs.shape[0] > 0:
         return render_template(
-            'single.html',
+            'generic.html',
             title="",
             category="sport",
-            climbs=climbs.iloc[0],
+            climbs=climbs,
+            grades=grades,
         )
     else:
         return "Route not found", 404
@@ -102,6 +112,7 @@ def sport_route(route):
 
 @app.route("/bouldering/climber/<climber>")
 def bouldering_climber(climber):
+    grades = request.args.get("grades", default="fr")
     climbs = data[(data["climber_key"] == climber) & (data["style"] == "bouldering")]
 
     if climbs.shape[0] > 0:
@@ -109,22 +120,25 @@ def bouldering_climber(climber):
             'generic.html',
             title=f"Bouldering: {climber.replace('+', ' ').title()}",
             category="bouldering",
-            climbs=climbs
+            climbs=climbs,
+            grades=grades,
         )
     else:
         return "Climber not found", 404
     
 
 @app.route("/bouldering/problem/<problem>")
-def bouldering_route(problem):
+def bouldering_problem(problem):
+    grades = request.args.get("grades", default="fr")
     climbs = data[(data["route_key"] == problem) & (data["style"] == "bouldering") & (data["is_fa"])]
 
     if climbs.shape[0] > 0:
         return render_template(
-            'single.html',
+            'generic.html',
             title="",
             category="bouldering",
-            climbs=climbs.iloc[0],
+            climbs=climbs,
+            grades=grades,
         )
     else:
         return "Boulder not found", 404

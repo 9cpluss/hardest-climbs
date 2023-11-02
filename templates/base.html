@@ -7,13 +7,31 @@
         <title>{% block title %}{% endblock %}</title>
     </head>
     <body>
+        <!-- TOP BAR -->
+        <div class="row bg-dark text-white text-center">
+            <div class="col-12 px-4">
+                {% if grades == "fr" %}
+                    <b>Grades:</b>
+                        <a href="{{ request.base_url }}?grades=fr" class="link-light">French</a> |
+                        <a href="{{ request.base_url }}?grades=us" class="link-light link-underline link-underline-opacity-0">US</a>
+                {% elif grades == "us" %}
+                    <b>Grades:</b>
+                        <a href="{{ request.base_url }}?grades=fr" class="link-light link-underline link-underline-opacity-0">French</a> |
+                        <a href="{{ request.base_url }}?grades=us" class="link-light">US</a>
+                {% else %}
+                    <b>Grades:</b>
+                        <a href="{{ request.base_url }}?grades=fr" class="link-light link-underline link-underline-opacity-0">French</a> |
+                        <a href="{{ request.base_url }}?grades=us" class="link-light link-underline link-underline-opacity-0">US</a>
+                {% endif %}
+            </div>
+        </div>
 
         <div class="container px-4 mt-2">
             <!-- HEADER -->
 
             <div class="row g-3 justify-content-evenly mt-2">
                 <div class="col-12 text-center">
-                    <a href="/" class="link-dark text-decoration-none"><h1>Hardest Climbs in the World</h1></a>
+                    <a href="/?grades={{grades}}" class="link-dark text-decoration-none"><h1>Hardest Climbs in the World</h1></a>
                 </div>
             </div>
 

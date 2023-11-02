@@ -1,24 +1,30 @@
-{% macro name_link(name, category) %}
-    {{ name | climber_first_name }} <a href="/{{ category }}/climber/{{ name | climber_first_name | lower }}+{{ name | climber_last_name | lower }}" class="link-light">{{ name | climber_last_name }}</a>
+{% macro name_link(name, category, grades) %}
+    {{ name | climber_first_name }}
+    <a href="/{{ category }}/climber/{{ name | climber_first_name | lower }}+{{ name | climber_last_name | lower }}?grades={{ grades }}" class="link-light">
+    {{ name | climber_last_name }}</a>
 {% endmacro %}
 
-{% macro route_link(name, key, category) %}
+{% macro route_link(name, key, category, grades) %}
     {% if category == "sport" %}
-        <a href="/{{ category }}/route/{{ key }}" class="link-light link-underline link-underline-opacity-0">{{ name }}</a>
+        <a href="/{{ category }}/route/{{ key }}?grades={{ grades }}" class="link-light link-underline link-underline-opacity-0">{{ name }}</a>
     {% elif category == "bouldering" %}
-        <a href="/{{ category }}/problem/{{ key }}" class="link-light link-underline link-underline-opacity-0">{{ name }}</a>
+        <a href="/{{ category }}/problem/{{ key }}?grades={{ grades }}" class="link-light link-underline link-underline-opacity-0">{{ name }}</a>
     {% endif %}
 {% endmacro %}
 
-{% macro climb_entry(climb, bg, size) %}
+{% macro climb_entry(climb, bg, grades, size) %}
     <div class="col-{{size or 5}} bg-{{ bg }} text-white rounded">
         <div class="p-3">
-            <h4>{{ route_link(climb["name"], climb["route_key"], climb["style"]) }}</h4>
-            <b>Grade:</b> {{ climb["french"] }} / {{ climb["us"] }}<br>
-            <b>First Ascent:</b> {{ name_link(climb["fa"], climb["style"]) }}<br>
+            <h4>{{ route_link(climb["name"], climb["route_key"], climb["style"], grades)}}</h4>
+            {% if grades == "fr" %}
+                <b>Grade:</b> {{ climb["french"] }}<br>
+            {% elif grades == "us" %}
+                <b>Grade:</b> {{ climb["us"] }}<br>
+            {% endif %}
+            <b>First Ascent:</b> {{ name_link(climb["fa"], climb["style"], grades) }}<br>
             <b>FA Date:</b> {{ climb["date"] }}<br>
             <b>Location:</b> {{ location_link(climb["location"]["country"], climb["location"]["area"], climb["location"]["latitude"], climb["location"]["longitude"]) }}<br>
-            <b>Repeated by:</b> {% for r in climb["repeat"] %}{{ name_link(r, climb["style"]) }}{% if not loop.last %}, {% endif %}{% endfor %}<br>
+            <b>Repeated by:</b> {% for r in climb["repeat"] %}{{ name_link(r, climb["style"], grades) }}{% if not loop.last %}, {% endif %}{% endfor %}<br>
             <b>Videos:</b> {% for name, link in climb["videos"].items() %}<a href="{{ link }}" class="link-warning link-underline link-underline-opacity-0" target="_blank">{{ name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
         </div>
     </div>

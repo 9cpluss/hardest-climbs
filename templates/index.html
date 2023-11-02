@@ -8,26 +8,26 @@
             <div class="row g-3 justify-content-evenly mt-2">
                 <!-- Headline -->
                 <div class="col-6 text-center">
-                    <h2><a href="/sport" class="link-dark text-decoration-none">Sport Climbing</a></h2>
+                    <h2><a href="/sport?grades={{grades}}" class="link-dark text-decoration-none">Sport Climbing</a></h2>
                 </div>
                 <div class="col-6 text-center">
-                    <h2><a href="/bouldering" class="link-dark text-decoration-none">Bouldering</a></h2>
+                    <h2><a href="/bouldering?grades={{grades}}" class="link-dark text-decoration-none">Bouldering</a></h2>
                 </div>
 
                 <!-- Row 1 -->
                 {% for index, row in climbs.iterrows() %}
-                  {{ climb_entry(row, loop.index0 | bg_alternate) }}
+                  {{ climb_entry(row, loop.index0 | bg_alternate, grades) }}
                 {% endfor %}
 
                 <!-- More -->
                 <div class="col-5">
                     <div class="p-3">
-                        <a class="btn btn-warning" href="/sport" role="button">See more...</a>
+                        <a class="btn btn-warning" href="/sport?grades={{grades}}" role="button">See more...</a>
                     </div>
                 </div>
                 <div class="col-5">
                     <div class="p-3">
-                        <a class="btn btn-warning" href="/bouldering" role="button">See more...</a>
+                        <a class="btn btn-warning" href="/bouldering?grades={{grades}}" role="button">See more...</a>
                     </div>
                 </div>
             </div>
