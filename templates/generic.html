@@ -13,7 +13,11 @@
 
         <!-- Climbs -->
         {% for index, row in climbs.iterrows() %}
-            {{ climb_entry(row, loop.index0 | bg_alternate) }}
+            {% if loop.length == 1 %}
+                {{ climb_entry(row, "dark", grades, 8) }}
+            {% else %}
+                {{ climb_entry(row, loop.index0 | bg_alternate, grades) }}
+            {% endif %}
         {% endfor %}
     </div>
 
