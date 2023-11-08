@@ -1076,7 +1076,9 @@
     "fa": "Sebastien Bouin",
     "date": "2023-04-11",
     "repeat": [],
-    "videos": {},
+    "videos": {
+		"Bouin": "https://youtu.be/wXV7WlYwoVo"
+	 },
     "location": {
       "country": "France",
       "area": "Pic Saint-Loup",
