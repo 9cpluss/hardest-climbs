@@ -87,7 +87,9 @@
     },
     "location": {
       "country": "France",
-      "area": "Fontainebleau"
+      "area": "Fontainebleau",
+      "latitude": 48.41092,
+      "longitude": 2.50861
     }
   },
   {
