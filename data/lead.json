@@ -128,7 +128,7 @@
       "Stefano Ghisolfi",
       "Sean Bailey",
       "Sebastien Bouin",
-		"Jorge Díaz-Rullo"
+      "Jorge Díaz-Rullo"
     ],
     "videos": {
       "Megos": "https://youtu.be/COuxNFuAS1Q",
@@ -198,7 +198,7 @@
     "location": {
       "country": "Spain",
       "area": "Margalef",
-      "latitude": 41.27560,
+      "latitude": 41.2756,
       "longitude": 0.76803
     }
   },
@@ -636,8 +636,8 @@
     "date": "2016-10-05",
     "repeat": [],
     "videos": {
-			"Ondra": "https://youtu.be/gbK4MqpFsVc"
-		},
+      "Ondra": "https://youtu.be/gbK4MqpFsVc"
+    },
     "location": {
       "country": "Slovakia",
       "area": "Alternatívna stena",
@@ -692,7 +692,7 @@
       "Adam Ondra",
       "Jakob Schubert",
       "Sachi Amma",
-			"Matty Hong",
+      "Matty Hong",
       "Piotr Schab"
     ],
     "videos": {
@@ -1064,8 +1064,8 @@
     "date": "2023-04-11",
     "repeat": [],
     "videos": {
-		"Bouin": "https://youtu.be/wXV7WlYwoVo"
-	 },
+      "Bouin": "https://youtu.be/wXV7WlYwoVo"
+    },
     "location": {
       "country": "France",
       "area": "Pic Saint-Loup",
