@@ -87,9 +87,7 @@
     },
     "location": {
       "country": "France",
-      "area": "Fontainebleau",
-      "latitude": 48.41092,
-      "longitude": 2.50861
+      "area": "Fontainebleau"
     }
   },
   {
@@ -167,12 +165,12 @@
     "fa": "Ryuichi Murai",
     "date": "2021-12-11",
     "repeat": [
-      "Florian Wientjes",
-      "Ryohei Kameyama"
-    ],
+		"Florian Wientjes",
+		"Ryohei Kameyama"
+	 ],
     "videos": {
       "Murai": "https://youtu.be/zIOCIRd8Mxk",
-      "Kameyama": "https://youtu.be/efBxgEH-ZCg"
+		"Kameyama": "https://youtu.be/efBxgEH-ZCg"
     },
     "location": {
       "country": "Japan",
@@ -253,7 +251,7 @@
       "Pablo Hammack",
       "Griffin Whiteside",
       "Ryuichi Murai",
-      "Zander Waller"
+		"Zander Waller"
     ],
     "videos": {
       "Webb": "https://youtu.be/TMIIffUMV8g",
@@ -263,7 +261,7 @@
       "Fultz": "https://youtu.be/X-Tw2HpbAaQ",
       "Hammack": "https://intagram.com/p/CLBPueOD4Nj/",
       "Murai": "https://youtu.be/zbzTGtZ-zd8",
-      "Waller": "https://youtu.be/cKYyPs2PeVw"
+		"Waller": "https://youtu.be/cKYyPs2PeVw"
     },
     "location": {
       "country": "USA",
@@ -281,8 +279,8 @@
       "Drew Ruana",
       "Sean Bailey",
       "Katie Lamb",
-      "Brooke Raboutou",
-      "Shawn Raboutou"
+		"Brooke Raboutou",
+		"Shawn Raboutou"
     ],
     "videos": {
       "Woods": "https://youtu.be/rR1QDk76LRk",
@@ -372,7 +370,7 @@
       "Dylan Barks",
       "Griffin Whiteside",
       "Andy Lamb",
-      "Pablo Hammack"
+		"Pablo Hammack"
     ],
     "videos": {
       "Traversi": "https://youtu.be/SwhZP0IaVbU",
@@ -453,7 +451,7 @@
       "Jimmy Webb",
       "Austin Purdy",
       "Keenan Takahashi",
-      "Andy Lamb"
+		"Andy Lamb"
     ],
     "videos": {
       "Ruana": "https://youtu.be/fZD3wY2-ULY",
@@ -636,7 +634,7 @@
     ],
     "videos": {
       "Woods": "https://youtu.be/OxAZZNkVJ1U",
-      "Ruana": "https://youtu.be/MwoS56c08Fk"
+		"Ruana": "https://youtu.be/MwoS56c08Fk"
     },
     "location": {
       "country": "USA",
@@ -766,8 +764,8 @@
     "date": "2022-02-02",
     "repeat": [],
     "videos": {
-      "Iagnemma": "https://youtu.be/2M2MvmgnhyQ"
-    },
+		"Iagnemma": "https://youtu.be/2M2MvmgnhyQ"
+	 },
     "location": {
       "country": "Italy",
       "area": "Abruzzo e Molise",
@@ -844,7 +842,8 @@
     "fa": "Aidan Roberts",
     "date": "Nov 2022",
     "repeat": [
-      "Matt Fultz"
+      "Matt Fultz",
+		"Stefano Carnati"
     ],
     "videos": {
       "Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
@@ -920,8 +919,8 @@
     "date": "2023-03-28",
     "repeat": [],
     "videos": {
-      "Graham": "https://youtu.be/Mqzx7bflG6M"
-    },
+		"Graham": "https://youtu.be/Mqzx7bflG6M"
+	 },
     "location": {
       "country": "Switzerland",
       "area": "Val Bavona"
@@ -944,36 +943,13 @@
     "grade": "8C+",
     "fa": "Shinichiro Nomura",
     "date": "2019-11-09",
-    "repeat": [
-      "Akira Waku"
-    ],
+    "repeat": ["Akira Waku"],
     "videos": {
-      "Waku": "https://youtu.be/jRrd3wyXhT8"
-    },
+			"Waku": "https://youtu.be/jRrd3wyXhT8"
+		},
     "location": {
       "country": "Japan",
       "area": "Shiobara"
-    }
-  },
-  {
-    "name": "Hazel Grace (sit)",
-    "grade": "8C/+",
-    "fa": "Giuliano Cameroni",
-    "date": "2021-06-28",
-    "repeat": [
-      "Florian Wientjes",
-      "Dave Graham"
-    ],
-    "videos": {
-      "Cameroni": "https://youtu.be/EHuROyZLoy8",
-      "Wientjes": "https://youtu.be/wn7ZUR1ApjU",
-      "Graham": "https://youtu.be/Aax1Vt9_Tjc?si=93HWPTCOwuDUNG8T"
-    },
-    "location": {
-      "country": "Switzerland",
-      "area": "Gottardo",
-      "latitude": 46.55979,
-      "longitude": 8.56489
     }
   }
 ]
