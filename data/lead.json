@@ -782,26 +782,6 @@
     }
   },
   {
-    "name": "Furia de Jabalí",
-    "grade": "9b",
-    "fa": "William Bosi",
-    "date": "",
-    "repeat": [
-      "Alexander Megos",
-      "Jakob Schubert"
-    ],
-    "videos": {
-      "Bosi": "https://youtu.be/ChKphgnQXGI",
-      "Megos": "https://youtu.be/P7WG0lUopY4"
-    },
-    "location": {
-      "country": "Spain",
-      "area": "Catalunya",
-      "latitude": 41.26389,
-      "longitude": 0.9409
-    }
-  },
-  {
     "name": "Café Solo",
     "grade": "9b",
     "fa": "Jorge Díaz-Rullo",
