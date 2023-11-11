@@ -195,7 +195,12 @@
     "date": "2023-02-07",
     "repeat": [],
     "videos": {},
-    "location": {}
+    "location": {
+      "country": "Spain",
+      "area": "Margalef",
+      "latitude": 41.27560,
+      "longitude": 0.76803
+    }
   },
   {
     "name": "Sleeping Lion",
