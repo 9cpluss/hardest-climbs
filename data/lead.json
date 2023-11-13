@@ -208,7 +208,9 @@
     "fa": "Chris Sharma",
     "date": "2023-03-30",
     "repeat": [],
-    "videos": {},
+    "videos": {
+		"Sharma": "https://watch.reelrocktour.com/videos/sleeping-lion"
+	 },
     "location": {
       "country": "Spain",
       "area": "Siurana",
