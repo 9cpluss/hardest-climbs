@@ -1106,7 +1106,9 @@
     "fa": "Adam Ondra",
     "date": "2023-09-28",
     "repeat": [],
-    "videos": {},
+    "videos": {
+		"Ondra": "https://youtu.be/OlV-uPWb7yQ"
+	 },
     "location": {
       "country": "Croatia",
       "area": "Vranjača",
