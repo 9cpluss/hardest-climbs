@@ -73,6 +73,18 @@
     }
   },
   {
+	 "name": "L'ombre du voyageur",
+	 "grade": "9A",
+	 "fa": "Charles Albert",
+	 "date": "2023-10-18",
+	 "repeat": [],
+	 "videos": {},
+	 "location": {
+	  "country": "France",
+	  "area": "Haute Savoie"
+	 }
+  },
+  {
     "name": "Soudain Seul",
     "grade": "8C+/9A",
     "fa": "Simon Lorenzi",
