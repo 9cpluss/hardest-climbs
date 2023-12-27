@@ -968,5 +968,19 @@
       "country": "Japan",
       "area": "Shiobara"
     }
+  },
+  {
+    "name": "The Dark Side",
+    "grade": "8C+",
+    "fa": "Carlo Traversi",
+    "date": "2023-12-26",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "USA",
+      "area": "Yosemite",
+      "latitude": 37.741609,
+      "longitude": -119.603679
+    }
   }
 ]
