@@ -458,7 +458,9 @@
     "fa": "Adam Ondra",
     "date": "2018-07-20",
     "repeat": [],
-    "videos": {},
+    "videos": {
+      "Ondra": "https://www.redbull.com/us-en/episodes/age-of-ondra-part-3"
+    },
     "location": {
       "country": "Canada",
       "area": "Canmore",
@@ -820,7 +822,9 @@
       "Ethan Pringle",
       "Sebastien Bouin"
     ],
-    "videos": {},
+    "videos": {
+      "Pringle": "https://www.redbull.com/us-en/episodes/jumbo-love-reel-rock-s02-e10"
+    },
     "location": {
       "country": "USA",
       "area": "Clark Mountain",
