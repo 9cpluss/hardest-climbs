@@ -21,7 +21,9 @@
     "fa": "Sebastien Bouin",
     "date": "2022-04-29",
     "repeat": [],
-    "videos": {},
+    "videos": {
+      "Bouin": "https://www.redbull.com/us-en/episodes/reel-rock-s9-e4"
+    },
     "location": {
       "country": "France",
       "area": "Verdon Gorge",
