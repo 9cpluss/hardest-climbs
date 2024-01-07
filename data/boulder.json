@@ -936,7 +936,9 @@
     "grade": "8C+",
     "fa": "Dave Graham",
     "date": "2023-03-28",
-    "repeat": [],
+    "repeat": [
+      "Francesco Berardino"
+    ],
     "videos": {
 		"Graham": "https://youtu.be/Mqzx7bflG6M"
 	 },
