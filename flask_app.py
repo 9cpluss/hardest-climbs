@@ -6,7 +6,7 @@ from flask import render_template
 from flask import Flask, request
 
 from src.update import update
-from src.utils import json_to_dataframe
+from src.utils import json_to_dataframe, create_climber_key, split_name
 
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
@@ -167,9 +167,14 @@ def bg_alternate(index):
 
 @app.template_filter('climber_first_name')
 def climber_first_name(name):
-    return " ".join(name.split(" ")[0:-1])
+    return split_name(name)[0]
 
 
 @app.template_filter('climber_last_name')
 def climber_last_name(name):
-    return name.split(" ")[-1]
+    return split_name(name)[1]
+
+
+@app.template_filter('climber_key')
+def climber_key(name):
+    return create_climber_key(name)

@@ -1,6 +1,6 @@
 {% macro name_link(name, category, grades) %}
     {{ name | climber_first_name }}
-    <a href="/{{ category }}/climber/{{ name | climber_first_name | lower }}+{{ name | climber_last_name | lower }}?grades={{ grades }}" class="link-light">
+    <a href="/{{ category }}/climber/{{ name | climber_key }}?grades={{ grades }}" class="link-light">
     {{ name | climber_last_name }}</a>
 {% endmacro %}
 
