@@ -39,7 +39,7 @@ def json_to_dataframe(json_data: dict) -> pd.DataFrame:
 
     data["first_name"] = None
     data["last_name"] = None
-    data[["first_name", "last_name"]]= data["climbers"].str.split(" ", expand=True)
+    data[["first_name", "last_name"]]= data["climbers"].str.split(" ", n=1, expand=True)
 
     # data["video"] = data.apply(lambda row: row["videos"].get(row["last_name"]), axis=1)
 
