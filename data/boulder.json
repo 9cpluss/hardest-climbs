@@ -990,5 +990,27 @@
       "latitude": 37.741609,
       "longitude": -119.603679
     }
+  },
+  {
+    "name": "REM",
+    "grade": "8C/+",
+    "fa": "Giuliano Cameroni",
+    "date": "2019-02-22",
+    "repeat": [
+      "Paul Robinson",
+      "Sam Weir",
+      "Francesco Berardino"
+    ],
+    "videos": {
+      "Cameroni": "https://youtu.be/VKpn_X5yiZA",
+      "Robinson": "https://youtu.be/rO3OjG9o3nc",
+      "Weir": "https://youtu.be/JOZoEIstZCI"
+    },
+    "location": {
+      "country": "Switzerland",
+      "area": "Cresciano",
+      "latitude": 46.28796,
+      "longitude": 9.00612
+    }
   }
 ]
