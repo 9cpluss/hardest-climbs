@@ -1141,5 +1141,17 @@
       "latitude": 43.78006,
       "longitude": 5.03944
     }
+  },
+  {
+    "name": "The Flame",
+    "grade": "9b",
+    "fa": "Jakob Schubert",
+    "date": "2023",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Austria",
+      "area": "Zillertal"
+    }
   }
 ]
