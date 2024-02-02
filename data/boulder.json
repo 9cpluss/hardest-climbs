@@ -1015,5 +1015,17 @@
       "latitude": 46.28796,
       "longitude": 9.00612
     }
+  },
+  {
+    "name": "Devilution",
+    "grade": "8C+",
+    "fa": "Sean Bailey",
+    "date": "",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "USA",
+      "area": "Buttermilks"
+    }
   }
 ]
