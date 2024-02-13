@@ -182,7 +182,9 @@
     "fa": "Stefano Ghisolfi",
     "date": "2023-02-03",
     "repeat": [],
-    "videos": {},
+    "videos": {
+      "Ghisolfi": "https://youtu.be/7q8bdbuulb0"
+    },
     "location": {
       "country": "Italy",
       "area": "Drena",
