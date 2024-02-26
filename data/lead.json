@@ -211,7 +211,10 @@
     "grade": "9b/+",
     "fa": "Chris Sharma",
     "date": "2023-03-30",
-    "repeat": ["Alexander Megos"],
+    "repeat": [
+      "Alexander Megos",
+      "Jorge Díaz-Rullo"
+    ],
     "videos": {
 		"Sharma": "https://www.redbull.com/us-en/episodes/reel-rock-s9-e8",
 		"Megos": "https://youtu.be/sV0d9N9lArE"
