@@ -1160,5 +1160,17 @@
       "country": "Austria",
       "area": "Zillertal"
     }
+  },
+  {
+    "name": "E.L.L.I.E",
+    "grade": "9b",
+    "fa": "Tom Bolger",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Spain",
+      "area": "Cataluna"
+    }
   }
 ]
