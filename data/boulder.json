@@ -199,9 +199,12 @@
     "grade": "8C+",
     "fa": "Shawn Raboutou",
     "date": "2020-12-29",
-    "repeat": [],
+    "repeat": [
+      "Matt Fultz"
+    ],
     "videos": {
-      "Raboutou": "https://youtu.be/xcBuV2jlavc"
+      "Raboutou": "https://youtu.be/xcBuV2jlavc",
+      "Fultz": "https://youtu.be/Gb3xO1PQK-g"
     },
     "location": {
       "country": "USA",
