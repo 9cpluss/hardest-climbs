@@ -1030,8 +1030,10 @@
     "grade": "8C+",
     "fa": "Sean Bailey",
     "date": "",
-    "repeat": [],
-    "videos": {},
+    "repeat": ["Shawn Raboutou"],
+    "videos": {
+      "Raboutou": "https://youtu.be/YafSnTSMOKY"
+    },
     "location": {
       "country": "USA",
       "area": "Buttermilks"
