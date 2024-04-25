@@ -1172,5 +1172,17 @@
       "country": "Spain",
       "area": "Cataluna"
     }
+  },
+{
+  "name": "Hannigraal",
+  "grade": "9b",
+  "fa": "Tanguy Merard",
+  "date": "2024-04-10",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "France",
+    "area": "Grenoble"
   }
+ }
 ]
