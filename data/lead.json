@@ -1184,5 +1184,17 @@
     "country": "France",
     "area": "Grenoble"
   }
+ },
+{
+  "name": "Les Rois du Lithium",
+  "grade": "9b",
+  "fa": "Sebastien Bouin",
+  "date": "2024",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "France",
+    "area": "Pic Saint Loup"
+  }
  }
 ]
