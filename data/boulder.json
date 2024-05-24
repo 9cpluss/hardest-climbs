@@ -90,6 +90,18 @@
 	  "area": "Haute Savoie"
 	 }
   },
+{
+  "name": "Spots of Time",
+  "grade": "9A",
+  "fa": "Aidan Roberts",
+  "date": "2024",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "United Kingdom",
+    "area": "Lake District"
+  }
+ },
   {
     "name": "Soudain Seul",
     "grade": "8C+/9A",
