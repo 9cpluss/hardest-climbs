@@ -1066,16 +1066,32 @@
     "videos": {},
     "location": {}
   },
-{
-  "name": "Regret",
-  "grade": "8C/+",
-  "fa": "Toru Nakajima",
-  "date": "2024",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "Japan",
-    "area": "Ena"
+  {
+    "name": "Regret",
+    "grade": "8C/+",
+    "fa": "Toru Nakajima",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Japan",
+      "area": "Ena"
+    }
+  },
+  {
+    "name": "Muerte por asfixia",
+    "grade": "8C+",
+    "fa": "Pablo Zamora",
+    "date": "2024-01-04",
+    "repeat": [
+      "Jorge Díaz-Rullo"
+    ],
+    "videos": {
+      "Zamora": "https://youtu.be/7yWzvl-FGzk"
+    },
+    "location": {
+      "country": "Spain",
+      "area": "Manzanares El Real"
+    }
   }
- }
 ]
