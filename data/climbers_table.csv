@@ -1,12 +1,12 @@
 climber_id,first_name,last_name,country,gender,year_of_birth
 cl00001,adam,ondra,czechia,male,1993
 cl00002,nalle,hukkataival,finland,male,1986
-cl00003,will,bosi,scotland,male,1998
+cl00003,will,bosi,uk,male,1998
 cl00004,simon,lorenzi,belgium,male,1997
 cl00005,elias,iagnemma,italy,male,
 cl00006,daniel,woods,usa,male,1989
 cl00007,shawn,raboutou,usa,male,1998
-cl00008,aidan,roberts,england,male,1998
+cl00008,aidan,roberts,uk,male,1998
 cl00009,jakob,schubert,austria,male,1990
 cl00010,charles,albert,france,male,1997
 cl00011,nicolas,perlorson,france,male,
