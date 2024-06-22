@@ -1067,7 +1067,10 @@
     "date": "2024",
     "repeat": [],
     "videos": {},
-    "location": {}
+    "location": {
+      "country": "USA",
+      "area": "Colorado"
+    }
   },
   {
     "name": "Regret",
