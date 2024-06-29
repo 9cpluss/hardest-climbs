@@ -104,7 +104,7 @@
  },
   {
     "name": "Soudain Seul",
-    "grade": "8C+/9A",
+    "grade": "9A",
     "fa": "Simon Lorenzi",
     "date": "2021-02-08",
     "repeat": [
@@ -743,7 +743,7 @@
   },
   {
     "name": "Isles of Wonder SS",
-    "grade": "8C/+",
+    "grade": "8C+",
     "fa": "Aidan Roberts",
     "date": "2022-07-28",
     "repeat": [
@@ -752,7 +752,8 @@
     ],
     "videos": {
       "Roberts": "https://youtu.be/zilINHowP2g&t=37m58s",
-      "Bosi": "https://youtu.be/pcB7xINW-ek"
+      "Bosi": "https://youtu.be/pcB7xINW-ek",
+      "Kemball Dorey": "https://youtu.be/VVUGrioWE8I"
     },
     "location": {
       "country": "United Kingdom",
