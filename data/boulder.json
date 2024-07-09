@@ -26,7 +26,9 @@
     "grade": "9A",
     "fa": "Daniel Woods",
     "date": "2021-03-30",
-    "repeat": ["William Bosi"],
+    "repeat": [
+      "William Bosi"
+    ],
     "videos": {
       "Woods": "https://youtu.be/IoEeHwd5GTs",
       "Bosi": "https://youtu.be/8awesjyAGTg"
@@ -79,29 +81,41 @@
     }
   },
   {
-	 "name": "L'ombre du voyageur",
-	 "grade": "9A",
-	 "fa": "Charles Albert",
-	 "date": "2023-10-18",
-	 "repeat": [],
-	 "videos": {},
-	 "location": {
-	  "country": "France",
-	  "area": "Haute Savoie"
-	 }
+    "name": "L'ombre du voyageur",
+    "grade": "9A",
+    "fa": "Charles Albert",
+    "date": "2023-10-18",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Haute Savoie"
+    }
   },
-{
-  "name": "Spots of Time",
-  "grade": "9A",
-  "fa": "Aidan Roberts",
-  "date": "2024",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "United Kingdom",
-    "area": "Lake District"
-  }
- },
+  {
+    "name": "Spots of Time",
+    "grade": "9A",
+    "fa": "Aidan Roberts",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "United Kingdom",
+      "area": "Lake District"
+    }
+  },
+  {
+    "name": "Arrival of the Birds",
+    "grade": "9A",
+    "fa": "Aidan Roberts",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Switzerland",
+      "area": "Ticino"
+    }
+  },
   {
     "name": "Soudain Seul",
     "grade": "9A",
@@ -197,13 +211,13 @@
     "fa": "Ryuichi Murai",
     "date": "2021-12-11",
     "repeat": [
-		"Florian Wientjes",
-		"Ryohei Kameyama"
-	 ],
+      "Florian Wientjes",
+      "Ryohei Kameyama"
+    ],
     "videos": {
       "Murai": "https://youtu.be/zIOCIRd8Mxk",
-		"Kameyama": "https://youtu.be/efBxgEH-ZCg",
-		"Wientjes": "https://youtu.be/W2OPp6q-_ds"
+      "Kameyama": "https://youtu.be/efBxgEH-ZCg",
+      "Wientjes": "https://youtu.be/W2OPp6q-_ds"
     },
     "location": {
       "country": "Japan",
@@ -325,8 +339,8 @@
       "Drew Ruana",
       "Sean Bailey",
       "Katie Lamb",
-		"Brooke Raboutou",
-		"Shawn Raboutou"
+      "Brooke Raboutou",
+      "Shawn Raboutou"
     ],
     "videos": {
       "Woods": "https://youtu.be/rR1QDk76LRk",
@@ -392,7 +406,9 @@
     "grade": "8C+",
     "fa": "Daniel Woods",
     "date": "2015-01-15",
-    "repeat": ["Zach Galla"],
+    "repeat": [
+      "Zach Galla"
+    ],
     "videos": {
       "Woods": "https://youtu.be/fzn43YOyaLk",
       "Galla": "https://youtu.be/aIZGfb-i1N0"
@@ -418,7 +434,7 @@
       "Dylan Barks",
       "Griffin Whiteside",
       "Andy Lamb",
-		"Pablo Hammack"
+      "Pablo Hammack"
     ],
     "videos": {
       "Traversi": "https://youtu.be/SwhZP0IaVbU",
@@ -501,7 +517,7 @@
       "Jimmy Webb",
       "Austin Purdy",
       "Keenan Takahashi",
-		"Andy Lamb"
+      "Andy Lamb"
     ],
     "videos": {
       "Ruana": "https://youtu.be/fZD3wY2-ULY",
@@ -687,7 +703,7 @@
     ],
     "videos": {
       "Woods": "https://youtu.be/OxAZZNkVJ1U",
-		"Ruana": "https://youtu.be/MwoS56c08Fk"
+      "Ruana": "https://youtu.be/MwoS56c08Fk"
     },
     "location": {
       "country": "USA",
@@ -819,8 +835,8 @@
     "date": "2022-02-02",
     "repeat": [],
     "videos": {
-		"Iagnemma": "https://youtu.be/2M2MvmgnhyQ"
-	 },
+      "Iagnemma": "https://youtu.be/2M2MvmgnhyQ"
+    },
     "location": {
       "country": "Italy",
       "area": "Abruzzo e Molise",
@@ -901,7 +917,7 @@
     "date": "Nov 2022",
     "repeat": [
       "Matt Fultz",
-		"Stefano Carnati"
+      "Stefano Carnati"
     ],
     "videos": {
       "Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
@@ -979,9 +995,9 @@
       "Francesco Berardino"
     ],
     "videos": {
-		"Graham": "https://youtu.be/Mqzx7bflG6M",
-		"Berardino": "https://youtu.be/2J7kb2wbV80"
-	 },
+      "Graham": "https://youtu.be/Mqzx7bflG6M",
+      "Berardino": "https://youtu.be/2J7kb2wbV80"
+    },
     "location": {
       "country": "Switzerland",
       "area": "Val Bavona"
@@ -1004,10 +1020,12 @@
     "grade": "8C+",
     "fa": "Shinichiro Nomura",
     "date": "2019-11-09",
-    "repeat": ["Akira Waku"],
+    "repeat": [
+      "Akira Waku"
+    ],
     "videos": {
-			"Waku": "https://youtu.be/jRrd3wyXhT8"
-		},
+      "Waku": "https://youtu.be/jRrd3wyXhT8"
+    },
     "location": {
       "country": "Japan",
       "area": "Shiobara"
@@ -1054,7 +1072,9 @@
     "grade": "8C+",
     "fa": "Sean Bailey",
     "date": "",
-    "repeat": ["Shawn Raboutou"],
+    "repeat": [
+      "Shawn Raboutou"
+    ],
     "videos": {
       "Raboutou": "https://youtu.be/YafSnTSMOKY"
     },
