@@ -1108,7 +1108,7 @@
     }
   },
   {
-    "name": "Muerte por asfixia",
+    "name": "Muerte por Asfixia",
     "grade": "8C+",
     "fa": "Pablo Zamora",
     "date": "2024-01-04",
@@ -1116,7 +1116,8 @@
       "Jorge Díaz-Rullo"
     ],
     "videos": {
-      "Zamora": "https://youtu.be/7yWzvl-FGzk"
+      "Zamora": "https://youtu.be/7yWzvl-FGzk",
+      "Díaz-Rullo": "https://youtu.be/eVVhFXEI-Dg"
     },
     "location": {
       "country": "Spain",
