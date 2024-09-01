@@ -1128,5 +1128,21 @@
       "country": "Spain",
       "area": "Manzanares El Real"
     }
+  },
+  {
+    "name": "Flow State",
+    "grade": "8C/+",
+    "fa": "Pietro Vidi",
+    "date": "2024-04-17",
+    "repeat": [
+      "Adam Ondra"
+    ],
+    "videos": {
+      "Ondra": "https://www.instagram.com/p/C_TTfVrs8Oh/"
+    },
+    "location": {
+      "country": "Italy",
+      "area": "Val Daone"
+    }
   }
 ]
