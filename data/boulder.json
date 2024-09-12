@@ -1146,5 +1146,28 @@
       "country": "Italy",
       "area": "Val Daone"
     }
+  },
+  {
+    "name": "Hazel Grace (sit)",
+    "grade": "8C/+",
+    "fa": "Giuliano Cameroni",
+    "date": "2021-06-28",
+    "repeat": [
+      "Florian Wientjes",
+      "Dave Graham",
+      "Sam Weir"
+    ],
+    "videos": {
+			"Cameroni": "https://youtu.be/EHuROyZLoy8",
+      "Wientjes": "https://youtu.be/wn7ZUR1ApjU",
+      "Graham": "https://youtu.be/Aax1Vt9_Tjc?si=93HWPTCOwuDUNG8T",
+      "Weir": "https://youtu.be/6ndXM60H154"
+		},
+    "location": {
+      "country": "Switzerland",
+      "area": "Gottardo",
+      "latitude": 46.55979,
+      "longitude": 8.56489 
+    }
   }
 ]
