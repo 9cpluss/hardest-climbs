@@ -1177,13 +1177,13 @@
   },
   {
 	  "name": "Tsunami",
-	  "grade": "8C+"
+	  "grade": "8C+",
 	  "fa": "Thilo Schröter",
 	  "date": "Oct 2024",
 	  "repeat": [],
 	  "videos": {
 	    "Schröter": "https://www.instagram.com/reel/DBMVtT3tlAM/"
-	  }
+	  },
 	  "location": {
 	    "country": "Norway",
 	    "area": "Lofoten"
