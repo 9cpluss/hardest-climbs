@@ -1174,5 +1174,19 @@
       "latitude": 46.55979,
       "longitude": 8.56489 
     }
+  },
+  {
+	  "name": "Tsunami",
+	  "grade": "8C+"
+	  "fa": "Thilo Schröter",
+	  "date": "Oct 2024"
+	  "repeat": [],
+	  "videos": {
+	    "Schröter": "https://www.instagram.com/reel/DBMVtT3tlAM/"
+	  }
+	  "location": {
+	    "country": "Norway",
+	    "area": "Lofoten"
+	  }
   }
 ]
