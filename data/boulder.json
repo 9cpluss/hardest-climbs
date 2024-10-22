@@ -563,9 +563,12 @@
     "grade": "8C+",
     "fa": "Ryuichi Murai",
     "date": "2021-10-24",
-    "repeat": [],
+    "repeat": [
+      "Keiichiro Korenaga"
+    ],
     "videos": {
-      "Murai": "https://youtu.be/3cWfUmapmb0"
+      "Murai": "https://youtu.be/3cWfUmapmb0",
+      "Korenaga": "https://www.instagram.com/reel/C6Bg1exSg34"
     },
     "location": {
       "country": "Japan",
