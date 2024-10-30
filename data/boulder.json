@@ -170,7 +170,7 @@
     },
     "location": {
       "country": "USA",
-      "area": " Rocky Mountain National Park"
+      "area": "Rocky Mountain National Park"
     }
   },
   {
@@ -1192,6 +1192,18 @@
 	  "location": {
 	    "country": "Norway",
 	    "area": "Lofoten"
+	  }
+  },
+  {
+	  "name": "Sword of Damocles",
+	  "grade": "8C+",
+	  "fa": "Austin Purdy",
+	  "date": "2024-10-26",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+	    "country": "USA",
+	    "area": "Mt Blue Sky"
 	  }
   }
 ]
