@@ -1209,5 +1209,19 @@
 	    "country": "USA",
 	    "area": "Mt Blue Sky"
 	  }
+  },
+  {
+	  "name": "Shaolin",
+	  "grade": "9A",
+	  "fa": "Sean Bailey",
+	  "date": "",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+	    "country": "USA",
+	    "area": "Red Rock, Nevada",
+      "latitude": 36.07693,
+      "longitude": -115.48019
+	  }
   }
 ]
