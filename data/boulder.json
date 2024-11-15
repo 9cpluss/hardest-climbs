@@ -1216,7 +1216,9 @@
 	  "fa": "Sean Bailey",
 	  "date": "",
 	  "repeat": [],
-	  "videos": {},
+	  "videos": {
+	    "Bailey": "https://youtu.be/_9mPC5drdAM"
+	  },
 	  "location": {
 	    "country": "USA",
 	    "area": "Red Rock, Nevada",
