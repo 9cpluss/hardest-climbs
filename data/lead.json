@@ -1180,40 +1180,52 @@
       "area": "Cataluna"
     }
   },
-{
-  "name": "Hannigraal",
-  "grade": "9b",
-  "fa": "Tanguy Merard",
-  "date": "2024-04-10",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "France",
-    "area": "Grenoble"
+  {
+    "name": "Hannigraal",
+    "grade": "9b",
+    "fa": "Tanguy Merard",
+    "date": "2024-04-10",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Grenoble"
+    }
+  },
+  {
+    "name": "Les Rois du Lithium",
+    "grade": "9b",
+    "fa": "Sebastien Bouin",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Pic Saint-Loup"
+    }
+  },
+  {
+    "name": "Anemology",
+    "grade": "9b",
+    "fa": "Jonathan Siegrist",
+    "date": "2024-05-21",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "USA",
+      "area": "Utah Hills"
+    }
+  },
+  {
+    "name": "Wolf Kingdom",
+    "grade": "9b+",
+    "fa": "Sebastien Bouin",
+    "date": "2024-11-14",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Pic Saint-Loup"
+    }
   }
- },
-{
-  "name": "Les Rois du Lithium",
-  "grade": "9b",
-  "fa": "Sebastien Bouin",
-  "date": "2024",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "France",
-    "area": "Pic Saint Loup"
-  }
- },
-{
-  "name": "Anemology",
-  "grade": "9b",
-  "fa": "Jonathan Siegrist",
-  "date": "2024-05-21",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "USA",
-    "area": "Utah Hills"
-  }
- }
 ]
