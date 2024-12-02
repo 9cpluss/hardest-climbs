@@ -1230,5 +1230,19 @@
       "country": "France",
       "area": "Pic Saint-Loup"
     }
+  },
+  {
+    "name": "Harder Better Faster Stronger",
+    "grade": "9b",
+    "fa": "Loic Zehani",
+    "date": "2024-11-27",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Orgon",
+      "latitude": 43.78006,
+      "longitude": 5.03944
+    }
   }
 ]
