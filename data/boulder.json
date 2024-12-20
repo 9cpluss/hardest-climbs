@@ -1233,5 +1233,19 @@
       "latitude": 36.07693,
       "longitude": -115.48019
 	  }
+  },
+{
+  "name": "Sosa",
+  "grade": "8C+",
+  "fa": "Zach Galla",
+  "date": "2024-05-28",
+  "repeat": [],
+  "videos": {
+    "Galla": "https://youtu.be/y9lHkMXBKco"
+  },
+  "location": {
+    "country": "USA",
+    "area": "Little Cottonwood Canyon"
   }
+ }
 ]
