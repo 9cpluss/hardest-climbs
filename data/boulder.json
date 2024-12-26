@@ -1249,5 +1249,19 @@
     "country": "USA",
     "area": "Little Cottonwood Canyon"
   }
+ },
+{
+  "name": "Deep Fake",
+  "grade": "8C+",
+  "fa": "Nathan Phillips",
+  "date": "2024",
+  "repeat": [],
+  "videos": {
+    "Phillips": "https://youtu.be/pNBX-sKv2_k"
+  },
+  "location": {
+    "country": "Switzerland",
+    "area": "Ticino"
+  }
  }
 ]
