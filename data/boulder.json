@@ -1263,5 +1263,19 @@
     "country": "Switzerland",
     "area": "Ticino"
   }
+ },
+{
+  "name": "No One Mourns the Wicked",
+  "grade": "9A",
+  "fa": "Nathaniel Coleman",
+  "date": "2024",
+  "repeat": [],
+  "videos": {
+    "Coleman": "https://youtu.be/EzhKy-ZVwM4"
+  },
+  "location": {
+    "country": "USA",
+    "area": "Thunder Ridge"
+  }
  }
 ]
