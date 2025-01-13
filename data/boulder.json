@@ -26,7 +26,10 @@
     "grade": "9A",
     "fa": "Daniel Woods",
     "date": "2021-03-30",
-    "repeat": ["William Bosi"],
+    "repeat": [
+      "William Bosi",
+      "Noah Wheeler"
+    ],
     "videos": {
       "Woods": "https://youtu.be/IoEeHwd5GTs",
       "Bosi": "https://youtu.be/8awesjyAGTg"
@@ -47,7 +50,8 @@
       "Aidan Roberts",
       "William Bosi",
       "Simon Lorenzi",
-      "Jakob Schubert"
+      "Jakob Schubert",
+      "Sean Bailey"
     ],
     "videos": {
       "Raboutou": "https://youtu.be/Rx6GPpO37C4?t=2115",
@@ -79,32 +83,47 @@
     }
   },
   {
-	 "name": "L'ombre du voyageur",
-	 "grade": "9A",
-	 "fa": "Charles Albert",
-	 "date": "2023-10-18",
-	 "repeat": [],
-	 "videos": {},
-	 "location": {
-	  "country": "France",
-	  "area": "Haute Savoie"
-	 }
+    "name": "L'ombre du voyageur",
+    "grade": "9A",
+    "fa": "Charles Albert",
+    "date": "2023-10-18",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Haute Savoie"
+    }
   },
-{
-  "name": "Spots of Time",
-  "grade": "9A",
-  "fa": "Aidan Roberts",
-  "date": "2024",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "United Kingdom",
-    "area": "Lake District"
-  }
- },
+  {
+    "name": "Spots of Time",
+    "grade": "9A",
+    "fa": "Aidan Roberts",
+    "date": "2024",
+    "repeat": ["William Bosi"],
+    "videos": {
+      "Roberts": "https://youtu.be/rnw_kyk0G5Q",
+      "Bosi": "https://youtu.be/cg5G1rZGyx0"
+    },
+    "location": {
+      "country": "United Kingdom",
+      "area": "Lake District"
+    }
+  },
+  {
+    "name": "Arrival of the Birds",
+    "grade": "9A",
+    "fa": "Aidan Roberts",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Switzerland",
+      "area": "Ticino"
+    }
+  },
   {
     "name": "Soudain Seul",
-    "grade": "8C+/9A",
+    "grade": "9A",
     "fa": "Simon Lorenzi",
     "date": "2021-02-08",
     "repeat": [
@@ -113,7 +132,8 @@
     ],
     "videos": {
       "Pelorson": "https://youtu.be/TROzPjONA6M",
-      "Coudert": "https://www.instagram.com/tv/CaCJgPBIUR0"
+      "Coudert": "https://www.instagram.com/tv/CaCJgPBIUR0",
+      "Lorenzi": "https://youtu.be/YNqq-K0HK18?si=rjdRQw9Na1TBPsFq"
     },
     "location": {
       "country": "France",
@@ -152,7 +172,7 @@
     },
     "location": {
       "country": "USA",
-      "area": " Rocky Mountain National Park"
+      "area": "Rocky Mountain National Park"
     }
   },
   {
@@ -197,13 +217,17 @@
     "fa": "Ryuichi Murai",
     "date": "2021-12-11",
     "repeat": [
-		"Florian Wientjes",
-		"Ryohei Kameyama"
-	 ],
+      "Florian Wientjes",
+      "Ryohei Kameyama",
+      "Sean Bailey",
+      "Yuta Imaizumi"
+    ],
     "videos": {
       "Murai": "https://youtu.be/zIOCIRd8Mxk",
-		"Kameyama": "https://youtu.be/efBxgEH-ZCg",
-		"Wientjes": "https://youtu.be/W2OPp6q-_ds"
+      "Kameyama": "https://youtu.be/efBxgEH-ZCg",
+      "Wientjes": "https://youtu.be/W2OPp6q-_ds",
+      "Bailey": "https://www.instagram.com/reel/DCood-Ctlh5/",
+      "Imaizumi": "https://youtu.be/onYBZKdg46s"
     },
     "location": {
       "country": "Japan",
@@ -217,11 +241,14 @@
     "date": "2020-12-29",
     "repeat": [
       "Matt Fultz",
-      "David Fitzgerald"
+      "David Fitzgerald",
+      "Hamish McArthur"
     ],
     "videos": {
       "Raboutou": "https://youtu.be/xcBuV2jlavc",
-      "Fultz": "https://youtu.be/Gb3xO1PQK-g"
+      "Fultz": "https://youtu.be/Gb3xO1PQK-g",
+      "Fitzgerald": "https://youtu.be/cexi4Ojvobw",
+      "McArthur": "https://www.instagram.com/reel/DDz626fSOdf/"
     },
     "location": {
       "country": "USA",
@@ -237,12 +264,15 @@
       "Sean Bailey",
       "Daniel Woods",
       "Matt Fultz",
-      "Zach Galla"
+      "Zach Galla",
+      "Owen Whaley"
     ],
     "videos": {
       "Coleman": "https://youtu.be/z1d0s162f30",
       "Bailey": "https://youtu.be/4zh851161Dg",
-      "Woods": "https://youtu.be/C748SL0rH6A"
+      "Woods": "https://youtu.be/C748SL0rH6A",
+      "Fultz": "https://youtu.be/yO48WSqF70Y",
+      "Whaley": "https://youtu.be/v7kBEB_7iZI"
     },
     "location": {
       "country": "USA",
@@ -293,7 +323,9 @@
       "Zach Galla",
       "Noah Wheeler",
       "Andy Lamb",
-      "William Bosi"
+      "William Bosi",
+      "Toru Nakajima",
+      "Adam Shahar"
     ],
     "videos": {
       "Webb": "https://youtu.be/TMIIffUMV8g",
@@ -301,7 +333,7 @@
       "Ruana": "https://youtu.be/ql4XnjGclLw",
       "Williams": "https://youtu.be/nsG3oGb4S3s",
       "Fultz": "https://youtu.be/X-Tw2HpbAaQ",
-      "Hammack": "https://intagram.com/p/CLBPueOD4Nj/",
+      "Hammack": "https://instagram.com/p/CLBPueOD4Nj/",
       "Murai": "https://youtu.be/zbzTGtZ-zd8",
       "Waller": "https://youtu.be/cKYyPs2PeVw",
       "Whaley": "https://www.instagram.com/reel/C1pUYprOsZ-/",
@@ -325,8 +357,8 @@
       "Drew Ruana",
       "Sean Bailey",
       "Katie Lamb",
-		"Brooke Raboutou",
-		"Shawn Raboutou"
+      "Brooke Raboutou",
+      "Shawn Raboutou"
     ],
     "videos": {
       "Woods": "https://youtu.be/rR1QDk76LRk",
@@ -369,8 +401,8 @@
       "Iagnemma": "https://youtu.be/dvttLU5I9hc"
     },
     "location": {
-      "country": "France",
-      "area": "Fontainebleau"
+      "country": "Italy",
+      "area": "Varazze"
     }
   },
   {
@@ -392,7 +424,10 @@
     "grade": "8C+",
     "fa": "Daniel Woods",
     "date": "2015-01-15",
-    "repeat": ["Zach Galla"],
+    "repeat": [
+      "Zach Galla",
+      "Sung Su Lee"
+    ],
     "videos": {
       "Woods": "https://youtu.be/fzn43YOyaLk",
       "Galla": "https://youtu.be/aIZGfb-i1N0"
@@ -418,14 +453,14 @@
       "Dylan Barks",
       "Griffin Whiteside",
       "Andy Lamb",
-		"Pablo Hammack"
+      "Pablo Hammack"
     ],
     "videos": {
       "Traversi": "https://youtu.be/SwhZP0IaVbU",
       "Raboutou": "https://youtu.be/oqWHhcGXjmI",
       "Ruana": "https://youtu.be/xorFvE4Zt8Y",
       "Ichimiya": "https://www.instagram.com/p/BZDo0BGl1cV/",
-      "Fultz": "https://www.instagram.com/p/CQ6Q7RQDSLF/"
+      "Fultz": "https://youtu.be/yO48WSqF70Y"
     },
     "location": {
       "country": "USA",
@@ -481,9 +516,12 @@
     "grade": "8C+",
     "fa": "Ryuichi Murai",
     "date": "2019-10-30",
-    "repeat": [],
+    "repeat": [
+      "Shawn Raboutou"
+    ],
     "videos": {
-      "Murai": "https://youtu.be/3sGxQIg7TOw"
+      "Murai": "https://youtu.be/3sGxQIg7TOw",
+      "Raboutou": "https://youtu.be/MeTvEwVrst0"
     },
     "location": {
       "country": "Japan",
@@ -501,12 +539,15 @@
       "Jimmy Webb",
       "Austin Purdy",
       "Keenan Takahashi",
-		"Andy Lamb"
+      "Andy Lamb",
+      "Noah Wheeler"
     ],
     "videos": {
       "Ruana": "https://youtu.be/fZD3wY2-ULY",
       "Woods": "https://youtu.be/_X_RD2PkrNg",
-      "Webb": "https://youtu.be/_X_RD2PkrNg"
+      "Webb": "https://youtu.be/_X_RD2PkrNg",
+      "Lamb": "https://youtu.be/jS45K4YstjQ&t=18m12s",
+      "Takahashi": "https://youtu.be/jS45K4YstjQ&t=30m55s"
     },
     "location": {
       "country": "USA",
@@ -537,9 +578,12 @@
     "grade": "8C+",
     "fa": "Ryuichi Murai",
     "date": "2021-10-24",
-    "repeat": [],
+    "repeat": [
+      "Keiichiro Korenaga"
+    ],
     "videos": {
-      "Murai": "https://youtu.be/3cWfUmapmb0"
+      "Murai": "https://youtu.be/3cWfUmapmb0",
+      "Korenaga": "https://www.instagram.com/reel/C6Bg1exSg34"
     },
     "location": {
       "country": "Japan",
@@ -622,11 +666,13 @@
     "repeat": [
       "Dave Graham",
       "Clément Lechaptois",
-      "Pietro Vidi"
+      "Pietro Vidi",
+      "Sam Weir"
     ],
     "videos": {
       "Raboutou": "https://youtu.be/SJ9SZm0pjLo",
-      "Lechaptois": "https://youtu.be/42RqQ5CX5LE?t=685"
+      "Lechaptois": "https://youtu.be/42RqQ5CX5LE?t=685",
+      "Weir": "https://youtu.be/iyGQeRWX_iQ"
     },
     "location": {
       "country": "Switzerland",
@@ -685,7 +731,7 @@
     ],
     "videos": {
       "Woods": "https://youtu.be/OxAZZNkVJ1U",
-		"Ruana": "https://youtu.be/MwoS56c08Fk"
+      "Ruana": "https://youtu.be/MwoS56c08Fk"
     },
     "location": {
       "country": "USA",
@@ -742,7 +788,7 @@
   },
   {
     "name": "Isles of Wonder SS",
-    "grade": "8C/+",
+    "grade": "8C+",
     "fa": "Aidan Roberts",
     "date": "2022-07-28",
     "repeat": [
@@ -751,7 +797,8 @@
     ],
     "videos": {
       "Roberts": "https://youtu.be/zilINHowP2g&t=37m58s",
-      "Bosi": "https://youtu.be/pcB7xINW-ek"
+      "Bosi": "https://youtu.be/pcB7xINW-ek",
+      "Kemball Dorey": "https://youtu.be/VVUGrioWE8I"
     },
     "location": {
       "country": "United Kingdom",
@@ -816,8 +863,8 @@
     "date": "2022-02-02",
     "repeat": [],
     "videos": {
-		"Iagnemma": "https://youtu.be/2M2MvmgnhyQ"
-	 },
+      "Iagnemma": "https://youtu.be/2M2MvmgnhyQ"
+    },
     "location": {
       "country": "Italy",
       "area": "Abruzzo e Molise",
@@ -867,7 +914,8 @@
       "Francesco Berardino"
     ],
     "videos": {
-      "Flohé": "https://youtu.be/RSbuqb-oF3I"
+      "Flohé": "https://youtu.be/RSbuqb-oF3I",
+      "Berardino": "https://youtu.be/2J7kb2wbV80"
     },
     "location": {
       "country": "Switzerland",
@@ -897,7 +945,7 @@
     "date": "Nov 2022",
     "repeat": [
       "Matt Fultz",
-		"Stefano Carnati"
+      "Stefano Carnati"
     ],
     "videos": {
       "Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
@@ -975,8 +1023,9 @@
       "Francesco Berardino"
     ],
     "videos": {
-		"Graham": "https://youtu.be/Mqzx7bflG6M"
-	 },
+      "Graham": "https://youtu.be/Mqzx7bflG6M",
+      "Berardino": "https://youtu.be/2J7kb2wbV80"
+    },
     "location": {
       "country": "Switzerland",
       "area": "Val Bavona"
@@ -999,10 +1048,12 @@
     "grade": "8C+",
     "fa": "Shinichiro Nomura",
     "date": "2019-11-09",
-    "repeat": ["Akira Waku"],
+    "repeat": [
+      "Akira Waku"
+    ],
     "videos": {
-			"Waku": "https://youtu.be/jRrd3wyXhT8"
-		},
+      "Waku": "https://youtu.be/jRrd3wyXhT8"
+    },
     "location": {
       "country": "Japan",
       "area": "Shiobara"
@@ -1049,7 +1100,9 @@
     "grade": "8C+",
     "fa": "Sean Bailey",
     "date": "",
-    "repeat": ["Shawn Raboutou"],
+    "repeat": [
+      "Shawn Raboutou"
+    ],
     "videos": {
       "Raboutou": "https://youtu.be/YafSnTSMOKY"
     },
@@ -1064,8 +1117,13 @@
     "fa": "Daniel Woods",
     "date": "2024",
     "repeat": [],
-    "videos": {},
-    "location": {}
+    "videos": {
+      "Woods": "https://youtu.be/JxCA2_gSn8Y&t=20m1s"
+    },
+    "location": {
+      "country": "USA",
+      "area": "Colorado"
+    }
   },
   {
     "name": "Regret",
@@ -1080,7 +1138,7 @@
     }
   },
   {
-    "name": "Muerte por asfixia",
+    "name": "Muerte por Asfixia",
     "grade": "8C+",
     "fa": "Pablo Zamora",
     "date": "2024-01-04",
@@ -1088,11 +1146,138 @@
       "Jorge Díaz-Rullo"
     ],
     "videos": {
-      "Zamora": "https://youtu.be/7yWzvl-FGzk"
+      "Zamora": "https://youtu.be/7yWzvl-FGzk",
+      "Díaz-Rullo": "https://youtu.be/eVVhFXEI-Dg"
     },
     "location": {
       "country": "Spain",
       "area": "Manzanares El Real"
     }
+  },
+  {
+    "name": "Flow State",
+    "grade": "8C/+",
+    "fa": "Pietro Vidi",
+    "date": "2024-04-17",
+    "repeat": [
+      "Adam Ondra",
+      "Stefano Carnati",
+      "Gio Placci",
+      "Simone Mabboni"
+    ],
+    "videos": {
+      "Ondra": "https://www.instagram.com/p/C_TTfVrs8Oh/"
+    },
+    "location": {
+      "country": "Italy",
+      "area": "Val Daone"
+    }
+  },
+  {
+    "name": "Hazel Grace (sit)",
+    "grade": "8C/+",
+    "fa": "Giuliano Cameroni",
+    "date": "2021-06-28",
+    "repeat": [
+      "Florian Wientjes",
+      "Dave Graham",
+      "Sam Weir"
+    ],
+    "videos": {
+			"Cameroni": "https://youtu.be/EHuROyZLoy8",
+      "Wientjes": "https://youtu.be/wn7ZUR1ApjU",
+      "Graham": "https://youtu.be/Aax1Vt9_Tjc?si=93HWPTCOwuDUNG8T",
+      "Weir": "https://youtu.be/6ndXM60H154"
+		},
+    "location": {
+      "country": "Switzerland",
+      "area": "Gottardo",
+      "latitude": 46.55979,
+      "longitude": 8.56489 
+    }
+  },
+  {
+	  "name": "Tsunami",
+	  "grade": "8C+",
+	  "fa": "Thilo Schröter",
+	  "date": "Oct 2024",
+	  "repeat": [],
+	  "videos": {
+	    "Schröter": "https://www.instagram.com/reel/DBMVtT3tlAM/"
+	  },
+	  "location": {
+	    "country": "Norway",
+	    "area": "Lofoten"
+	  }
+  },
+  {
+	  "name": "Sword of Damocles",
+	  "grade": "8C+",
+	  "fa": "Austin Purdy",
+	  "date": "2024-10-26",
+	  "repeat": [],
+	  "videos": {},
+	  "location": {
+	    "country": "USA",
+	    "area": "Mt Blue Sky"
+	  }
+  },
+  {
+	  "name": "Shaolin",
+	  "grade": "9A",
+	  "fa": "Sean Bailey",
+	  "date": "",
+	  "repeat": [],
+	  "videos": {
+	    "Bailey": "https://youtu.be/_9mPC5drdAM"
+	  },
+	  "location": {
+	    "country": "USA",
+	    "area": "Red Rock, Nevada",
+      "latitude": 36.07693,
+      "longitude": -115.48019
+	  }
+  },
+{
+  "name": "Sosa",
+  "grade": "8C+",
+  "fa": "Zach Galla",
+  "date": "2024-05-28",
+  "repeat": [],
+  "videos": {
+    "Galla": "https://youtu.be/y9lHkMXBKco"
+  },
+  "location": {
+    "country": "USA",
+    "area": "Little Cottonwood Canyon"
   }
+ },
+{
+  "name": "Deep Fake",
+  "grade": "8C+",
+  "fa": "Nathan Phillips",
+  "date": "2024",
+  "repeat": [],
+  "videos": {
+    "Phillips": "https://youtu.be/pNBX-sKv2_k"
+  },
+  "location": {
+    "country": "Switzerland",
+    "area": "Ticino"
+  }
+ },
+{
+  "name": "No One Mourns the Wicked",
+  "grade": "9A",
+  "fa": "Nathaniel Coleman",
+  "date": "2024",
+  "repeat": [],
+  "videos": {
+    "Coleman": "https://youtu.be/EzhKy-ZVwM4"
+  },
+  "location": {
+    "country": "USA",
+    "area": "Thunder Ridge"
+  }
+ }
 ]

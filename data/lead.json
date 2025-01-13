@@ -72,10 +72,13 @@
     "date": "2012-10-04",
     "repeat": [
       "Stefano Ghisolfi",
-      "Sebastien Bouin"
+      "Sebastien Bouin",
+      "Alexander Megos",
+      "Jorge Díaz-Rullo"
     ],
     "videos": {
-      "Ghisolfi": "https://youtu.be/l8AETvINyAk"
+      "Ghisolfi": "https://youtu.be/l8AETvINyAk",
+      "Díaz-Rullo": "https://youtu.be/oMnJydMmIVM"
     },
     "location": {
       "country": "Norway",
@@ -282,10 +285,13 @@
     "fa": "Adam Ondra",
     "date": "2013-08-20",
     "repeat": [
-      "Sebastien Bouin"
+      "Sebastien Bouin",
+      "Alexander Megos",
+      "Jorge Díaz-Rullo"
     ],
     "videos": {
-      "Bouin": "https://youtu.be/GeZUZUBKVjs"
+      "Bouin": "https://youtu.be/GeZUZUBKVjs",
+      "Díaz-Rullo": "https://youtu.be/5gOrzHukMV0"
     },
     "location": {
       "country": "Norway",
@@ -320,7 +326,8 @@
       "Adam Ondra",
       "Jakob Schubert",
       "Stefano Carnati",
-      "Gabriele Moroni"
+      "Gabriele Moroni",
+      "Gio Placci"
     ],
     "videos": {
       "Ghisolfi": "https://youtu.be/gPuePc_iiPE",
@@ -490,7 +497,8 @@
       "Anak Verhoeven"
     ],
     "videos": {
-      "Schubert": "https://youtu.be/NmfkrjlsFzU"
+      "Schubert": "https://youtu.be/NmfkrjlsFzU",
+      "Verhoeven": "https://youtu.be/ooE3iRuT1mY"
     },
     "location": {
       "country": "Spain",
@@ -545,7 +553,9 @@
       "Jakob Schubert",
       "Stefano Ghisolfi",
       "Sachi Amma",
-      "Jonathan Siegrist"
+      "Jonathan Siegrist",
+      "Jorge Díaz-Rullo",
+      "Yu Okumura"
     ],
     "videos": {
       "Ondra": "https://youtu.be/Uo64D1-Vumw",
@@ -1175,40 +1185,66 @@
       "area": "Cataluna"
     }
   },
-{
-  "name": "Hannigraal",
-  "grade": "9b",
-  "fa": "Tanguy Merard",
-  "date": "2024-04-10",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "France",
-    "area": "Grenoble"
+  {
+    "name": "Hannigraal",
+    "grade": "9b",
+    "fa": "Tanguy Merard",
+    "date": "2024-04-10",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Grenoble"
+    }
+  },
+  {
+    "name": "Les Rois du Lithium",
+    "grade": "9b",
+    "fa": "Sebastien Bouin",
+    "date": "2024",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Pic Saint-Loup"
+    }
+  },
+  {
+    "name": "Anemology",
+    "grade": "9b",
+    "fa": "Jonathan Siegrist",
+    "date": "2024-05-21",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "USA",
+      "area": "Utah Hills"
+    }
+  },
+  {
+    "name": "Wolf Kingdom",
+    "grade": "9b+",
+    "fa": "Sebastien Bouin",
+    "date": "2024-11-14",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Pic Saint-Loup"
+    }
+  },
+  {
+    "name": "Harder Better Faster Stronger",
+    "grade": "9b",
+    "fa": "Loic Zehani",
+    "date": "2024-11-27",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Orgon",
+      "latitude": 43.78006,
+      "longitude": 5.03944
+    }
   }
- },
-{
-  "name": "Les Rois du Lithium",
-  "grade": "9b",
-  "fa": "Sebastien Bouin",
-  "date": "2024",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "France",
-    "area": "Pic Saint Loup"
-  }
- },
-{
-  "name": "Anemology",
-  "grade": "9b",
-  "fa": "Jonathan Siegrist",
-  "date": "2024-05-21",
-  "repeat": [],
-  "videos": {},
-  "location": {
-    "country": "USA",
-    "area": "Utah Hills"
-  }
- }
 ]
