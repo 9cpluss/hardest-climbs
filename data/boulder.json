@@ -1284,9 +1284,11 @@
   "name": "The Big Slamm",
   "grade": "9A",
   "fa": "Elias Iagnemma",
-  "date": "2025",
+  "date": "Jan 2025",
   "repeat": [],
   "videos": {},
-  "location": {}
+  "location": {
+    "country": "Italy"
+  }
  }
 ]
