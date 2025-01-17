@@ -1,5 +1,4 @@
-Feel free to use the data in this repository but please credit the website [hardestclimbs.com](https://www.hardestclimbs.com)
-
+Feel free to use the data in this repository but please credit the website [hardestclimbs.com](https://www.hardestclimbs.com).
 If you spot a mistake or would like to add some data, please create a new issue or create a pull request.
 
 # Data Structure
@@ -12,7 +11,6 @@ The data is structured as a relational group of three csvs:
 ## climbers_table.csv
 Contains basic biographical information about climbers.
 
-### Schema
 | Column Name    | Data Type | Description                           | Example   |
 |---------------|-----------|---------------------------------------|-----------|
 | climber_id    | string    | Unique identifier for each climber    | cl00001   |
@@ -22,7 +20,6 @@ Contains basic biographical information about climbers.
 | gender        | string    | Gender (male/female)                  | male      |
 | year_of_birth | integer   | Year the climber was born            | 1993      |
 
-### Data Format
 - CSV file with header row
 - Fields are comma-separated
 - No quoted fields
@@ -32,7 +29,6 @@ Contains basic biographical information about climbers.
 ## routes_table.csv
 Contains detailed information about climbing routes.
 
-#### Schema
 | Column Name | Data Type | Description                          | Example    |
 |------------|-----------|--------------------------------------|------------|
 | route_name | string    | Name of the climbing route           | Silence    |
@@ -44,7 +40,6 @@ Contains detailed information about climbing routes.
 | grade      | string    | Climbing grade of the route          | 9c         |
 | route_id   | string    | Unique identifier for each route     | ro0001     |
 
-#### Data Format
 - CSV file with header row
 - Fields are comma-separated
 - No quoted fields
@@ -53,9 +48,26 @@ Contains detailed information about climbing routes.
 - Coordinates are in decimal degrees format
 - Grade uses standard/european climbing grade notation
 
+## sends_table.csv
+Contains records of climbing ascents, linking climbers to specific routes.
+
+| Column Name | Data Type | Description                                | Example    |
+|------------|-----------|--------------------------------------------| ---------- |
+| date       | date      | Date of the ascent (YYYY-MM-DD)           | 2024-01-01 |
+| fa         | boolean   | First ascent flag (1 = FA, 0 = repeat)    | 1          |
+| video      | string    | Video link if available (NA if none)      | NA         |
+| climber_id | string    | Reference to climber in climbers.csv      | cl00043    |
+| route_id   | string    | Reference to route in routes.csv          | ro0136     |
+
+- CSV file with header row
+- Fields are comma-separated
+- Fields are quoted
+- Date format is YYYY-MM-DD
+- NA represents missing or not applicable data
+- climber_id references climbers.csv (pattern: 'cl' + 5 digits)
+- route_id references routes.csv (pattern: 'ro' + 4 digits)# Data Sources
 
 
-# Data Sources
 Thanks to the following websites (not a complete list):
 * 8a.nu
 * climbing-history.org
