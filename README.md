@@ -29,6 +29,31 @@ Contains basic biographical information about climbers.
 - String values are case-sensitive
 - Climber IDs follow the pattern 'cl' followed by 5 digits
 
+## routes_table.csv
+Contains detailed information about climbing routes.
+
+#### Schema
+| Column Name | Data Type | Description                          | Example    |
+|------------|-----------|--------------------------------------|------------|
+| route_name | string    | Name of the climbing route           | Silence    |
+| type       | string    | Type of climbing (currently sport or boulder) | sport      |
+| country    | string    | Country where route is located       | Norway     |
+| crag       | string    | Specific crag or climbing area       | Flatanger  |
+| lat        | float     | Latitude coordinates                 | 64.489722  |
+| long       | float     | Longitude coordinates                | 10.818611  |
+| grade      | string    | Climbing grade of the route          | 9c         |
+| route_id   | string    | Unique identifier for each route     | ro0001     |
+
+#### Data Format
+- CSV file with header row
+- Fields are comma-separated
+- No quoted fields
+- String values are case-sensitive
+- Route IDs follow the pattern 'ro' followed by 4 digits
+- Coordinates are in decimal degrees format
+- Grade uses standard/european climbing grade notation
+
+
 
 # Data Sources
 Thanks to the following websites (not a complete list):
