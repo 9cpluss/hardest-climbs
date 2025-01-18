@@ -33,7 +33,7 @@ Contains detailed information about climbing routes.
 |------------|-----------|--------------------------------------|------------|
 | route_name | string    | Name of the climbing route           | Silence    |
 | type       | string    | Type of climbing (currently sport or boulder) | sport      |
-| country    | string    | Country where route is located       | Norway     |
+| route_country    | string    | Country where route is located       | norway     |
 | crag       | string    | Specific crag or climbing area       | Flatanger  |
 | lat        | float     | Latitude coordinates                 | 64.489722  |
 | long       | float     | Longitude coordinates                | 10.818611  |
@@ -68,8 +68,11 @@ Contains records of climbing ascents, linking climbers to specific routes.
 - route_id references routes.csv (pattern: 'ro' + 4 digits)# Data Sources
 
 
+# Sources:
 Thanks to the following websites (not a complete list):
 * 8a.nu
 * climbing-history.org
 * ukclimbing.com
 * thecrag.com
+* instagram
+* youtube
