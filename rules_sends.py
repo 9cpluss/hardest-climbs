@@ -1,7 +1,7 @@
 from data_validator import DataValidator
 from pathlib import Path
 
-def validate_sales_data():
+def validate_sends_table():
     validator = DataValidator()
     
     # Add sales-specific rules
