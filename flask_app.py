@@ -2,9 +2,12 @@ import os
 import json
 import git
 import pandas as pd
+
 from flask import render_template
 from flask import Flask, request
+from http import HTTPStatus
 
+from src.auth import verify_signature
 from src.update import update
 from src.utils import json_to_dataframe, create_climber_key, split_name
 
@@ -147,15 +150,32 @@ def bouldering_problem(problem):
 @app.route("/update", methods=["POST"])
 def webhook():
     if request.method == "POST":
+        return 'Wrong event type', HTTPStatus.BAD_REQUEST
+
+    # Get signature from headers
+    signature_header = request.headers.get('X-Hub-Signature-256')
+    if not signature_header:
+        return 'No signature header', HTTPStatus.FORBIDDEN
+    
+    webhook_secret = os.environ.get('WEBHOOK_SECRET')
+    if not webhook_secret:
+        return 'Webhook secret not configured', HTTPStatus.INTERNAL_SERVER_ERROR
+    
+    try:
+        verify_signature(request.data, webhook_secret, signature_header)
+    except Exception as e:
+        return str(e), HTTPStatus.FORBIDDEN
+
+    try:
         repo = git.Repo("~/mysite")
         origin = repo.remotes.origin
         origin.pull()
-        
+
         update()
-        
-        return 'Updated PythonAnywhere successfully', 200
-    else:
-        return 'Wrong event type', 400
+
+        return 'Updated PythonAnywhere successfully', HTTPStatus.OK
+    except Exception as e:
+        return f'Error during update: {str(e)}', HTTPStatus.INTERNAL_SERVER_ERROR
 
 
 # helper template filters ----
