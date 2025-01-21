@@ -149,7 +149,7 @@ def bouldering_problem(problem):
 
 @app.route("/update", methods=["POST"])
 def webhook():
-    if request.method == "POST":
+    if request.method != "POST":
         return 'Wrong event type', HTTPStatus.BAD_REQUEST
 
     # Get signature from headers
