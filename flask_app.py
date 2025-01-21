@@ -149,7 +149,7 @@ def bouldering_problem(problem):
 
 @app.route("/update", methods=["POST"])
 def webhook():
-    if request.method == "POST":
+    if request.method != "POST":
         return 'Wrong event type', HTTPStatus.BAD_REQUEST
 
     # Get signature from headers
@@ -160,11 +160,12 @@ def webhook():
     webhook_secret = os.environ.get('WEBHOOK_SECRET')
     if not webhook_secret:
         return 'Webhook secret not configured', HTTPStatus.INTERNAL_SERVER_ERROR
-    
-    try:
-        verify_signature(request.json, webhook_secret, signature_header)
-    except Exception as e:
-        return str(e), HTTPStatus.FORBIDDEN
+
+    verify_signature(
+        payload_body=request.data,
+        secret_token=webhook_secret,
+        signature_header=signature_header
+    )
 
     try:
         repo = git.Repo("~/mysite")
