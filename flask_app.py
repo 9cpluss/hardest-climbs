@@ -162,7 +162,7 @@ def webhook():
         return 'Webhook secret not configured', HTTPStatus.INTERNAL_SERVER_ERROR
     
     try:
-        verify_signature(request.data, webhook_secret, signature_header)
+        verify_signature(request.json, webhook_secret, signature_header)
     except Exception as e:
         return str(e), HTTPStatus.FORBIDDEN
 
