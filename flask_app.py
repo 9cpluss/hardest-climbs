@@ -167,16 +167,19 @@ def webhook():
         signature_header=signature_header
     )
 
-    try:
-        repo = git.Repo("~/mysite")
-        origin = repo.remotes.origin
-        origin.pull()
+    payload = request.get_json()
+    
+    if payload and payload.get("ref") == "refs/heads/master":
+        try:
+            repo = git.Repo("~/mysite")
+            origin = repo.remotes.origin
+            origin.pull()
 
-        update()
+            update()
 
-        return 'Updated PythonAnywhere successfully', HTTPStatus.OK
-    except Exception as e:
-        return f'Error during update: {str(e)}', HTTPStatus.INTERNAL_SERVER_ERROR
+            return 'Updated PythonAnywhere successfully', HTTPStatus.OK
+        except Exception as e:
+            return f'Error during update: {str(e)}', HTTPStatus.INTERNAL_SERVER_ERROR
 
 
 # helper template filters ----
