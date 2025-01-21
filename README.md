@@ -11,14 +11,14 @@ The data is structured as a relational group of three csvs:
 ## climbers_table.csv
 Contains basic biographical information about climbers.
 
-| Column Name    | Data Type | Description                           | Example   |
+| Column Name   | Data Type | Description                          | Example   |
 |---------------|-----------|---------------------------------------|-----------|
 | climber_id    | string    | Unique identifier for each climber    | cl00001   |
 | first_name    | string    | Climber's first name                  | Adam      |
 | last_name     | string    | Climber's last name                   | Ondra     |
-| country       | string    | Country of origin (lowercase)         | czechia   |
+| country       | string    | Country of origin                     | Czechia   |
 | gender        | string    | Gender (male/female)                  | male      |
-| year_of_birth | integer   | Year the climber was born            | 1993      |
+| year_of_birth | integer   | Year the climber was born             | 1993      |
 
 - CSV file with header row
 - Fields are comma-separated
@@ -29,11 +29,11 @@ Contains basic biographical information about climbers.
 ## routes_table.csv
 Contains detailed information about climbing routes.
 
-| Column Name | Data Type | Description                          | Example    |
+| Column Name | Data Type | Description                         | Example    |
 |------------|-----------|--------------------------------------|------------|
-| route_name | string    | Name of the climbing route           | Silence    |
+| route_name | string    | Name of the climbing route/boulder   | Silence    |
 | type       | string    | Type of climbing (currently sport or boulder) | sport      |
-| route_country    | string    | Country where route is located       | norway     |
+| route_country    | string    | Country where route is located       | Norway     |
 | crag       | string    | Specific crag or climbing area       | Flatanger  |
 | lat        | float     | Latitude coordinates                 | 64.489722  |
 | long       | float     | Longitude coordinates                | 10.818611  |
@@ -51,8 +51,8 @@ Contains detailed information about climbing routes.
 ## sends_table.csv
 Contains records of climbing ascents, linking climbers to specific routes.
 
-| Column Name | Data Type | Description                                | Example    |
-|------------|-----------|--------------------------------------------| ---------- |
+| Column Name | Data Type | Description                              | Example    |
+|------------|-----------|-------------------------------------------| ---------- |
 | date       | date      | Date of the ascent (YYYY-MM-DD)           | 2024-01-01 |
 | fa         | boolean   | First ascent flag (1 = FA, 0 = repeat)    | 1          |
 | video      | string    | Video link if available (NA if none)      | NA         |
