@@ -7,7 +7,7 @@ from flask import render_template
 from flask import Flask, request
 from http import HTTPStatus
 
-from src.auth import verify_signature
+from src.auth import signature_verified
 from src.update import update
 from src.utils import json_to_dataframe, create_climber_key, split_name
 
@@ -161,11 +161,8 @@ def webhook():
     if not webhook_secret:
         return 'Webhook secret not configured', HTTPStatus.INTERNAL_SERVER_ERROR
 
-    verify_signature(
-        payload_body=request.data,
-        secret_token=webhook_secret,
-        signature_header=signature_header
-    )
+    if not signature_verified(request.data, webhook_secret, signature_header):
+        return "Signature not verified", HTTPStatus.FORBIDDEN
 
     payload = request.get_json()
     
