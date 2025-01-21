@@ -1279,5 +1279,16 @@
     "country": "USA",
     "area": "Thunder Ridge"
   }
+ },
+{
+  "name": "The Big Slamm",
+  "grade": "9A",
+  "fa": "Elias Iagnemma",
+  "date": "Jan 2025",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "Italy"
+  }
  }
 ]

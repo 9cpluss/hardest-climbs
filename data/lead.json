@@ -1246,5 +1246,17 @@
       "latitude": 43.78006,
       "longitude": 5.03944
     }
+  },
+  {
+    "name": "Tuareg Blanco",
+    "grade": "9b/+",
+    "fa": "Alexander Megos",
+    "date": "Jan 2025",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Spain",
+      "area": "Margalef"
+    }
   }
 ]
