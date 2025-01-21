@@ -177,6 +177,8 @@ def webhook():
             return 'Updated PythonAnywhere successfully', HTTPStatus.OK
         except Exception as e:
             return f'Error during update: {str(e)}', HTTPStatus.INTERNAL_SERVER_ERROR
+        
+    return "OK", HTTPStatus.OK
 
 
 # helper template filters ----
