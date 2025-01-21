@@ -1,4 +1,4 @@
-"route_name","type","crag_country","crag","lat","long","grade","route_id"
+﻿"route_name","type","crag_country","crag","lat","long","grade","route_id"
 "Silence","sport","Norway","Flatanger",64.489722,10.818611,"9c","ro00001"
 "DNA","sport","France","Verdon Gorge",43.73469922,6.360529315,"9c","ro00002"
 "B.I.G.","sport","Norway","Flatanger",64.489722,10.818611,"9c","ro00003"
@@ -145,3 +145,5 @@
 "Sosa","boulder","Usa","Little Cottonwood Canyon",NA,NA,"8C+","ro00144"
 "Deep Fake","boulder","Switzerland","Ticino",NA,NA,"8C+","ro00145"
 "No One Mourns the Wicked","boulder","Usa","Thunder Ridge",NA,NA,"9A","ro00146"
+"Tuareg Blanco","lead","Spain","Margalef",41.2756,0.76803,"9B/+","ro00147"
+"The Big Slamm","boulder","Italy","Tintorale",42.5464,13.4967,"9A","ro00148"
