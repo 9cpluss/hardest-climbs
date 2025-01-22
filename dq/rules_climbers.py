@@ -1,6 +1,7 @@
-from data_validator import DataValidator
+from dq.data_validator import DataValidator
 from pathlib import Path
-
+from datetime import datetime
+import pandas as pd
 
 # Get current year dynamically
 current_year = datetime.now().year
@@ -28,8 +29,9 @@ def validate_climbers_table():
     validator.add_rule(
         name="valid_birth_year",
         check_func=lambda df: (
-            (df['year_of_birth'] >= 1970) & 
-            (df['year_of_birth'] <= current_year - 15)
+            (df['year_of_birth'].isna())| # NA is permissible
+            ((pd.to_numeric(df['year_of_birth'] >= 1970)) & 
+            (pd.to_numeric(df['year_of_birth'] <= current_year - 15)))
         ).all(),
         message=f"Birth year must be between 1970 and {current_year - 15} (15 years old)",
         severity="error"
