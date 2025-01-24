@@ -1,35 +1,29 @@
-from dq.data_validator import DataValidator
+
+import pandera as pa
+import pandas as pd
+from datetime import datetime
 from pathlib import Path
 
-def validate_routes_table():
-    validator = DataValidator()
-    
-    
-    # route_id must be unique
-    validator.add_rule(
-        name="Unique route_id",
-        check_func=lambda df: not df['route_id'].duplicated().any(),
-        message="Duplicated route_id, please investigate!",
-        severity="error"
-    )
+current_year = datetime.now().year
 
-     # route_name must be unique
-    validator.add_rule(
-        name="Unique route_name",
-        check_func=lambda df: not df['route_name'].duplicated().any(),
-        message="Duplicated route_name, please investigate!",
-        severity="error"
-    )
+# rules
+def routes_schema():
+    return pa.DataFrameSchema({
+        'route_id': pa.Column(str, pa.Check(lambda s: not s.duplicated().any()), 
+                                unique=True),
+        'type': pa.Column(str, pa.Check.isin(['sport', 'boulder']))
+    })
 
+# run rules
+def validate_routes_data(file_path):
+    schema = routes_schema()
+    df = pd.read_csv(file_path)
+    try:
+        schema.validate(df, lazy=True)
+        print("Data validation successful!")
+    except pa.errors.SchemaErrors as err:
+        print("Data validation failed:")
+        print(err.failure_cases)
 
-    # type is sport or boulder
-    validator.add_rule(
-        name="type",
-        check_func=lambda df: df['type'].isin(['sport', 'boulder']).all(),
-        message="Invalid type values found - must be 'sport' or 'boulder'",
-        severity="error"
-    )
-    
-    return validator.validate_file(Path('data/routes_table.csv'))
-
+validate_routes_data(Path('data/routes_table.csv'))
 

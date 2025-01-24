@@ -1,43 +1,28 @@
-from dq.data_validator import DataValidator
-from pathlib import Path
-from datetime import datetime
+import pandera as pa
 import pandas as pd
+from datetime import datetime
+from pathlib import Path
 
-# Get current year dynamically
 current_year = datetime.now().year
 
-def validate_climbers_table():
-    validator = DataValidator()
-    
-    # climber_id must be unique
-    validator.add_rule(
-        name="Unique climber_id",
-        check_func=lambda df: not df['climber_id'].duplicated().any(),
-        message="Duplicated customer_id, please investigate!",
-        severity="error"
-    )
+# rules
+def climbers_schema():
+    return pa.DataFrameSchema({
+        'climber_id': pa.Column(str, pa.Check(lambda s: not s.duplicated().any()), 
+                                unique=True),
+        'gender': pa.Column(str, pa.Check.isin(['male', 'female'])),
+        'year_of_birth':  pa.Column(float, pa.Check(lambda x: (pd.isna(x)) | ((x >= 1970) & (x <= current_year - 15))), nullable=True)
+    })
 
-    # gender is M/F
-    validator.add_rule(
-        name="valid_gender",
-        check_func=lambda df: df['gender'].isin(['male', 'female']).all(),
-        message="Invalid gender values found - must be 'male' or 'female'",
-        severity="error"
-    )
-    
-    # No climbers suspiciously old or young...
-    validator.add_rule(
-        name="valid_birth_year",
-        check_func=lambda df: (
-            (df['year_of_birth'].isna())| # NA is permissible
-            ((pd.to_numeric(df['year_of_birth'] >= 1970)) & 
-            (pd.to_numeric(df['year_of_birth'] <= current_year - 15)))
-        ).all(),
-        message=f"Birth year must be between 1970 and {current_year - 15} (15 years old)",
-        severity="error"
-    )   
-
-
-    return validator.validate_file(Path('data/climbers_table.csv'))
-
+# run rules
+def validate_climbers_data(file_path):
+    schema = climbers_schema()
+    df = pd.read_csv(file_path)
+    try:
+        schema.validate(df, lazy=True)
+        print("Data validation successful!")
+    except pa.errors.SchemaErrors as err:
+        print("Data validation failed:")
+        print(err.failure_cases)
+validate_climbers_data(Path('data/climbers_table.csv'))
 
