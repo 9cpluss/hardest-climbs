@@ -48,12 +48,7 @@ sends_schema = pa.DataFrameSchema(
 def validate_csv(file_path: str, schema: pa.DataFrameSchema):
     df = pd.read_csv(file_path)
 
-    try:
-        schema.validate(df, lazy=True)
-        print("Data validation successful!")
-    except pa.errors.SchemaErrors as err:
-        print("Data validation failed:")
-        print(err.failure_cases)
+    schema.validate(df, lazy=True)
 
 
 if __name__ == "__main__":
