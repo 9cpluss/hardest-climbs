@@ -16,3 +16,6 @@ jobs:
 
       - name: Validate JSON
         run: python src/validate_json.py
+
+      - name: Validate CSVs
+        run: python src/validate_csv.py
