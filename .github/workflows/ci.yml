@@ -14,6 +14,21 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+      
+      # Install Poetry
+      - name: Install Poetry
+        run: pip install poetry==1.8.3
+      
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          poetry config virtualenvs.create false
+          poetry install
+
       - name: Validate JSON
         run: python src/validate_json.py
 
