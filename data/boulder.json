@@ -778,9 +778,12 @@
     "grade": "8C+",
     "fa": "Shawn Raboutou",
     "date": "2022-07-21",
-    "repeat": [],
+    "repeat": [
+      "Jakob Schubert"
+    ],
     "videos": {
-      "Raboutou": "https://youtu.be/oa0bXWl2RBs"
+      "Raboutou": "https://youtu.be/oa0bXWl2RBs",
+      "Schubert": "https://youtu.be/5mZ-XKD21Mk?t=11m20s"
     },
     "location": {
       "country": "Switzerland",
@@ -946,11 +949,13 @@
     "date": "Nov 2022",
     "repeat": [
       "Matt Fultz",
-      "Stefano Carnati"
+      "Stefano Carnati",
+      "Jakob Schubert"
     ],
     "videos": {
       "Roberts": "https://youtu.be/zilINHowP2g&t=28m19s",
-      "Fultz": "https://youtu.be/xILbH7MkBPo"
+      "Fultz": "https://youtu.be/xILbH7MkBPo",
+      "Schubert": "https://youtu.be/5mZ-XKD21Mk?t=20m57s"
     },
     "location": {
       "country": "Switzerland",
