@@ -966,11 +966,15 @@
   },
   {
     "name": "The Lions Share",
-    "grade": "8C+",
+    "grade": "8C/+",
     "fa": "Aidan Roberts",
     "date": "Feb 2023",
-    "repeat": [],
-    "videos": {},
+    "repeat": [
+      "Jakob Schubert"
+    ],
+    "videos": {
+      "Schubert": "https://youtu.be/5mZ-XKD21Mk?t=24m44s"
+    },
     "location": {
       "country": "Switzerland",
       "area": "Brione"
