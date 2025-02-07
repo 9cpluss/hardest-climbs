@@ -1262,5 +1262,17 @@
       "country": "Spain",
       "area": "Margalef"
     }
+  },
+  {
+    "name": "El Gran Cabrón",
+    "grade": "9b",
+    "fa": "Sebastien Bouin",
+    "date": "2025",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "China",
+      "area": "Shegeng Cave"
+    }
   }
 ]
