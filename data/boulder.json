@@ -428,7 +428,8 @@
     "date": "2015-01-15",
     "repeat": [
       "Zach Galla",
-      "Sung Su Lee"
+      "Sung Su Lee",
+      "Adam Shahar"
     ],
     "videos": {
       "Woods": "https://youtu.be/fzn43YOyaLk",
@@ -1299,7 +1300,9 @@
   "fa": "Elias Iagnemma",
   "date": "Jan 2025",
   "repeat": [],
-  "videos": {},
+  "videos": {
+    "https://youtu.be/0pnI_r3BosM"
+  },
   "location": {
     "country": "Italy"
   }
