@@ -1306,5 +1306,17 @@
   "location": {
     "country": "Italy"
   }
+ },
+ {
+  "name": "Obsidian",
+  "grade": "8C+",
+  "fa": "Stefan Hochbaum",
+  "date": "2025-02-08",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "Germany",
+    "area": "Scharfenstein"
+  }
  }
 ]
