@@ -1321,5 +1321,17 @@
     "country": "Germany",
     "area": "Scharfenstein"
   }
+ },
+ {
+  "name": "Mount Doom",
+  "grade": "9A",
+  "fa": "Nicolai Užnik",
+  "date": "2025-03-01",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "Austria",
+    "area": "Maltatal"
+  }
  }
 ]
