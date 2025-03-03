@@ -1316,7 +1316,9 @@
   "fa": "Stefan Hochbaum",
   "date": "2025-02-08",
   "repeat": [],
-  "videos": {},
+  "videos": {
+    "Hochbaum": "https://youtu.be/WV62edIMnq0"
+  },
   "location": {
     "country": "Germany",
     "area": "Scharfenstein"
