@@ -1244,7 +1244,9 @@
 	  "grade": "9A",
 	  "fa": "Sean Bailey",
 	  "date": "",
-	  "repeat": [],
+	  "repeat": [
+	    "Noah Wheeler"
+	  ],
 	  "videos": {
 	    "Bailey": "https://youtu.be/_9mPC5drdAM"
 	  },
