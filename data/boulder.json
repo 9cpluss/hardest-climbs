@@ -1337,5 +1337,16 @@
     "country": "Austria",
     "area": "Maltatal"
   }
- }
+ },
+ {
+  "name": "Curve Ball",
+  "grade": "8C+",
+  "fa": "Guiliano Cameroni",
+  "date": "2025"
+  "repeat": [],
+  "videos": {
+    "Cameroni": "https://www.instagram.com/reel/DG_BK-ztmtx/"
+  },
+  "location": {}
+}
 ]
