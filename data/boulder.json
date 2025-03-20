@@ -436,7 +436,8 @@
     ],
     "videos": {
       "Woods": "https://youtu.be/fzn43YOyaLk",
-      "Galla": "https://youtu.be/aIZGfb-i1N0"
+      "Galla": "https://youtu.be/aIZGfb-i1N0",
+      "Shahar": "https://youtu.be/3TXclSe-D9U"
     },
     "location": {
       "country": "USA",
@@ -523,11 +524,13 @@
     "fa": "Ryuichi Murai",
     "date": "2019-10-30",
     "repeat": [
-      "Shawn Raboutou"
+      "Shawn Raboutou",
+      "Daisuke Ichimiya"
     ],
     "videos": {
       "Murai": "https://youtu.be/3sGxQIg7TOw",
-      "Raboutou": "https://youtu.be/MeTvEwVrst0"
+      "Raboutou": "https://youtu.be/MeTvEwVrst0",
+      "Ichimiya": "https://youtu.be/pyyvzyzui94"
     },
     "location": {
       "country": "Japan",
@@ -1278,9 +1281,12 @@
   "grade": "8C+",
   "fa": "Nathan Phillips",
   "date": "2024",
-  "repeat": [],
+  "repeat": [
+    "Matt Fultz"
+  ],
   "videos": {
-    "Phillips": "https://youtu.be/pNBX-sKv2_k"
+    "Phillips": "https://youtu.be/pNBX-sKv2_k",
+    "Fultz": "https://youtu.be/lqmQsIcuiYg"
   },
   "location": {
     "country": "Switzerland",
