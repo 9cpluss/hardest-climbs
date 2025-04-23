@@ -17,20 +17,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       
-      # Install Poetry
-      - name: Install Poetry
-        run: pip install poetry==1.8.3
+      # Install uv
+      - name: Install uv
+        run: pip install uv==0.6.13
       
-      # Install dependencies
-      - name: Install dependencies
-        run: |
-          poetry config virtualenvs.create false
-          poetry install
-
       - name: Validate JSON
-        run: python src/validate_json.py
+        run: uv run src/validate_json.py
 
       - name: Validate CSVs
-        run: python src/validate_csv.py
+        run: uv run src/validate_csv.py
