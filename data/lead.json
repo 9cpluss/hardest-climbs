@@ -1278,5 +1278,17 @@
       "country": "China",
       "area": "Shegeng Cave"
     }
+  },
+  {
+    "name": "Le bruit de l'acid",
+    "grade": "9b",
+    "fa": "Jules Marchaland",
+    "date": "2025-04-22",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "France",
+      "area": "Montpellier"
+    }
   }
 ]
