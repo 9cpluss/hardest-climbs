@@ -73,7 +73,9 @@
     "grade": "9A",
     "fa": "Shawn Raboutou",
     "date": "2022",
-    "repeat": [],
+    "repeat": [
+      "Hamish McArthur"
+    ],
     "videos": {
       "Raboutou": "https://youtu.be/f_MniTA8MYU"
     },
