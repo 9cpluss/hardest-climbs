@@ -1277,7 +1277,9 @@
   "grade": "8C+",
   "fa": "Zach Galla",
   "date": "2024-05-28",
-  "repeat": [],
+  "repeat": [
+    "Owen Whaley"
+  ],
   "videos": {
     "Galla": "https://youtu.be/y9lHkMXBKco"
   },
