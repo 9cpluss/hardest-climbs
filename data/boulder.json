@@ -1368,5 +1368,17 @@
     "Cameroni": "https://www.instagram.com/reel/DG_BK-ztmtx/"
   },
   "location": {}
-}
+  },
+  {
+  "name": "Brain Rot",
+  "grade": "8C+",
+  "fa": "William Bosi",
+  "date": "2025",
+  "repeat": [],
+  "videos": {},
+  "location": {
+    "country": "Switzerland",
+    "area": "Magic Wood"
+  }
+  }
 ]
