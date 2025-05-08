@@ -1098,7 +1098,9 @@
       "Aidan Roberts",
       "Katie Lamb"
     ],
-    "videos": {},
+    "videos": {
+      "Roberts": "https://youtu.be/xItTONPN0m4"
+    },
     "location": {
       "country": "USA",
       "area": "Yosemite",
