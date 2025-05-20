@@ -1390,5 +1390,29 @@
     "country": "Switzerland",
     "area": "Magic Wood"
   }
+  },
+  {
+    "name": "Realm of Tor'ment",
+    "grade": "9A",
+    "fa": "William Bosi",
+    "date": "May 2025",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "United Kingdom",
+      "area": "Lake District"
+    }
+  },
+  {
+    "name": "Last Line of Defense",
+    "grade": "8C+",
+    "fa": "David Fitzgerald",
+    "date": "2025",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "USA",
+      "area": "Yosemite"
+    }
   }
 ]
