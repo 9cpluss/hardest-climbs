@@ -1236,7 +1236,9 @@
     "fa": "Sebastien Bouin",
     "date": "2024-11-14",
     "repeat": [],
-    "videos": {},
+    "videos": {
+      "Bouin": "https://youtu.be/hsk9y9WmFKI"
+    },
     "location": {
       "country": "France",
       "area": "Pic Saint-Loup"
