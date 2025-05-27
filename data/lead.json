@@ -1310,6 +1310,10 @@
 		"videos": {
 			"Parmentier": "https://youtu.be/GNGIkEvXZlk",
 			"Chanourdie": "https://youtu.be/ViLCMO87exU"
-		}
+		},
+    "location": {
+      "country": "France",
+      "area": "Saint Léger"
+    }
 	}
 ]
