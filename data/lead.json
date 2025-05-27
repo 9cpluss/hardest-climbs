@@ -746,7 +746,9 @@
     "grade": "9b",
     "fa": "Adam Ondra",
     "date": "2013-08-03",
-    "repeat": [],
+    "repeat": [
+      "Sebastien Bouin"
+    ],
     "videos": {},
     "location": {
       "country": "Norway",
