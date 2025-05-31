@@ -1364,7 +1364,9 @@
   "fa": "Nicolai Užnik",
   "date": "2025-03-01",
   "repeat": [],
-  "videos": {},
+  "videos": {
+    "Užnik": "https://youtu.be/uK_i6zDJtDI"
+  },
   "location": {
     "country": "Austria",
     "area": "Maltatal"
