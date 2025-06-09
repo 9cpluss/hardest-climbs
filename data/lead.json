@@ -1317,5 +1317,17 @@
       "country": "France",
       "area": "Saint Léger"
     }
-	}
+	},
+  {
+    "name": "Vidra La Vida",
+    "grade": "9b/+",
+    "fa": "Sebastien Bouin",
+    "date": "2025",
+    "repeat": [],
+    "videos": {},
+    "location": {
+      "country": "Croatia",
+      "area": "Hvar"
+    }
+  }
 ]
