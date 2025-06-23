@@ -1415,7 +1415,9 @@
     "fa": "David Fitzgerald",
     "date": "2025",
     "repeat": [],
-    "videos": {},
+    "videos": {
+      "Fitzgerald": "https://youtu.be/nV-RiIxkOso"
+    },
     "location": {
       "country": "USA",
       "area": "Yosemite"
