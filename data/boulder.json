@@ -1425,5 +1425,19 @@
       "country": "USA",
       "area": "Yosemite"
     }
+  },
+  {
+    "name": "Stairway to hell",
+    "grade": "8C/+",
+    "fa": "Nicolai Užnik",
+    "date": "2025-05-16",
+    "repeat": [],
+    "videos": {
+      "Užnik": "https://youtube.com/shorts/eVJuKz752JY"
+    },
+    "location": {
+      "country": "Slovenia",
+      "area": "Kamniska Bistrica"
+    }
   }
 ]
