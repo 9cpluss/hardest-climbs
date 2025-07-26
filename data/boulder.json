@@ -1394,7 +1394,9 @@
   "grade": "8C+",
   "fa": "William Bosi",
   "date": "2025",
-  "repeat": [],
+  "repeat": [
+    "Simon Lorenzi"
+  ],
   "videos": {},
   "location": {
     "country": "Switzerland",
