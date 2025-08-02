@@ -1410,7 +1410,9 @@
     "fa": "William Bosi",
     "date": "May 2025",
     "repeat": [],
-    "videos": {},
+    "videos": {
+      "Bosi": "https://youtu.be/bb4PMysTmyM"
+    },
     "location": {
       "country": "United Kingdom",
       "area": "Lake District"
