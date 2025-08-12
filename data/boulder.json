@@ -1446,5 +1446,35 @@
       "country": "Slovenia",
       "area": "Kamniska Bistrica"
     }
+  },
+  {
+    "name": "Permanent Midnight Low",
+    "grade": "8C+",
+    "fa": "Clément Lechaptois",
+    "date": "2025-05-14",
+    "repeat": [],
+    "videos": {
+      "Lechaptois": "https://youtu.be/erzKa9hwVHM"
+    },
+    "location": {
+      "country": "Switzerland",
+      "area": "Val de Bagnes"
+    }
+  },
+  {
+    "name": "Event Horizon",
+    "grade": "8C+",
+    "fa": "Andy Lamb",
+    "date": "2024-02-10",
+    "repeat": [
+      "Ethan Salvo"
+    ],
+    "videos": {
+      "Lamb": "https://youtu.be/rZBjOfS7wkM"
+    },
+    "location": {
+      "country": "Canada",
+      "area": "Squamish"
+    }
   }
 ]
