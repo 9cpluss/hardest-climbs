@@ -1023,10 +1023,12 @@
   },
   {
     "name": "Ratstaman Vibrations",
-    "grade": "9b",
+    "grade": "9b/+",
     "fa": "Alexander Megos",
     "date": "2022-07-31",
-    "repeat": [],
+    "repeat": [
+      "Yannick Flohé"
+    ],
     "videos": {
       "Megos": "https://youtu.be/NNo8Xd7bANo"
     },
